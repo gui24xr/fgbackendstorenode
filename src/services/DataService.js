@@ -1,10 +1,23 @@
-import ropaData from "../data/mock-tiendaropa2.json" assert { type: "json" };
-import restaurantData from "../data/mock-restaurant.json" assert { type: "json" };;
-import pizzeriaData from "../data/mock-pizzeria2.json" assert { type: "json" };;
-import techData from "../data/mock-tech.json" assert { type: "json" };;
-import bebidasData from "../data/mock-bebidas.json" assert { type: "json" };;
-import hatsData from "../data/mock-hats.json" assert { type: "json" };
-import verdurasData from "../data/mock-verduleria.json" assert { type: "json" };
+
+import { fileURLToPath } from 'url'
+import { dirname, join } from 'path'
+import fs from 'fs'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
+
+const loadJSON = (filename) => {
+    const p = join(__dirname, '../data', filename)
+    return JSON.parse(fs.readFileSync(p, 'utf8'))
+}
+
+const ropaData = loadJSON('mock-tiendaropa2.json')
+const restaurantData = loadJSON('mock-restaurant.json')
+const pizzeriaData = loadJSON('mock-pizzeria2.json')
+const techData = loadJSON('mock-tech.json')
+const bebidasData = loadJSON('mock-bebidas.json')
+const hatsData = loadJSON('mock-hats.json')
+const verdurasData = loadJSON('mock-verduleria.json')
 
 const getData = (tenantId) => {
     console.log('tenantId solicitado en getData:', tenantId)
