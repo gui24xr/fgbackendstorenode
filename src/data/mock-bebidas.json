@@ -1,0 +1,2079 @@
+{
+  "store": {
+    "id": "store_bebidas_001",
+    "clientData": {
+      "name": "RefreshMart"
+    },
+    "planSettings": {
+      "type": "plan_medium"
+    },
+    "vertical": "TECH_STORE",
+    "branchesConfigs": {
+      "defaultBranchId": "sucursal_centro",
+      "availableBranches": [
+        {
+          "id": "sucursal_centro",
+          "name": "Sucursal Centro",
+          "address": "Av. Corrientes 5678, CABA",
+          "phone": "+54 11 2345-6789",
+          "active": true
+        }
+      ]
+    },
+    "customizationTemplateSettings": {
+      "bussinessContent": {
+        "general": {
+          "name": "RefreshMart",
+          "tagline": "Hidratación y sabor en cada sorbo",
+          "subTagline": "Las mejores bebidas del mercado a domicilio",
+          "welcome": "¡Bienvenidos a RefreshMart!",
+          "description": "Tu tienda de bebidas favorita con envío rápido y productos frescos",
+          "logo": "https://images.pexels.com/photos/1368382/pexels-photo-1368382.jpeg?auto=compress&cs=tinysrgb&w=600"
+        },
+        "contact": {
+          "whatsappNumber": "+5491123456789",
+          "phoneNumber": "+5491187654321",
+          "email": "pedidos@refreshmart.com",
+          "address": "Av. Corrientes 5678, CABA",
+          "workingHours": "🕐 Lun-Dom 8:00 AM - 11:00 PM"
+        },
+        "delivery": {
+          "tagline": "Entrega en menos de 1 hora",
+          "description": "Bebidas frías y frescas directo a tu puerta",
+          "terms": "Pedido mínimo $1500. Delivery en CABA y GBA"
+        },
+        "offers": {
+          "mainOffer": "15% OFF en tu primera compra",
+          "seasonalPromo": "2x1 en bebidas seleccionadas todos los viernes",
+          "loyaltyProgram": "Sumá puntos en cada compra"
+        },
+        "policies": {
+          "returns": "Devolución en caso de productos defectuosos",
+          "warranty": "Productos con fecha de vencimiento garantizada",
+          "privacy": "Tus datos están seguros con nosotros"
+        }
+      },
+      "navBarConfig": {
+        "backgroundColor": "bg-transparent",
+        "title": "RefreshMart",
+        "titleLogoIcon": "🥤",
+        "titleColor": "text-white",
+        "linksColor": "text-white"
+      },
+      "portrait": {
+        "titleLogoIcon": "🥤",
+        "floatingIcons": [
+          "🥤",
+          "🧃",
+          "🍹"
+        ],
+        "background": {
+          "color": "bg-gradient-to-br from-blue-400 to-cyan-500",
+          "imageUrl": "https://images.pexels.com/photos/50593/coca-cola-cold-drink-soft-drink-coke-50593.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "showImage": true
+        },
+        "showBusinessFeatures": {
+          "contact": {
+            "whatsappNumber": true,
+            "phoneNumber": true,
+            "email": true,
+            "address": true,
+            "workingHours": true
+          },
+          "delivery": {
+            "tagline": true,
+            "time": true,
+            "cost": false,
+            "options": false,
+            "minOrder": true,
+            "maxOrder": false
+          },
+          "socialProof": {
+            "reviews": true,
+            "rating": true,
+            "testimonials": true,
+            "certifications": true
+          },
+          "business": {
+            "specialOffers": true,
+            "paymentMethods": true,
+            "warranty": true,
+            "returnPolicy": true
+          }
+        }
+      },
+      "productsContainerRenderConfig": {
+        "backgroundProductContainerColor": "bg-cyan-50",
+        "defaultProductImage": "https://images.pexels.com/photos/1368382/pexels-photo-1368382.jpeg?auto=compress&cs=tinysrgb&w=600"
+      },
+      "whyChooseUs": {
+        "title": "¿Por qué elegirnos?",
+        "subtitle": "Descubre lo que nos hace la mejor opción en bebidas a domicilio",
+        "features": [
+          {
+            "icon": "❄️",
+            "title": "Siempre Frías",
+            "description": "Todas nuestras bebidas se mantienen refrigeradas hasta el momento de la entrega."
+          },
+          {
+            "icon": "🚚",
+            "title": "Entrega Rápida",
+            "description": "Menos de 1 hora en la mayoría de los casos. Tu sed no puede esperar."
+          },
+          {
+            "icon": "🏆",
+            "title": "Mejor Precio",
+            "description": "Precios competitivos y promociones constantes en las mejores marcas del mercado."
+          }
+        ]
+      }
+    },
+    "branches": [
+      {
+        "id": "sucursal_centro",
+        "name": "Sucursal Centro",
+        "active": true,
+        "addressData": {
+          "textAddress": "Av. Corrientes 5678",
+          "city": "CABA",
+          "state": "Buenos Aires",
+          "zip": "1043",
+          "country": "Argentina",
+          "formattedAddress": "Av. Corrientes 5678, CABA, Buenos Aires, 1043, Argentina",
+          "references": "Entre Callao y Rodriguez Peña",
+          "coordinates": {
+            "lat": -34.6037,
+            "lng": -58.3816
+          }
+        },
+        "contactData": {
+          "phones": [
+            "+54 11 2345-6789",
+            "+5491123456789"
+          ],
+          "emails": [
+            "pedidos@refreshmart.com"
+          ]
+        },
+        "workingHours": {
+          "monday": {
+            "open": "08:00",
+            "close": "23:00"
+          },
+          "tuesday": {
+            "open": "08:00",
+            "close": "23:00"
+          },
+          "wednesday": {
+            "open": "08:00",
+            "close": "23:00"
+          },
+          "thursday": {
+            "open": "08:00",
+            "close": "23:00"
+          },
+          "friday": {
+            "open": "08:00",
+            "close": "23:00"
+          },
+          "saturday": {
+            "open": "08:00",
+            "close": "23:00"
+          },
+          "sunday": {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        },
+        "waMessageConfig": {
+          "waPhoneNumber": "+5491123456789",
+          "chatMessageConfig": {
+            "header": "RefreshMart - Solicitud de pedido.",
+            "welcomeMessage": "Hola RefreshMart! Tengo un nuevo pedido para ti. Estos son los detalles:",
+            "contactData": {
+              "whatsappNumbers": [
+                "+5491123456789"
+              ],
+              "phones": [
+                "+541123456789"
+              ],
+              "emails": [
+                "pedidos@refreshmart.com"
+              ]
+            }
+          }
+        },
+        "deliveryMethods": [
+          {
+            "type": "motoDelivery",
+            "enabled": true,
+            "uiData": {
+              "label": "Moto delivery",
+              "emoji": "🛵",
+              "icon": "🛵",
+              "maxRadius": "6 kms",
+              "availableHours": "08:00 - 23:00",
+              "estimatedTime": "30-50 min",
+              "showAvailableHours": true,
+              "showMaxRadius": true
+            },
+            "constraints": {
+              "maxDistanceInKms": 6,
+              "originCoordinates": {
+                "lat": -34.6037,
+                "lng": -58.3816
+              },
+              "availableHours": {
+                "start": "08:00",
+                "end": "23:00"
+              },
+              "pricing": {
+                "basePrice": 0,
+                "currency": "ARS",
+                "distancePricing": [
+                  {
+                    "from": 0,
+                    "to": 2,
+                    "addPrice": 0
+                  },
+                  {
+                    "from": 2,
+                    "to": 4,
+                    "addPrice": 400
+                  },
+                  {
+                    "from": 4,
+                    "to": 6,
+                    "addPrice": 800
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "pickup",
+            "enabled": true,
+            "uiData": {
+              "label": "Retiro en sucursal",
+              "emoji": "🏪",
+              "icon": "🏪",
+              "estimatedTime": "Disponible en 15 min",
+              "showEstimatedTime": true,
+              "showSchedule": true
+            },
+            "constraints": {
+              "preparationTimeInMinutes": 15,
+              "pickupInstructions": "Pasa por la sucursal y menciona tu nombre.",
+              "pickupPointCompleteAddress": "Sucursal Centro - Av. Corrientes 5678",
+              "pickupCoordinates": {
+                "lat": -34.6037,
+                "lng": -58.3816
+              },
+              "workingHours": {
+                "monday": {
+                  "open": "08:00",
+                  "close": "23:00"
+                },
+                "tuesday": {
+                  "open": "08:00",
+                  "close": "23:00"
+                },
+                "wednesday": {
+                  "open": "08:00",
+                  "close": "23:00"
+                },
+                "thursday": {
+                  "open": "08:00",
+                  "close": "23:00"
+                },
+                "friday": {
+                  "open": "08:00",
+                  "close": "23:00"
+                },
+                "saturday": {
+                  "open": "08:00",
+                  "close": "23:00"
+                },
+                "sunday": {
+                  "open": "08:00",
+                  "close": "23:00"
+                }
+              }
+            }
+          }
+        ],
+        "paymentMethods": [
+          {
+            "type": "CASH_PAYMENT",
+            "enabled": true,
+            "uiData": {
+              "label": "Efectivo",
+              "emoji": "💵",
+              "icon": "💵",
+              "description": "Al retirar/recibir tu pedido",
+              "showDescription": true
+            },
+            "constraints": {}
+          },
+          {
+            "type": "CREDIT_CARD_PAYMENT",
+            "enabled": true,
+            "uiData": {
+              "label": "Tarjeta de Crédito",
+              "emoji": "💳",
+              "icon": "💳",
+              "description": "Al retirar/recibir tu pedido",
+              "showDescription": true
+            },
+            "constraints": {}
+          },
+          {
+            "type": "BANK_TRANSFER_PAYMENT",
+            "enabled": true,
+            "uiData": {
+              "label": "Transferencia Bancaria",
+              "emoji": "🏦",
+              "icon": "🏦",
+              "description": "Al retirar/recibir tu pedido",
+              "showDescription": true
+            },
+            "constraints": {}
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": "cat_gaseosas",
+        "name": "Gaseosas",
+        "displayOrder": 1,
+        "slug": "gaseosas",
+        "itemsCount": 8,
+        "label": "Gaseosas",
+        "emoji": "🥤"
+      },
+      {
+        "id": "cat_aguas",
+        "name": "Aguas",
+        "displayOrder": 2,
+        "slug": "aguas",
+        "itemsCount": 4,
+        "label": "Aguas",
+        "emoji": "💧"
+      },
+      {
+        "id": "cat_jugos",
+        "name": "Jugos",
+        "displayOrder": 3,
+        "slug": "jugos",
+        "itemsCount": 4,
+        "label": "Jugos",
+        "emoji": "🧃"
+      },
+      {
+        "id": "cat_energizantes",
+        "name": "Energizantes",
+        "displayOrder": 4,
+        "slug": "energizantes",
+        "itemsCount": 2,
+        "label": "Energizantes",
+        "emoji": "⚡"
+      },
+      {
+        "id": "cat_isotonicas",
+        "name": "Isotónicas",
+        "displayOrder": 5,
+        "slug": "isotonicas",
+        "itemsCount": 2,
+        "label": "Isotónicas",
+        "emoji": "💪"
+      }
+    ],
+    "products": [
+      {
+        "id": "prod_001_coca_cola",
+        "name": "Coca Cola Original",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "La clásica Coca Cola de siempre. Refrescante y con su inconfundible sabor.",
+        "images": [
+          {
+            "url": "https://images.pexels.com/photos/50593/coca-cola-cold-drink-soft-drink-coke-50593.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Coca Cola Original",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_gaseosas",
+            "name": "Gaseosas",
+            "slug": "gaseosas",
+            "displayOrder": 1
+          }
+        ],
+        "reviewsCount": 523,
+        "rating": 4.8,
+        "tags": [
+          "coca cola",
+          "gaseosa",
+          "cola",
+          "clásica"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "bebidas",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "litros",
+          "label": "Tamaño",
+          "options": [
+            {
+              "id": "size_500ml",
+              "name": "500ml",
+              "label": "500ml",
+              "price": {
+                "basePrice": 450,
+                "discount": null,
+                "finalPrice": 450
+              },
+              "sku": "COCA-500ML",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "size_1l",
+              "name": "1 Litro",
+              "label": "1 Litro",
+              "price": {
+                "basePrice": 800,
+                "discount": 50,
+                "finalPrice": 750
+              },
+              "sku": "COCA-1L",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "size_1_5l",
+              "name": "1.5 Litros",
+              "label": "1.5 Litros",
+              "price": {
+                "basePrice": 1100,
+                "discount": null,
+                "finalPrice": 1100
+              },
+              "sku": "COCA-1.5L",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "size_2_25l",
+              "name": "2.25 Litros",
+              "label": "2.25 Litros",
+              "price": {
+                "basePrice": 1500,
+                "discount": null,
+                "finalPrice": 1500
+              },
+              "sku": "COCA-2.25L",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "size_3l",
+              "name": "3 Litros",
+              "label": "3 Litros",
+              "price": {
+                "basePrice": 2000,
+                "discount": 100,
+                "finalPrice": 1900
+              },
+              "sku": "COCA-3L",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_002_coca_zero",
+        "name": "Coca Cola Zero",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Coca Cola sin azúcar, mismo sabor auténtico pero con cero calorías.",
+        "images": [
+          {
+            "url": "https://images.pexels.com/photos/2983100/pexels-photo-2983100.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Coca Cola Zero",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_gaseosas",
+            "name": "Gaseosas",
+            "slug": "gaseosas",
+            "displayOrder": 1
+          }
+        ],
+        "reviewsCount": 412,
+        "rating": 4.6,
+        "tags": [
+          "coca cola",
+          "zero",
+          "sin azúcar",
+          "light"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "bebidas",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "litros",
+          "label": "Tamaño",
+          "options": [
+            {
+              "id": "size_500ml",
+              "name": "500ml",
+              "label": "500ml",
+              "price": {
+                "basePrice": 450,
+                "discount": null,
+                "finalPrice": 450
+              },
+              "sku": "COCA-ZERO-500ML",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "size_1_5l",
+              "name": "1.5 Litros",
+              "label": "1.5 Litros",
+              "price": {
+                "basePrice": 1100,
+                "discount": null,
+                "finalPrice": 1100
+              },
+              "sku": "COCA-ZERO-1.5L",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "size_2_25l",
+              "name": "2.25 Litros",
+              "label": "2.25 Litros",
+              "price": {
+                "basePrice": 1500,
+                "discount": null,
+                "finalPrice": 1500
+              },
+              "sku": "COCA-ZERO-2.25L",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_003_sprite",
+        "name": "Sprite",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Gaseosa de lima-limón refrescante y burbujeante.",
+        "images": [
+          {
+            "url": "https://images.pexels.com/photos/4113900/pexels-photo-4113900.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Sprite",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_gaseosas",
+            "name": "Gaseosas",
+            "slug": "gaseosas",
+            "displayOrder": 1
+          }
+        ],
+        "reviewsCount": 298,
+        "rating": 4.5,
+        "tags": [
+          "sprite",
+          "lima-limón",
+          "gaseosa",
+          "cítrica"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "bebidas",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "litros",
+          "label": "Tamaño",
+          "options": [
+            {
+              "id": "size_500ml",
+              "name": "500ml",
+              "label": "500ml",
+              "price": {
+                "basePrice": 420,
+                "discount": null,
+                "finalPrice": 420
+              },
+              "sku": "SPRITE-500ML",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "size_1_5l",
+              "name": "1.5 Litros",
+              "label": "1.5 Litros",
+              "price": {
+                "basePrice": 1050,
+                "discount": null,
+                "finalPrice": 1050
+              },
+              "sku": "SPRITE-1.5L",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "size_2_25l",
+              "name": "2.25 Litros",
+              "label": "2.25 Litros",
+              "price": {
+                "basePrice": 1450,
+                "discount": null,
+                "finalPrice": 1450
+              },
+              "sku": "SPRITE-2.25L",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_004_fanta_naranja",
+        "name": "Fanta Naranja",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Gaseosa sabor naranja con un toque divertido y refrescante.",
+        "images": [
+          {
+            "url": "https://images.pexels.com/photos/8988154/pexels-photo-8988154.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Fanta Naranja",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_gaseosas",
+            "name": "Gaseosas",
+            "slug": "gaseosas",
+            "displayOrder": 1
+          }
+        ],
+        "reviewsCount": 267,
+        "rating": 4.4,
+        "tags": [
+          "fanta",
+          "naranja",
+          "gaseosa",
+          "sabor"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "bebidas",
+        "features": {
+          "isNew": false,
+          "isPopular": false
+        },
+        "templateVariant": {
+          "name": "litros",
+          "label": "Tamaño",
+          "options": [
+            {
+              "id": "size_500ml",
+              "name": "500ml",
+              "label": "500ml",
+              "price": {
+                "basePrice": 420,
+                "discount": null,
+                "finalPrice": 420
+              },
+              "sku": "FANTA-NAR-500ML",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "size_1_5l",
+              "name": "1.5 Litros",
+              "label": "1.5 Litros",
+              "price": {
+                "basePrice": 1050,
+                "discount": null,
+                "finalPrice": 1050
+              },
+              "sku": "FANTA-NAR-1.5L",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "size_2_25l",
+              "name": "2.25 Litros",
+              "label": "2.25 Litros",
+              "price": {
+                "basePrice": 1450,
+                "discount": null,
+                "finalPrice": 1450
+              },
+              "sku": "FANTA-NAR-2.25L",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_005_pepsi",
+        "name": "Pepsi",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "La clásica gaseosa de cola con su sabor único e inconfundible.",
+        "images": [
+          {
+            "url": "https://images.pexels.com/photos/6340700/pexels-photo-6340700.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Pepsi",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_gaseosas",
+            "name": "Gaseosas",
+            "slug": "gaseosas",
+            "displayOrder": 1
+          }
+        ],
+        "reviewsCount": 389,
+        "rating": 4.6,
+        "tags": [
+          "pepsi",
+          "cola",
+          "gaseosa",
+          "clásica"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "bebidas",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "litros",
+          "label": "Tamaño",
+          "options": [
+            {
+              "id": "size_500ml",
+              "name": "500ml",
+              "label": "500ml",
+              "price": {
+                "basePrice": 430,
+                "discount": null,
+                "finalPrice": 430
+              },
+              "sku": "PEPSI-500ML",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "size_1_5l",
+              "name": "1.5 Litros",
+              "label": "1.5 Litros",
+              "price": {
+                "basePrice": 1080,
+                "discount": 80,
+                "finalPrice": 1000
+              },
+              "sku": "PEPSI-1.5L",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "size_2_25l",
+              "name": "2.25 Litros",
+              "label": "2.25 Litros",
+              "price": {
+                "basePrice": 1480,
+                "discount": null,
+                "finalPrice": 1480
+              },
+              "sku": "PEPSI-2.25L",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "size_3l",
+              "name": "3 Litros",
+              "label": "3 Litros",
+              "price": {
+                "basePrice": 1950,
+                "discount": null,
+                "finalPrice": 1950
+              },
+              "sku": "PEPSI-3L",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_006_7up",
+        "name": "7UP",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Gaseosa de lima-limón con burbujas refrescantes.",
+        "images": [
+          {
+            "url": "https://images.pexels.com/photos/5947041/pexels-photo-5947041.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "7UP",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_gaseosas",
+            "name": "Gaseosas",
+            "slug": "gaseosas",
+            "displayOrder": 1
+          }
+        ],
+        "reviewsCount": 234,
+        "rating": 4.3,
+        "tags": [
+          "7up",
+          "lima-limón",
+          "gaseosa",
+          "cítrica"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "bebidas",
+        "features": {
+          "isNew": false,
+          "isPopular": false
+        },
+        "templateVariant": {
+          "name": "litros",
+          "label": "Tamaño",
+          "options": [
+            {
+              "id": "size_500ml",
+              "name": "500ml",
+              "label": "500ml",
+              "price": {
+                "basePrice": 430,
+                "discount": null,
+                "finalPrice": 430
+              },
+              "sku": "7UP-500ML",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "size_1_5l",
+              "name": "1.5 Litros",
+              "label": "1.5 Litros",
+              "price": {
+                "basePrice": 1030,
+                "discount": null,
+                "finalPrice": 1030
+              },
+              "sku": "7UP-1.5L",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "size_2_25l",
+              "name": "2.25 Litros",
+              "label": "2.25 Litros",
+              "price": {
+                "basePrice": 1430,
+                "discount": null,
+                "finalPrice": 1430
+              },
+              "sku": "7UP-2.25L",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_007_schweppes_pomelo",
+        "name": "Schweppes Pomelo",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Gaseosa sabor pomelo rosado, ideal para combinar o disfrutar sola.",
+        "images": [
+          {
+            "url": "https://images.pexels.com/photos/2842876/pexels-photo-2842876.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Schweppes Pomelo",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_gaseosas",
+            "name": "Gaseosas",
+            "slug": "gaseosas",
+            "displayOrder": 1
+          }
+        ],
+        "reviewsCount": 178,
+        "rating": 4.5,
+        "tags": [
+          "schweppes",
+          "pomelo",
+          "gaseosa",
+          "premium"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "bebidas",
+        "features": {
+          "isNew": false,
+          "isPopular": false
+        },
+        "templateVariant": {
+          "name": "litros",
+          "label": "Tamaño",
+          "options": [
+            {
+              "id": "size_500ml",
+              "name": "500ml",
+              "label": "500ml",
+              "price": {
+                "basePrice": 550,
+                "discount": null,
+                "finalPrice": 550
+              },
+              "sku": "SCHW-POM-500ML",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "size_1l",
+              "name": "1 Litro",
+              "label": "1 Litro",
+              "price": {
+                "basePrice": 980,
+                "discount": null,
+                "finalPrice": 980
+              },
+              "sku": "SCHW-POM-1L",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "size_1_5l",
+              "name": "1.5 Litros",
+              "label": "1.5 Litros",
+              "price": {
+                "basePrice": 1350,
+                "discount": null,
+                "finalPrice": 1350
+              },
+              "sku": "SCHW-POM-1.5L",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_008_cunnington",
+        "name": "Cunnington Tónica",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Agua tónica premium con extracto de quinina y cítricos naturales.",
+        "images": [
+          {
+            "url": "https://images.pexels.com/photos/6662405/pexels-photo-6662405.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Cunnington Tónica",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_gaseosas",
+            "name": "Gaseosas",
+            "slug": "gaseosas",
+            "displayOrder": 1
+          }
+        ],
+        "reviewsCount": 145,
+        "rating": 4.4,
+        "tags": [
+          "tónica",
+          "premium",
+          "cunnington",
+          "mixer"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "bebidas",
+        "features": {
+          "isNew": false,
+          "isPopular": false
+        },
+        "templateVariant": {
+          "name": "litros",
+          "label": "Tamaño",
+          "options": [
+            {
+              "id": "size_500ml",
+              "name": "500ml",
+              "label": "500ml",
+              "price": {
+                "basePrice": 580,
+                "discount": null,
+                "finalPrice": 580
+              },
+              "sku": "CUNN-TON-500ML",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "size_1l",
+              "name": "1 Litro",
+              "label": "1 Litro",
+              "price": {
+                "basePrice": 1050,
+                "discount": null,
+                "finalPrice": 1050
+              },
+              "sku": "CUNN-TON-1L",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_009_agua_villavicencio",
+        "name": "Agua Villavicencio",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Agua mineral natural de las montañas de Mendoza.",
+        "images": [
+          {
+            "url": "https://images.pexels.com/photos/1000084/pexels-photo-1000084.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Agua Villavicencio",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_aguas",
+            "name": "Aguas",
+            "slug": "aguas",
+            "displayOrder": 2
+          }
+        ],
+        "reviewsCount": 432,
+        "rating": 4.7,
+        "tags": [
+          "agua",
+          "mineral",
+          "villavicencio",
+          "natural"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "bebidas",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "litros",
+          "label": "Tamaño",
+          "options": [
+            {
+              "id": "size_500ml",
+              "name": "500ml",
+              "label": "500ml",
+              "price": {
+                "basePrice": 350,
+                "discount": null,
+                "finalPrice": 350
+              },
+              "sku": "VILLA-500ML",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "size_1l",
+              "name": "1 Litro",
+              "label": "1 Litro",
+              "price": {
+                "basePrice": 600,
+                "discount": null,
+                "finalPrice": 600
+              },
+              "sku": "VILLA-1L",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "size_1_5l",
+              "name": "1.5 Litros",
+              "label": "1.5 Litros",
+              "price": {
+                "basePrice": 850,
+                "discount": null,
+                "finalPrice": 850
+              },
+              "sku": "VILLA-1.5L",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "size_2_25l",
+              "name": "2.25 Litros",
+              "label": "2.25 Litros",
+              "price": {
+                "basePrice": 1150,
+                "discount": null,
+                "finalPrice": 1150
+              },
+              "sku": "VILLA-2.25L",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_010_agua_eco_andes",
+        "name": "Eco de los Andes",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Agua mineral natural de alta calidad de las montañas andinas.",
+        "images": [
+          {
+            "url": "https://images.pexels.com/photos/1346155/pexels-photo-1346155.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Eco de los Andes",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_aguas",
+            "name": "Aguas",
+            "slug": "aguas",
+            "displayOrder": 2
+          }
+        ],
+        "reviewsCount": 356,
+        "rating": 4.6,
+        "tags": [
+          "agua",
+          "mineral",
+          "eco",
+          "andes"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "bebidas",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "litros",
+          "label": "Tamaño",
+          "options": [
+            {
+              "id": "size_500ml",
+              "name": "500ml",
+              "label": "500ml",
+              "price": {
+                "basePrice": 330,
+                "discount": null,
+                "finalPrice": 330
+              },
+              "sku": "ECO-500ML",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "size_1_5l",
+              "name": "1.5 Litros",
+              "label": "1.5 Litros",
+              "price": {
+                "basePrice": 780,
+                "discount": null,
+                "finalPrice": 780
+              },
+              "sku": "ECO-1.5L",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "size_2_25l",
+              "name": "2.25 Litros",
+              "label": "2.25 Litros",
+              "price": {
+                "basePrice": 1080,
+                "discount": null,
+                "finalPrice": 1080
+              },
+              "sku": "ECO-2.25L",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_011_agua_smartwater",
+        "name": "Smartwater",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Agua purificada por vapor con electrolitos añadidos para el sabor.",
+        "images": [
+          {
+            "url": "https://images.pexels.com/photos/821794/pexels-photo-821794.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Smartwater",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_aguas",
+            "name": "Aguas",
+            "slug": "aguas",
+            "displayOrder": 2
+          }
+        ],
+        "reviewsCount": 289,
+        "rating": 4.5,
+        "tags": [
+          "agua",
+          "smartwater",
+          "electrolitos",
+          "premium"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "bebidas",
+        "features": {
+          "isNew": false,
+          "isPopular": false
+        },
+        "templateVariant": {
+          "name": "litros",
+          "label": "Tamaño",
+          "options": [
+            {
+              "id": "size_600ml",
+              "name": "600ml",
+              "label": "600ml",
+              "price": {
+                "basePrice": 480,
+                "discount": null,
+                "finalPrice": 480
+              },
+              "sku": "SMART-600ML",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "size_1l",
+              "name": "1 Litro",
+              "label": "1 Litro",
+              "price": {
+                "basePrice": 750,
+                "discount": null,
+                "finalPrice": 750
+              },
+              "sku": "SMART-1L",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_012_agua_saborizada_levite",
+        "name": "Levité Pomelo",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Agua saborizada sin azúcar con sabor a pomelo rosado.",
+        "images": [
+          {
+            "url": "https://images.pexels.com/photos/3656103/pexels-photo-3656103.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Levité Pomelo",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_aguas",
+            "name": "Aguas",
+            "slug": "aguas",
+            "displayOrder": 2
+          }
+        ],
+        "reviewsCount": 223,
+        "rating": 4.3,
+        "tags": [
+          "agua",
+          "saborizada",
+          "levite",
+          "pomelo"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "bebidas",
+        "features": {
+          "isNew": false,
+          "isPopular": false
+        },
+        "templateVariant": {
+          "name": "litros",
+          "label": "Tamaño",
+          "options": [
+            {
+              "id": "size_500ml",
+              "name": "500ml",
+              "label": "500ml",
+              "price": {
+                "basePrice": 380,
+                "discount": null,
+                "finalPrice": 380
+              },
+              "sku": "LEVITE-POM-500ML",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "size_1_5l",
+              "name": "1.5 Litros",
+              "label": "1.5 Litros",
+              "price": {
+                "basePrice": 890,
+                "discount": null,
+                "finalPrice": 890
+              },
+              "sku": "LEVITE-POM-1.5L",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_013_jugo_baggio_naranja",
+        "name": "Baggio Naranja",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Jugo de naranja con pulpa, hecho con naranjas frescas y deliciosas.",
+        "images": [
+          {
+            "url": "https://images.pexels.com/photos/96974/pexels-photo-96974.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Baggio Naranja",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_jugos",
+            "name": "Jugos",
+            "slug": "jugos",
+            "displayOrder": 3
+          }
+        ],
+        "reviewsCount": 378,
+        "rating": 4.5,
+        "tags": [
+          "jugo",
+          "naranja",
+          "baggio",
+          "pulpa"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "bebidas",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "litros",
+          "label": "Tamaño",
+          "options": [
+            {
+              "id": "size_1l",
+              "name": "1 Litro",
+              "label": "1 Litro",
+              "price": {
+                "basePrice": 950,
+                "discount": 50,
+                "finalPrice": 900
+              },
+              "sku": "BAGGIO-NAR-1L",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "size_1_5l",
+              "name": "1.5 Litros",
+              "label": "1.5 Litros",
+              "price": {
+                "basePrice": 1350,
+                "discount": null,
+                "finalPrice": 1350
+              },
+              "sku": "BAGGIO-NAR-1.5L",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_014_jugo_cepita_manzana",
+        "name": "Cepita Manzana",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Jugo natural de manzana, ideal para toda la familia.",
+        "images": [
+          {
+            "url": "https://images.pexels.com/photos/5945761/pexels-photo-5945761.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Cepita Manzana",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_jugos",
+            "name": "Jugos",
+            "slug": "jugos",
+            "displayOrder": 3
+          }
+        ],
+        "reviewsCount": 312,
+        "rating": 4.4,
+        "tags": [
+          "jugo",
+          "manzana",
+          "cepita",
+          "natural"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "bebidas",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "litros",
+          "label": "Tamaño",
+          "options": [
+            {
+              "id": "size_500ml",
+              "name": "500ml",
+              "label": "500ml",
+              "price": {
+                "basePrice": 550,
+                "discount": null,
+                "finalPrice": 550
+              },
+              "sku": "CEPITA-MANZ-500ML",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "size_1l",
+              "name": "1 Litro",
+              "label": "1 Litro",
+              "price": {
+                "basePrice": 980,
+                "discount": null,
+                "finalPrice": 980
+              },
+              "sku": "CEPITA-MANZ-1L",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_015_jugo_ades_multifruta",
+        "name": "Ades Multifruta",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Bebida a base de soja con sabor multifruta, nutritiva y deliciosa.",
+        "images": [
+          {
+            "url": "https://images.pexels.com/photos/4021983/pexels-photo-4021983.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Ades Multifruta",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_jugos",
+            "name": "Jugos",
+            "slug": "jugos",
+            "displayOrder": 3
+          }
+        ],
+        "reviewsCount": 267,
+        "rating": 4.3,
+        "tags": [
+          "ades",
+          "soja",
+          "multifruta",
+          "nutritivo"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "bebidas",
+        "features": {
+          "isNew": false,
+          "isPopular": false
+        },
+        "templateVariant": {
+          "name": "litros",
+          "label": "Tamaño",
+          "options": [
+            {
+              "id": "size_1l",
+              "name": "1 Litro",
+              "label": "1 Litro",
+              "price": {
+                "basePrice": 1050,
+                "discount": null,
+                "finalPrice": 1050
+              },
+              "sku": "ADES-MULTI-1L",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "size_1_5l",
+              "name": "1.5 Litros",
+              "label": "1.5 Litros",
+              "price": {
+                "basePrice": 1480,
+                "discount": null,
+                "finalPrice": 1480
+              },
+              "sku": "ADES-MULTI-1.5L",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_016_jugo_citric_durazno",
+        "name": "Citric Durazno",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Jugo concentrado de durazno con un sabor intenso y natural.",
+        "images": [
+          {
+            "url": "https://images.pexels.com/photos/5947058/pexels-photo-5947058.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Citric Durazno",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_jugos",
+            "name": "Jugos",
+            "slug": "jugos",
+            "displayOrder": 3
+          }
+        ],
+        "reviewsCount": 198,
+        "rating": 4.2,
+        "tags": [
+          "citric",
+          "durazno",
+          "jugo",
+          "concentrado"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "bebidas",
+        "features": {
+          "isNew": false,
+          "isPopular": false
+        },
+        "templateVariant": {
+          "name": "litros",
+          "label": "Tamaño",
+          "options": [
+            {
+              "id": "size_500ml",
+              "name": "500ml",
+              "label": "500ml",
+              "price": {
+                "basePrice": 650,
+                "discount": null,
+                "finalPrice": 650
+              },
+              "sku": "CITRIC-DUR-500ML",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "size_1l",
+              "name": "1 Litro",
+              "label": "1 Litro",
+              "price": {
+                "basePrice": 1150,
+                "discount": null,
+                "finalPrice": 1150
+              },
+              "sku": "CITRIC-DUR-1L",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_017_red_bull",
+        "name": "Red Bull",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Bebida energizante con taurina, cafeína y vitaminas del grupo B.",
+        "images": [
+          {
+            "url": "https://images.pexels.com/photos/2971071/pexels-photo-2971071.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Red Bull",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_energizantes",
+            "name": "Energizantes",
+            "slug": "energizantes",
+            "displayOrder": 4
+          }
+        ],
+        "reviewsCount": 456,
+        "rating": 4.7,
+        "tags": [
+          "red bull",
+          "energizante",
+          "cafeína",
+          "taurina"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "bebidas",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "litros",
+          "label": "Tamaño",
+          "options": [
+            {
+              "id": "size_250ml",
+              "name": "250ml",
+              "label": "250ml",
+              "price": {
+                "basePrice": 850,
+                "discount": null,
+                "finalPrice": 850
+              },
+              "sku": "REDBULL-250ML",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "size_355ml",
+              "name": "355ml",
+              "label": "355ml",
+              "price": {
+                "basePrice": 1150,
+                "discount": null,
+                "finalPrice": 1150
+              },
+              "sku": "REDBULL-355ML",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "size_473ml",
+              "name": "473ml",
+              "label": "473ml",
+              "price": {
+                "basePrice": 1450,
+                "discount": null,
+                "finalPrice": 1450
+              },
+              "sku": "REDBULL-473ML",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_018_monster",
+        "name": "Monster Energy",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Bebida energizante con un blend único de ingredientes para máxima energía.",
+        "images": [
+          {
+            "url": "https://images.pexels.com/photos/7425320/pexels-photo-7425320.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Monster Energy",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_energizantes",
+            "name": "Energizantes",
+            "slug": "energizantes",
+            "displayOrder": 4
+          }
+        ],
+        "reviewsCount": 389,
+        "rating": 4.6,
+        "tags": [
+          "monster",
+          "energizante",
+          "energy",
+          "cafeína"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "bebidas",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "litros",
+          "label": "Tamaño",
+          "options": [
+            {
+              "id": "size_473ml",
+              "name": "473ml",
+              "label": "473ml",
+              "price": {
+                "basePrice": 950,
+                "discount": 50,
+                "finalPrice": 900
+              },
+              "sku": "MONSTER-473ML",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "size_550ml",
+              "name": "550ml",
+              "label": "550ml",
+              "price": {
+                "basePrice": 1250,
+                "discount": null,
+                "finalPrice": 1250
+              },
+              "sku": "MONSTER-550ML",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_019_gatorade_naranja",
+        "name": "Gatorade Naranja",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Bebida isotónica con electrolitos para hidratación deportiva.",
+        "images": [
+          {
+            "url": "https://images.pexels.com/photos/4113791/pexels-photo-4113791.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Gatorade Naranja",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_isotonicas",
+            "name": "Isotónicas",
+            "slug": "isotonicas",
+            "displayOrder": 5
+          }
+        ],
+        "reviewsCount": 478,
+        "rating": 4.7,
+        "tags": [
+          "gatorade",
+          "isotónica",
+          "deportiva",
+          "electrolitos"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "bebidas",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "litros",
+          "label": "Tamaño",
+          "options": [
+            {
+              "id": "size_500ml",
+              "name": "500ml",
+              "label": "500ml",
+              "price": {
+                "basePrice": 650,
+                "discount": null,
+                "finalPrice": 650
+              },
+              "sku": "GATORADE-NAR-500ML",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "size_1l",
+              "name": "1 Litro",
+              "label": "1 Litro",
+              "price": {
+                "basePrice": 1150,
+                "discount": null,
+                "finalPrice": 1150
+              },
+              "sku": "GATORADE-NAR-1L",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "size_1_5l",
+              "name": "1.5 Litros",
+              "label": "1.5 Litros",
+              "price": {
+                "basePrice": 1550,
+                "discount": null,
+                "finalPrice": 1550
+              },
+              "sku": "GATORADE-NAR-1.5L",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_020_powerade_manzana",
+        "name": "Powerade Manzana",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Bebida isotónica sabor manzana, ideal para rehidratarte después del ejercicio.",
+        "images": [
+          {
+            "url": "https://images.pexels.com/photos/4226894/pexels-photo-4226894.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "alt": "Powerade Manzana",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_isotonicas",
+            "name": "Isotónicas",
+            "slug": "isotonicas",
+            "displayOrder": 5
+          }
+        ],
+        "reviewsCount": 356,
+        "rating": 4.5,
+        "tags": [
+          "powerade",
+          "isotónica",
+          "manzana",
+          "deportiva"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "bebidas",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "litros",
+          "label": "Tamaño",
+          "options": [
+            {
+              "id": "size_500ml",
+              "name": "500ml",
+              "label": "500ml",
+              "price": {
+                "basePrice": 580,
+                "discount": null,
+                "finalPrice": 580
+              },
+              "sku": "POWERADE-MANZ-500ML",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "size_1l",
+              "name": "1 Litro",
+              "label": "1 Litro",
+              "price": {
+                "basePrice": 1050,
+                "discount": null,
+                "finalPrice": 1050
+              },
+              "sku": "POWERADE-MANZ-1L",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "size_1_5l",
+              "name": "1.5 Litros",
+              "label": "1.5 Litros",
+              "price": {
+                "basePrice": 1450,
+                "discount": null,
+                "finalPrice": 1450
+              },
+              "sku": "POWERADE-MANZ-1.5L",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      }
+    ]
+  }
+}

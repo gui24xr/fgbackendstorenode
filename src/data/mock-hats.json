@@ -1,0 +1,2935 @@
+{
+  "store": {
+    "id": "store_hats_001",
+    "clientData": {
+      "name": "Hat House"
+    },
+    "planSettings": {
+      "type": "plan_medium"
+    },
+    "vertical": "TECH_STORE",
+    "branchesConfigs": {
+      "defaultBranchId": "sucursal_centro",
+      "availableBranches": [
+        {
+          "id": "sucursal_centro",
+          "name": "Sucursal Centro",
+          "address": "Av. Corrientes 5678, CABA",
+          "phone": "+54 11 2345-6789",
+          "active": true
+        }
+      ]
+    },
+    "customizationTemplateSettings": {
+      "bussinessContent": {
+        "general": {
+          "name": "Hat House",
+          "tagline": "Estilo desde la cabeza",
+          "subTagline": "Gorras, sombreros y accesorios para tu look perfecto",
+          "welcome": "¡Bienvenidos a Hat House!",
+          "description": "La mejor selección de gorras y sombreros con envío a todo el país",
+          "logo": "https://cdn.pixabay.com/photo/2016/03/27/19/33/baseball-cap-1283876_960_720.jpg"
+        },
+        "contact": {
+          "whatsappNumber": "+5491123456789",
+          "phoneNumber": "+5491187654321",
+          "email": "ventas@hathouse.com",
+          "address": "Av. Corrientes 5678, CABA",
+          "workingHours": "🕐 Lun-Sáb 10:00 AM - 8:00 PM"
+        },
+        "delivery": {
+          "tagline": "Envío gratis en compras mayores a $15.000",
+          "description": "Recibí tu pedido en 48-72 horas",
+          "terms": "Envíos a todo el país. Capital Federal en 24hs"
+        },
+        "offers": {
+          "mainOffer": "20% OFF en tu primera compra",
+          "seasonalPromo": "3x2 en gorras seleccionadas",
+          "loyaltyProgram": "Cliente frecuente: 10% OFF permanente"
+        },
+        "policies": {
+          "returns": "Cambios y devoluciones hasta 30 días",
+          "warranty": "Garantía de calidad en todos nuestros productos",
+          "privacy": "Tus datos están protegidos"
+        }
+      },
+      "navBarConfig": {
+        "backgroundColor": "bg-transparent",
+        "title": "Hat House",
+        "titleLogoIcon": "🧢",
+        "titleColor": "text-white",
+        "linksColor": "text-white"
+      },
+      "portrait": {
+        "titleLogoIcon": "🧢",
+        "floatingIcons": [
+          "🧢",
+          "🎩",
+          "👒"
+        ],
+        "background": {
+          "color": "bg-gradient-to-br from-amber-400 to-orange-500",
+          "imageUrl": "https://cdn.pixabay.com/photo/2016/03/27/19/33/sunset-1283872_960_720.jpg",
+          "showImage": true
+        },
+        "showBusinessFeatures": {
+          "contact": {
+            "whatsappNumber": true,
+            "phoneNumber": true,
+            "email": true,
+            "address": true,
+            "workingHours": true
+          },
+          "delivery": {
+            "tagline": true,
+            "time": true,
+            "cost": false,
+            "options": false,
+            "minOrder": true,
+            "maxOrder": false
+          },
+          "socialProof": {
+            "reviews": true,
+            "rating": true,
+            "testimonials": true,
+            "certifications": true
+          },
+          "business": {
+            "specialOffers": true,
+            "paymentMethods": true,
+            "warranty": true,
+            "returnPolicy": true
+          }
+        }
+      },
+      "productsContainerRenderConfig": {
+        "backgroundProductContainerColor": "bg-amber-50",
+        "defaultProductImage": "https://cdn.pixabay.com/photo/2016/03/27/19/33/baseball-cap-1283876_960_720.jpg"
+      },
+      "whyChooseUs": {
+        "title": "¿Por qué elegirnos?",
+        "subtitle": "Somos líderes en moda y accesorios para la cabeza",
+        "features": [
+          {
+            "icon": "✨",
+            "title": "Calidad Premium",
+            "description": "Trabajamos con las mejores marcas y materiales del mercado para garantizar durabilidad y estilo."
+          },
+          {
+            "icon": "🚚",
+            "title": "Envíos Rápidos",
+            "description": "Recibí tu pedido en tiempo récord. Capital Federal en 24hs y resto del país en 48-72hs."
+          },
+          {
+            "icon": "💯",
+            "title": "Satisfacción Garantizada",
+            "description": "30 días para cambios y devoluciones. Tu satisfacción es nuestra prioridad."
+          }
+        ]
+      }
+    },
+    "branches": [
+      {
+        "id": "sucursal_centro",
+        "name": "Sucursal Centro",
+        "active": true,
+        "addressData": {
+          "textAddress": "Av. Corrientes 5678",
+          "city": "CABA",
+          "state": "Buenos Aires",
+          "zip": "1043",
+          "country": "Argentina",
+          "formattedAddress": "Av. Corrientes 5678, CABA, Buenos Aires, 1043, Argentina",
+          "references": "Entre Callao y Rodriguez Peña",
+          "coordinates": {
+            "lat": -34.6037,
+            "lng": -58.3816
+          }
+        },
+        "contactData": {
+          "phones": [
+            "+54 11 2345-6789",
+            "+5491123456789"
+          ],
+          "emails": [
+            "ventas@hathouse.com"
+          ]
+        },
+        "workingHours": {
+          "monday": {
+            "open": "10:00",
+            "close": "20:00"
+          },
+          "tuesday": {
+            "open": "10:00",
+            "close": "20:00"
+          },
+          "wednesday": {
+            "open": "10:00",
+            "close": "20:00"
+          },
+          "thursday": {
+            "open": "10:00",
+            "close": "20:00"
+          },
+          "friday": {
+            "open": "10:00",
+            "close": "20:00"
+          },
+          "saturday": {
+            "open": "10:00",
+            "close": "20:00"
+          },
+          "sunday": {
+            "open": "11:00",
+            "close": "18:00"
+          }
+        },
+        "waMessageConfig": {
+          "waPhoneNumber": "+5491123456789",
+          "chatMessageConfig": {
+            "header": "Hat House - Solicitud de pedido.",
+            "welcomeMessage": "Hola Hat House! Tengo un nuevo pedido para ti. Estos son los detalles:",
+            "contactData": {
+              "whatsappNumbers": [
+                "+5491123456789"
+              ],
+              "phones": [
+                "+541123456789"
+              ],
+              "emails": [
+                "ventas@hathouse.com"
+              ]
+            }
+          }
+        },
+        "deliveryMethods": [
+          {
+            "type": "motoDelivery",
+            "enabled": true,
+            "uiData": {
+              "label": "Moto delivery",
+              "emoji": "🛵",
+              "icon": "🛵",
+              "maxRadius": "8 kms",
+              "availableHours": "10:00 - 20:00",
+              "estimatedTime": "2-4 horas",
+              "showAvailableHours": true,
+              "showMaxRadius": true
+            },
+            "constraints": {
+              "maxDistanceInKms": 8,
+              "originCoordinates": {
+                "lat": -34.6037,
+                "lng": -58.3816
+              },
+              "availableHours": {
+                "start": "10:00",
+                "end": "20:00"
+              },
+              "pricing": {
+                "basePrice": 0,
+                "currency": "ARS",
+                "distancePricing": [
+                  {
+                    "from": 0,
+                    "to": 3,
+                    "addPrice": 0
+                  },
+                  {
+                    "from": 3,
+                    "to": 6,
+                    "addPrice": 600
+                  },
+                  {
+                    "from": 6,
+                    "to": 8,
+                    "addPrice": 1200
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "pickup",
+            "enabled": true,
+            "uiData": {
+              "label": "Retiro en sucursal",
+              "emoji": "🏪",
+              "icon": "🏪",
+              "estimatedTime": "Disponible en 2 horas",
+              "showEstimatedTime": true,
+              "showSchedule": true
+            },
+            "constraints": {
+              "preparationTimeInMinutes": 120,
+              "pickupInstructions": "Pasa por la sucursal y menciona tu nombre.",
+              "pickupPointCompleteAddress": "Sucursal Centro - Av. Corrientes 5678",
+              "pickupCoordinates": {
+                "lat": -34.6037,
+                "lng": -58.3816
+              },
+              "workingHours": {
+                "monday": {
+                  "open": "10:00",
+                  "close": "20:00"
+                },
+                "tuesday": {
+                  "open": "10:00",
+                  "close": "20:00"
+                },
+                "wednesday": {
+                  "open": "10:00",
+                  "close": "20:00"
+                },
+                "thursday": {
+                  "open": "10:00",
+                  "close": "20:00"
+                },
+                "friday": {
+                  "open": "10:00",
+                  "close": "20:00"
+                },
+                "saturday": {
+                  "open": "10:00",
+                  "close": "20:00"
+                },
+                "sunday": {
+                  "open": "11:00",
+                  "close": "18:00"
+                }
+              }
+            }
+          }
+        ],
+        "paymentMethods": [
+          {
+            "type": "CASH_PAYMENT",
+            "enabled": true,
+            "uiData": {
+              "label": "Efectivo",
+              "emoji": "💵",
+              "icon": "💵",
+              "description": "Al retirar/recibir tu pedido",
+              "showDescription": true
+            },
+            "constraints": {}
+          },
+          {
+            "type": "CREDIT_CARD_PAYMENT",
+            "enabled": true,
+            "uiData": {
+              "label": "Tarjeta de Crédito",
+              "emoji": "💳",
+              "icon": "💳",
+              "description": "Al retirar/recibir tu pedido",
+              "showDescription": true
+            },
+            "constraints": {}
+          },
+          {
+            "type": "BANK_TRANSFER_PAYMENT",
+            "enabled": true,
+            "uiData": {
+              "label": "Transferencia Bancaria",
+              "emoji": "🏦",
+              "icon": "🏦",
+              "description": "Al retirar/recibir tu pedido",
+              "showDescription": true
+            },
+            "constraints": {}
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": "cat_gorras_beisbol",
+        "name": "Gorras de Béisbol",
+        "displayOrder": 1,
+        "slug": "gorras-beisbol",
+        "itemsCount": 10,
+        "label": "Gorras de Béisbol",
+        "emoji": "🧢"
+      },
+      {
+        "id": "cat_snapback",
+        "name": "Snapback",
+        "displayOrder": 2,
+        "slug": "snapback",
+        "itemsCount": 5,
+        "label": "Snapback",
+        "emoji": "🎯"
+      },
+      {
+        "id": "cat_sombreros",
+        "name": "Sombreros",
+        "displayOrder": 3,
+        "slug": "sombreros",
+        "itemsCount": 8,
+        "label": "Sombreros",
+        "emoji": "🎩"
+      },
+      {
+        "id": "cat_deportivas",
+        "name": "Deportivas",
+        "displayOrder": 4,
+        "slug": "deportivas",
+        "itemsCount": 4,
+        "label": "Deportivas",
+        "emoji": "🏃"
+      },
+      {
+        "id": "cat_bucket_hats",
+        "name": "Bucket Hats",
+        "displayOrder": 5,
+        "slug": "bucket-hats",
+        "itemsCount": 3,
+        "label": "Bucket Hats",
+        "emoji": "🪣"
+      }
+    ],
+    "products": [
+      {
+        "id": "prod_001_gorra_ny_yankees",
+        "name": "Gorra NY Yankees Clásica",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Gorra oficial de los New York Yankees con logo bordado y ajuste perfecto.",
+        "images": [
+          {
+            "url": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=500",
+            "alt": "Gorra NY Yankees",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_gorras_beisbol",
+            "name": "Gorras de Béisbol",
+            "slug": "gorras-beisbol",
+            "displayOrder": 1
+          }
+        ],
+        "reviewsCount": 342,
+        "rating": 4.8,
+        "tags": [
+          "yankees",
+          "mlb",
+          "beisbol",
+          "new york"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "fashion",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "color",
+          "label": "Color",
+          "options": [
+            {
+              "id": "color_navy",
+              "name": "Azul Marino",
+              "label": "Azul Marino",
+              "price": {
+                "basePrice": 8500,
+                "discount": 500,
+                "finalPrice": 8000
+              },
+              "sku": "NYY-CAP-NVY",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "color_black",
+              "name": "Negro",
+              "label": "Negro",
+              "price": {
+                "basePrice": 8500,
+                "discount": null,
+                "finalPrice": 8500
+              },
+              "sku": "NYY-CAP-BLK",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "color_white",
+              "name": "Blanco",
+              "label": "Blanco",
+              "price": {
+                "basePrice": 8500,
+                "discount": null,
+                "finalPrice": 8500
+              },
+              "sku": "NYY-CAP-WHT",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_002_gorra_la_dodgers",
+        "name": "Gorra LA Dodgers Original",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Gorra oficial de Los Angeles Dodgers con logo LA bordado en relieve.",
+        "images": [
+          {
+            "url": "https://images.unsplash.com/photo-1575428652377-a2d80e2277fc?w=500",
+            "alt": "Gorra LA Dodgers",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_gorras_beisbol",
+            "name": "Gorras de Béisbol",
+            "slug": "gorras-beisbol",
+            "displayOrder": 1
+          }
+        ],
+        "reviewsCount": 289,
+        "rating": 4.7,
+        "tags": [
+          "dodgers",
+          "mlb",
+          "los angeles",
+          "beisbol"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "fashion",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "color",
+          "label": "Color",
+          "options": [
+            {
+              "id": "color_blue",
+              "name": "Azul Royal",
+              "label": "Azul Royal",
+              "price": {
+                "basePrice": 8500,
+                "discount": 500,
+                "finalPrice": 8000
+              },
+              "sku": "LAD-CAP-BLU",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "color_black",
+              "name": "Negro",
+              "label": "Negro",
+              "price": {
+                "basePrice": 8500,
+                "discount": null,
+                "finalPrice": 8500
+              },
+              "sku": "LAD-CAP-BLK",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_003_gorra_chicago_bulls",
+        "name": "Gorra Chicago Bulls Retro",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Gorra oficial de los Chicago Bulls con el icónico toro bordado.",
+        "images": [
+          {
+            "url": "https://images.unsplash.com/photo-1531190260877-c8d11eb5afaf?w=500",
+            "alt": "Gorra Chicago Bulls",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_gorras_beisbol",
+            "name": "Gorras de Béisbol",
+            "slug": "gorras-beisbol",
+            "displayOrder": 1
+          }
+        ],
+        "reviewsCount": 412,
+        "rating": 4.9,
+        "tags": [
+          "bulls",
+          "nba",
+          "chicago",
+          "basketball"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "fashion",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "color",
+          "label": "Color",
+          "options": [
+            {
+              "id": "color_red",
+              "name": "Rojo",
+              "label": "Rojo",
+              "price": {
+                "basePrice": 9000,
+                "discount": 1000,
+                "finalPrice": 8000
+              },
+              "sku": "CHI-CAP-RED",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "color_black",
+              "name": "Negro",
+              "label": "Negro",
+              "price": {
+                "basePrice": 9000,
+                "discount": null,
+                "finalPrice": 9000
+              },
+              "sku": "CHI-CAP-BLK",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_004_gorra_boston_redsox",
+        "name": "Gorra Boston Red Sox",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Gorra oficial de los Boston Red Sox con la icónica B bordada.",
+        "images": [
+          {
+            "url": "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=500",
+            "alt": "Gorra Boston Red Sox",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_gorras_beisbol",
+            "name": "Gorras de Béisbol",
+            "slug": "gorras-beisbol",
+            "displayOrder": 1
+          }
+        ],
+        "reviewsCount": 267,
+        "rating": 4.6,
+        "tags": [
+          "redsox",
+          "mlb",
+          "boston",
+          "beisbol"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "fashion",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "color",
+          "label": "Color",
+          "options": [
+            {
+              "id": "color_navy",
+              "name": "Azul Marino",
+              "label": "Azul Marino",
+              "price": {
+                "basePrice": 8200,
+                "discount": null,
+                "finalPrice": 8200
+              },
+              "sku": "BOS-CAP-NVY",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "color_red",
+              "name": "Rojo",
+              "label": "Rojo",
+              "price": {
+                "basePrice": 8200,
+                "discount": null,
+                "finalPrice": 8200
+              },
+              "sku": "BOS-CAP-RED",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_005_gorra_basica_lisa",
+        "name": "Gorra Básica Lisa",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Gorra de béisbol clásica sin logos, perfecta para personalizar o usar simple.",
+        "images": [
+          {
+            "url": "https://images.unsplash.com/photo-1589487391730-58f20eb2c308?w=500",
+            "alt": "Gorra Básica Lisa",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_gorras_beisbol",
+            "name": "Gorras de Béisbol",
+            "slug": "gorras-beisbol",
+            "displayOrder": 1
+          }
+        ],
+        "reviewsCount": 523,
+        "rating": 4.5,
+        "tags": [
+          "basica",
+          "lisa",
+          "clasica",
+          "simple"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "fashion",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "color",
+          "label": "Color",
+          "options": [
+            {
+              "id": "color_black",
+              "name": "Negro",
+              "label": "Negro",
+              "price": {
+                "basePrice": 4500,
+                "discount": 500,
+                "finalPrice": 4000
+              },
+              "sku": "BAS-CAP-BLK",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "color_white",
+              "name": "Blanco",
+              "label": "Blanco",
+              "price": {
+                "basePrice": 4500,
+                "discount": null,
+                "finalPrice": 4500
+              },
+              "sku": "BAS-CAP-WHT",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "color_navy",
+              "name": "Azul Marino",
+              "label": "Azul Marino",
+              "price": {
+                "basePrice": 4500,
+                "discount": null,
+                "finalPrice": 4500
+              },
+              "sku": "BAS-CAP-NVY",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "color_red",
+              "name": "Rojo",
+              "label": "Rojo",
+              "price": {
+                "basePrice": 4500,
+                "discount": null,
+                "finalPrice": 4500
+              },
+              "sku": "BAS-CAP-RED",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "color_khaki",
+              "name": "Beige",
+              "label": "Beige",
+              "price": {
+                "basePrice": 4500,
+                "discount": null,
+                "finalPrice": 4500
+              },
+              "sku": "BAS-CAP-KHK",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_006_gorra_trucker",
+        "name": "Gorra Trucker Mesh",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Gorra estilo trucker con malla transpirable en la parte trasera.",
+        "images": [
+          {
+            "url": "https://images.unsplash.com/photo-1575428652377-a2d80e2277fc?w=500",
+            "alt": "Gorra Trucker",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_gorras_beisbol",
+            "name": "Gorras de Béisbol",
+            "slug": "gorras-beisbol",
+            "displayOrder": 1
+          }
+        ],
+        "reviewsCount": 198,
+        "rating": 4.4,
+        "tags": [
+          "trucker",
+          "mesh",
+          "transpirable",
+          "casual"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "fashion",
+        "features": {
+          "isNew": false,
+          "isPopular": false
+        },
+        "templateVariant": {
+          "name": "color",
+          "label": "Color",
+          "options": [
+            {
+              "id": "color_black_white",
+              "name": "Negro/Blanco",
+              "label": "Negro/Blanco",
+              "price": {
+                "basePrice": 5500,
+                "discount": null,
+                "finalPrice": 5500
+              },
+              "sku": "TRK-CAP-BKWH",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "color_red_white",
+              "name": "Rojo/Blanco",
+              "label": "Rojo/Blanco",
+              "price": {
+                "basePrice": 5500,
+                "discount": null,
+                "finalPrice": 5500
+              },
+              "sku": "TRK-CAP-RDWH",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "color_blue_white",
+              "name": "Azul/Blanco",
+              "label": "Azul/Blanco",
+              "price": {
+                "basePrice": 5500,
+                "discount": null,
+                "finalPrice": 5500
+              },
+              "sku": "TRK-CAP-BLWH",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_007_gorra_camuflada",
+        "name": "Gorra Camuflada Militar",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Gorra con diseño de camuflaje militar, resistente y duradera.",
+        "images": [
+          {
+            "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500",
+            "alt": "Gorra Camuflada",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_gorras_beisbol",
+            "name": "Gorras de Béisbol",
+            "slug": "gorras-beisbol",
+            "displayOrder": 1
+          }
+        ],
+        "reviewsCount": 156,
+        "rating": 4.3,
+        "tags": [
+          "camuflaje",
+          "militar",
+          "tactico",
+          "outdoor"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "fashion",
+        "features": {
+          "isNew": false,
+          "isPopular": false
+        },
+        "templateVariant": {
+          "name": "color",
+          "label": "Estilo",
+          "options": [
+            {
+              "id": "camo_woodland",
+              "name": "Woodland",
+              "label": "Woodland",
+              "price": {
+                "basePrice": 6200,
+                "discount": null,
+                "finalPrice": 6200
+              },
+              "sku": "CAM-CAP-WLD",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "camo_desert",
+              "name": "Desierto",
+              "label": "Desierto",
+              "price": {
+                "basePrice": 6200,
+                "discount": null,
+                "finalPrice": 6200
+              },
+              "sku": "CAM-CAP-DES",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "camo_urban",
+              "name": "Urbano",
+              "label": "Urbano",
+              "price": {
+                "basePrice": 6200,
+                "discount": null,
+                "finalPrice": 6200
+              },
+              "sku": "CAM-CAP-URB",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_008_gorra_vintage",
+        "name": "Gorra Vintage Washed",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Gorra con efecto desgastado vintage, estilo retro y cómoda.",
+        "images": [
+          {
+            "url": "https://images.unsplash.com/photo-1575428652377-a2d80e2277fc?w=500",
+            "alt": "Gorra Vintage",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_gorras_beisbol",
+            "name": "Gorras de Béisbol",
+            "slug": "gorras-beisbol",
+            "displayOrder": 1
+          }
+        ],
+        "reviewsCount": 234,
+        "rating": 4.6,
+        "tags": [
+          "vintage",
+          "retro",
+          "washed",
+          "desgastado"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "fashion",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "color",
+          "label": "Color",
+          "options": [
+            {
+              "id": "color_washed_blue",
+              "name": "Azul Desgastado",
+              "label": "Azul Desgastado",
+              "price": {
+                "basePrice": 6800,
+                "discount": 800,
+                "finalPrice": 6000
+              },
+              "sku": "VIN-CAP-WBLU",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "color_washed_black",
+              "name": "Negro Desgastado",
+              "label": "Negro Desgastado",
+              "price": {
+                "basePrice": 6800,
+                "discount": null,
+                "finalPrice": 6800
+              },
+              "sku": "VIN-CAP-WBLK",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "color_washed_khaki",
+              "name": "Beige Desgastado",
+              "label": "Beige Desgastado",
+              "price": {
+                "basePrice": 6800,
+                "discount": null,
+                "finalPrice": 6800
+              },
+              "sku": "VIN-CAP-WKHK",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_009_gorra_nike_swoosh",
+        "name": "Gorra Nike Swoosh",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Gorra deportiva Nike con el icónico swoosh bordado.",
+        "images": [
+          {
+            "url": "https://images.unsplash.com/photo-1556306535-0f09a537f0a3?w=500",
+            "alt": "Gorra Nike",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_gorras_beisbol",
+            "name": "Gorras de Béisbol",
+            "slug": "gorras-beisbol",
+            "displayOrder": 1
+          }
+        ],
+        "reviewsCount": 389,
+        "rating": 4.7,
+        "tags": [
+          "nike",
+          "deportiva",
+          "swoosh",
+          "running"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "fashion",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "color",
+          "label": "Color",
+          "options": [
+            {
+              "id": "color_black",
+              "name": "Negro",
+              "label": "Negro",
+              "price": {
+                "basePrice": 7500,
+                "discount": null,
+                "finalPrice": 7500
+              },
+              "sku": "NIK-CAP-BLK",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "color_white",
+              "name": "Blanco",
+              "label": "Blanco",
+              "price": {
+                "basePrice": 7500,
+                "discount": null,
+                "finalPrice": 7500
+              },
+              "sku": "NIK-CAP-WHT",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "color_navy",
+              "name": "Azul Marino",
+              "label": "Azul Marino",
+              "price": {
+                "basePrice": 7500,
+                "discount": null,
+                "finalPrice": 7500
+              },
+              "sku": "NIK-CAP-NVY",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_010_gorra_adidas_trefoil",
+        "name": "Gorra Adidas Trefoil",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Gorra clásica Adidas con el logo trefoil bordado al frente.",
+        "images": [
+          {
+            "url": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=500",
+            "alt": "Gorra Adidas",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_gorras_beisbol",
+            "name": "Gorras de Béisbol",
+            "slug": "gorras-beisbol",
+            "displayOrder": 1
+          }
+        ],
+        "reviewsCount": 312,
+        "rating": 4.6,
+        "tags": [
+          "adidas",
+          "trefoil",
+          "clasica",
+          "deportiva"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "fashion",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "color",
+          "label": "Color",
+          "options": [
+            {
+              "id": "color_black",
+              "name": "Negro",
+              "label": "Negro",
+              "price": {
+                "basePrice": 7200,
+                "discount": 700,
+                "finalPrice": 6500
+              },
+              "sku": "ADI-CAP-BLK",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "color_white",
+              "name": "Blanco",
+              "label": "Blanco",
+              "price": {
+                "basePrice": 7200,
+                "discount": null,
+                "finalPrice": 7200
+              },
+              "sku": "ADI-CAP-WHT",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_011_snapback_supreme",
+        "name": "Snapback Supreme Style",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Snapback con diseño urbano y ajuste posterior tipo broche.",
+        "images": [
+          {
+            "url": "https://images.unsplash.com/photo-1575428652377-a2d80e2277fc?w=500",
+            "alt": "Snapback Supreme",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_snapback",
+            "name": "Snapback",
+            "slug": "snapback",
+            "displayOrder": 2
+          }
+        ],
+        "reviewsCount": 456,
+        "rating": 4.8,
+        "tags": [
+          "snapback",
+          "supreme",
+          "urbano",
+          "streetwear"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "fashion",
+        "features": {
+          "isNew": true,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "color",
+          "label": "Color",
+          "options": [
+            {
+              "id": "color_red",
+              "name": "Rojo",
+              "label": "Rojo",
+              "price": {
+                "basePrice": 9500,
+                "discount": 1500,
+                "finalPrice": 8000
+              },
+              "sku": "SUP-SNP-RED",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "color_black",
+              "name": "Negro",
+              "label": "Negro",
+              "price": {
+                "basePrice": 9500,
+                "discount": null,
+                "finalPrice": 9500
+              },
+              "sku": "SUP-SNP-BLK",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "color_camo",
+              "name": "Camuflado",
+              "label": "Camuflado",
+              "price": {
+                "basePrice": 10500,
+                "discount": null,
+                "finalPrice": 10500
+              },
+              "sku": "SUP-SNP-CAM",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_012_snapback_jordan",
+        "name": "Snapback Air Jordan",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Snapback oficial Air Jordan con el logo Jumpman bordado.",
+        "images": [
+          {
+            "url": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=500",
+            "alt": "Snapback Jordan",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_snapback",
+            "name": "Snapback",
+            "slug": "snapback",
+            "displayOrder": 2
+          }
+        ],
+        "reviewsCount": 378,
+        "rating": 4.9,
+        "tags": [
+          "jordan",
+          "jumpman",
+          "basketball",
+          "nba"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "fashion",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "color",
+          "label": "Color",
+          "options": [
+            {
+              "id": "color_red_black",
+              "name": "Rojo/Negro",
+              "label": "Rojo/Negro",
+              "price": {
+                "basePrice": 12000,
+                "discount": 2000,
+                "finalPrice": 10000
+              },
+              "sku": "JOR-SNP-RDBK",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "color_black",
+              "name": "Negro",
+              "label": "Negro",
+              "price": {
+                "basePrice": 12000,
+                "discount": null,
+                "finalPrice": 12000
+              },
+              "sku": "JOR-SNP-BLK",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "color_white",
+              "name": "Blanco",
+              "label": "Blanco",
+              "price": {
+                "basePrice": 12000,
+                "discount": null,
+                "finalPrice": 12000
+              },
+              "sku": "JOR-SNP-WHT",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_013_snapback_vans",
+        "name": "Snapback Vans Classic",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Snapback Vans con logo bordado y visera plana.",
+        "images": [
+          {
+            "url": "https://images.unsplash.com/photo-1575428652377-a2d80e2277fc?w=500",
+            "alt": "Snapback Vans",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_snapback",
+            "name": "Snapback",
+            "slug": "snapback",
+            "displayOrder": 2
+          }
+        ],
+        "reviewsCount": 245,
+        "rating": 4.5,
+        "tags": [
+          "vans",
+          "skate",
+          "urbano",
+          "classic"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "fashion",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "color",
+          "label": "Color",
+          "options": [
+            {
+              "id": "color_black",
+              "name": "Negro",
+              "label": "Negro",
+              "price": {
+                "basePrice": 6800,
+                "discount": null,
+                "finalPrice": 6800
+              },
+              "sku": "VNS-SNP-BLK",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "color_white",
+              "name": "Blanco",
+              "label": "Blanco",
+              "price": {
+                "basePrice": 6800,
+                "discount": null,
+                "finalPrice": 6800
+              },
+              "sku": "VNS-SNP-WHT",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "color_checkerboard",
+              "name": "Checkerboard",
+              "label": "Checkerboard",
+              "price": {
+                "basePrice": 7500,
+                "discount": null,
+                "finalPrice": 7500
+              },
+              "sku": "VNS-SNP-CHK",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_014_snapback_new_era",
+        "name": "Snapback New Era 9FIFTY",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Snapback New Era modelo 9FIFTY con ajuste posterior regulable.",
+        "images": [
+          {
+            "url": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=500",
+            "alt": "Snapback New Era",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_snapback",
+            "name": "Snapback",
+            "slug": "snapback",
+            "displayOrder": 2
+          }
+        ],
+        "reviewsCount": 298,
+        "rating": 4.7,
+        "tags": [
+          "new era",
+          "9fifty",
+          "premium",
+          "clasica"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "fashion",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "color",
+          "label": "Color",
+          "options": [
+            {
+              "id": "color_black",
+              "name": "Negro",
+              "label": "Negro",
+              "price": {
+                "basePrice": 8800,
+                "discount": 800,
+                "finalPrice": 8000
+              },
+              "sku": "NER-SNP-BLK",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "color_navy",
+              "name": "Azul Marino",
+              "label": "Azul Marino",
+              "price": {
+                "basePrice": 8800,
+                "discount": null,
+                "finalPrice": 8800
+              },
+              "sku": "NER-SNP-NVY",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "color_gray",
+              "name": "Gris",
+              "label": "Gris",
+              "price": {
+                "basePrice": 8800,
+                "discount": null,
+                "finalPrice": 8800
+              },
+              "sku": "NER-SNP-GRY",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_015_snapback_flexfit",
+        "name": "Snapback Flexfit 110",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Snapback Flexfit modelo 110 con banda elástica para mejor ajuste.",
+        "images": [
+          {
+            "url": "https://images.unsplash.com/photo-1575428652377-a2d80e2277fc?w=500",
+            "alt": "Snapback Flexfit",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_snapback",
+            "name": "Snapback",
+            "slug": "snapback",
+            "displayOrder": 2
+          }
+        ],
+        "reviewsCount": 187,
+        "rating": 4.6,
+        "tags": [
+          "flexfit",
+          "elastica",
+          "comoda",
+          "ajustable"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "fashion",
+        "features": {
+          "isNew": false,
+          "isPopular": false
+        },
+        "templateVariant": {
+          "name": "color",
+          "label": "Color",
+          "options": [
+            {
+              "id": "color_black",
+              "name": "Negro",
+              "label": "Negro",
+              "price": {
+                "basePrice": 7800,
+                "discount": null,
+                "finalPrice": 7800
+              },
+              "sku": "FLX-SNP-BLK",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "color_red",
+              "name": "Rojo",
+              "label": "Rojo",
+              "price": {
+                "basePrice": 7800,
+                "discount": null,
+                "finalPrice": 7800
+              },
+              "sku": "FLX-SNP-RED",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "color_blue",
+              "name": "Azul",
+              "label": "Azul",
+              "price": {
+                "basePrice": 7800,
+                "discount": null,
+                "finalPrice": 7800
+              },
+              "sku": "FLX-SNP-BLU",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_016_sombrero_fedora",
+        "name": "Sombrero Fedora Clásico",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Sombrero Fedora elegante con cinta y ala mediana, perfecto para cualquier ocasión.",
+        "images": [
+          {
+            "url": "https://images.unsplash.com/photo-1514327605112-b887c0e61c0a?w=500",
+            "alt": "Sombrero Fedora",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_sombreros",
+            "name": "Sombreros",
+            "slug": "sombreros",
+            "displayOrder": 3
+          }
+        ],
+        "reviewsCount": 234,
+        "rating": 4.7,
+        "tags": [
+          "fedora",
+          "elegante",
+          "clasico",
+          "formal"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "fashion",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "color",
+          "label": "Color",
+          "options": [
+            {
+              "id": "color_black",
+              "name": "Negro",
+              "label": "Negro",
+              "price": {
+                "basePrice": 15000,
+                "discount": 3000,
+                "finalPrice": 12000
+              },
+              "sku": "FED-HAT-BLK",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "color_brown",
+              "name": "Marrón",
+              "label": "Marrón",
+              "price": {
+                "basePrice": 15000,
+                "discount": null,
+                "finalPrice": 15000
+              },
+              "sku": "FED-HAT-BRN",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "color_gray",
+              "name": "Gris",
+              "label": "Gris",
+              "price": {
+                "basePrice": 15000,
+                "discount": null,
+                "finalPrice": 15000
+              },
+              "sku": "FED-HAT-GRY",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "color_beige",
+              "name": "Beige",
+              "label": "Beige",
+              "price": {
+                "basePrice": 15000,
+                "discount": null,
+                "finalPrice": 15000
+              },
+              "sku": "FED-HAT-BGE",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_017_sombrero_panama",
+        "name": "Sombrero Panamá Original",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Sombrero Panamá auténtico tejido a mano, ideal para verano.",
+        "images": [
+          {
+            "url": "https://images.unsplash.com/photo-1566404791232-af9fe0ae8f8b?w=500",
+            "alt": "Sombrero Panamá",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_sombreros",
+            "name": "Sombreros",
+            "slug": "sombreros",
+            "displayOrder": 3
+          }
+        ],
+        "reviewsCount": 189,
+        "rating": 4.8,
+        "tags": [
+          "panama",
+          "verano",
+          "playa",
+          "tejido"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "fashion",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "color",
+          "label": "Color",
+          "options": [
+            {
+              "id": "color_natural",
+              "name": "Natural",
+              "label": "Natural",
+              "price": {
+                "basePrice": 18000,
+                "discount": 3000,
+                "finalPrice": 15000
+              },
+              "sku": "PAN-HAT-NAT",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "color_white",
+              "name": "Blanco",
+              "label": "Blanco",
+              "price": {
+                "basePrice": 18000,
+                "discount": null,
+                "finalPrice": 18000
+              },
+              "sku": "PAN-HAT-WHT",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_018_sombrero_cowboy",
+        "name": "Sombrero Cowboy Texano",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Sombrero estilo cowboy texano de alta calidad, ideal para eventos country.",
+        "images": [
+          {
+            "url": "https://images.unsplash.com/photo-1603251579431-8041402bdeda?w=500",
+            "alt": "Sombrero Cowboy",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_sombreros",
+            "name": "Sombreros",
+            "slug": "sombreros",
+            "displayOrder": 3
+          }
+        ],
+        "reviewsCount": 156,
+        "rating": 4.6,
+        "tags": [
+          "cowboy",
+          "texano",
+          "country",
+          "western"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "fashion",
+        "features": {
+          "isNew": false,
+          "isPopular": false
+        },
+        "templateVariant": {
+          "name": "color",
+          "label": "Color",
+          "options": [
+            {
+              "id": "color_brown",
+              "name": "Marrón",
+              "label": "Marrón",
+              "price": {
+                "basePrice": 22000,
+                "discount": null,
+                "finalPrice": 22000
+              },
+              "sku": "COW-HAT-BRN",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "color_black",
+              "name": "Negro",
+              "label": "Negro",
+              "price": {
+                "basePrice": 22000,
+                "discount": null,
+                "finalPrice": 22000
+              },
+              "sku": "COW-HAT-BLK",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "color_tan",
+              "name": "Camel",
+              "label": "Camel",
+              "price": {
+                "basePrice": 22000,
+                "discount": null,
+                "finalPrice": 22000
+              },
+              "sku": "COW-HAT-TAN",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_019_sombrero_boater",
+        "name": "Sombrero Boater Canotier",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Sombrero Boater clásico con corona plana y cinta, estilo vintage.",
+        "images": [
+          {
+            "url": "https://images.unsplash.com/photo-1529958030586-3aae4ca485ff?w=500",
+            "alt": "Sombrero Boater",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_sombreros",
+            "name": "Sombreros",
+            "slug": "sombreros",
+            "displayOrder": 3
+          }
+        ],
+        "reviewsCount": 123,
+        "rating": 4.5,
+        "tags": [
+          "boater",
+          "vintage",
+          "retro",
+          "elegante"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "fashion",
+        "features": {
+          "isNew": false,
+          "isPopular": false
+        },
+        "templateVariant": {
+          "name": "color",
+          "label": "Color",
+          "options": [
+            {
+              "id": "color_natural",
+              "name": "Natural",
+              "label": "Natural",
+              "price": {
+                "basePrice": 13500,
+                "discount": null,
+                "finalPrice": 13500
+              },
+              "sku": "BOT-HAT-NAT",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "color_black",
+              "name": "Negro",
+              "label": "Negro",
+              "price": {
+                "basePrice": 13500,
+                "discount": null,
+                "finalPrice": 13500
+              },
+              "sku": "BOT-HAT-BLK",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_020_sombrero_trilby",
+        "name": "Sombrero Trilby Moderno",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Sombrero Trilby con ala corta y corona alta, estilo urbano contemporáneo.",
+        "images": [
+          {
+            "url": "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=500",
+            "alt": "Sombrero Trilby",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_sombreros",
+            "name": "Sombreros",
+            "slug": "sombreros",
+            "displayOrder": 3
+          }
+        ],
+        "reviewsCount": 167,
+        "rating": 4.4,
+        "tags": [
+          "trilby",
+          "moderno",
+          "urbano",
+          "casual"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "fashion",
+        "features": {
+          "isNew": false,
+          "isPopular": false
+        },
+        "templateVariant": {
+          "name": "color",
+          "label": "Color",
+          "options": [
+            {
+              "id": "color_gray",
+              "name": "Gris",
+              "label": "Gris",
+              "price": {
+                "basePrice": 11500,
+                "discount": 1500,
+                "finalPrice": 10000
+              },
+              "sku": "TRI-HAT-GRY",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "color_black",
+              "name": "Negro",
+              "label": "Negro",
+              "price": {
+                "basePrice": 11500,
+                "discount": null,
+                "finalPrice": 11500
+              },
+              "sku": "TRI-HAT-BLK",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "color_brown",
+              "name": "Marrón",
+              "label": "Marrón",
+              "price": {
+                "basePrice": 11500,
+                "discount": null,
+                "finalPrice": 11500
+              },
+              "sku": "TRI-HAT-BRN",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_021_sombrero_porkpie",
+        "name": "Sombrero Pork Pie",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Sombrero Pork Pie con corona baja y ala enrollada, estilo jazz.",
+        "images": [
+          {
+            "url": "https://images.unsplash.com/photo-1533055640609-24b498dfd74c?w=500",
+            "alt": "Sombrero Pork Pie",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_sombreros",
+            "name": "Sombreros",
+            "slug": "sombreros",
+            "displayOrder": 3
+          }
+        ],
+        "reviewsCount": 98,
+        "rating": 4.3,
+        "tags": [
+          "porkpie",
+          "jazz",
+          "vintage",
+          "hipster"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "fashion",
+        "features": {
+          "isNew": false,
+          "isPopular": false
+        },
+        "templateVariant": {
+          "name": "color",
+          "label": "Color",
+          "options": [
+            {
+              "id": "color_black",
+              "name": "Negro",
+              "label": "Negro",
+              "price": {
+                "basePrice": 12800,
+                "discount": null,
+                "finalPrice": 12800
+              },
+              "sku": "PRK-HAT-BLK",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "color_gray",
+              "name": "Gris",
+              "label": "Gris",
+              "price": {
+                "basePrice": 12800,
+                "discount": null,
+                "finalPrice": 12800
+              },
+              "sku": "PRK-HAT-GRY",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_022_sombrero_floppy",
+        "name": "Sombrero Floppy Playa",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Sombrero de ala ancha flexible, perfecto para la playa y días de sol.",
+        "images": [
+          {
+            "url": "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?w=500",
+            "alt": "Sombrero Floppy",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_sombreros",
+            "name": "Sombreros",
+            "slug": "sombreros",
+            "displayOrder": 3
+          }
+        ],
+        "reviewsCount": 289,
+        "rating": 4.6,
+        "tags": [
+          "floppy",
+          "playa",
+          "verano",
+          "mujer"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "fashion",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "color",
+          "label": "Color",
+          "options": [
+            {
+              "id": "color_beige",
+              "name": "Beige",
+              "label": "Beige",
+              "price": {
+                "basePrice": 8500,
+                "discount": 1500,
+                "finalPrice": 7000
+              },
+              "sku": "FLP-HAT-BGE",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "color_black",
+              "name": "Negro",
+              "label": "Negro",
+              "price": {
+                "basePrice": 8500,
+                "discount": null,
+                "finalPrice": 8500
+              },
+              "sku": "FLP-HAT-BLK",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "color_white",
+              "name": "Blanco",
+              "label": "Blanco",
+              "price": {
+                "basePrice": 8500,
+                "discount": null,
+                "finalPrice": 8500
+              },
+              "sku": "FLP-HAT-WHT",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_023_sombrero_bombín",
+        "name": "Sombrero Bombín Derby",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Sombrero bombín clásico estilo Derby, elegante y formal.",
+        "images": [
+          {
+            "url": "https://images.unsplash.com/photo-1517677129300-07b130802f46?w=500",
+            "alt": "Sombrero Bombín",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_sombreros",
+            "name": "Sombreros",
+            "slug": "sombreros",
+            "displayOrder": 3
+          }
+        ],
+        "reviewsCount": 87,
+        "rating": 4.4,
+        "tags": [
+          "bombin",
+          "derby",
+          "formal",
+          "elegante"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "fashion",
+        "features": {
+          "isNew": false,
+          "isPopular": false
+        },
+        "templateVariant": {
+          "name": "color",
+          "label": "Color",
+          "options": [
+            {
+              "id": "color_black",
+              "name": "Negro",
+              "label": "Negro",
+              "price": {
+                "basePrice": 16500,
+                "discount": null,
+                "finalPrice": 16500
+              },
+              "sku": "BOM-HAT-BLK",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "color_gray",
+              "name": "Gris",
+              "label": "Gris",
+              "price": {
+                "basePrice": 16500,
+                "discount": null,
+                "finalPrice": 16500
+              },
+              "sku": "BOM-HAT-GRY",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_024_gorra_running_nike",
+        "name": "Gorra Running Nike Dri-Fit",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Gorra deportiva Nike con tecnología Dri-Fit para mantenerte seco durante el ejercicio.",
+        "images": [
+          {
+            "url": "https://images.unsplash.com/photo-1556306535-0f09a537f0a3?w=500",
+            "alt": "Gorra Running Nike",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_deportivas",
+            "name": "Deportivas",
+            "slug": "deportivas",
+            "displayOrder": 4
+          }
+        ],
+        "reviewsCount": 456,
+        "rating": 4.8,
+        "tags": [
+          "nike",
+          "running",
+          "dri-fit",
+          "deportiva"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "fashion",
+        "features": {
+          "isNew": true,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "color",
+          "label": "Color",
+          "options": [
+            {
+              "id": "color_black",
+              "name": "Negro",
+              "label": "Negro",
+              "price": {
+                "basePrice": 8500,
+                "discount": 1500,
+                "finalPrice": 7000
+              },
+              "sku": "NIK-RUN-BLK",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "color_white",
+              "name": "Blanco",
+              "label": "Blanco",
+              "price": {
+                "basePrice": 8500,
+                "discount": null,
+                "finalPrice": 8500
+              },
+              "sku": "NIK-RUN-WHT",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "color_neon",
+              "name": "Neón",
+              "label": "Neón",
+              "price": {
+                "basePrice": 9000,
+                "discount": null,
+                "finalPrice": 9000
+              },
+              "sku": "NIK-RUN-NEO",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_025_gorra_golf_titleist",
+        "name": "Gorra Golf Titleist Pro",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Gorra de golf Titleist profesional con visera curva y ajuste perfecto.",
+        "images": [
+          {
+            "url": "https://images.unsplash.com/photo-1575428652377-a2d80e2277fc?w=500",
+            "alt": "Gorra Golf",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_deportivas",
+            "name": "Deportivas",
+            "slug": "deportivas",
+            "displayOrder": 4
+          }
+        ],
+        "reviewsCount": 234,
+        "rating": 4.7,
+        "tags": [
+          "golf",
+          "titleist",
+          "deportiva",
+          "profesional"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "fashion",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "color",
+          "label": "Color",
+          "options": [
+            {
+              "id": "color_white",
+              "name": "Blanco",
+              "label": "Blanco",
+              "price": {
+                "basePrice": 9500,
+                "discount": null,
+                "finalPrice": 9500
+              },
+              "sku": "TTL-GLF-WHT",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "color_navy",
+              "name": "Azul Marino",
+              "label": "Azul Marino",
+              "price": {
+                "basePrice": 9500,
+                "discount": null,
+                "finalPrice": 9500
+              },
+              "sku": "TTL-GLF-NVY",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "color_black",
+              "name": "Negro",
+              "label": "Negro",
+              "price": {
+                "basePrice": 9500,
+                "discount": null,
+                "finalPrice": 9500
+              },
+              "sku": "TTL-GLF-BLK",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_026_gorra_tennis_adidas",
+        "name": "Gorra Tennis Adidas ClimaCool",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Gorra de tenis Adidas con tecnología ClimaCool para máxima ventilación.",
+        "images": [
+          {
+            "url": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=500",
+            "alt": "Gorra Tennis",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_deportivas",
+            "name": "Deportivas",
+            "slug": "deportivas",
+            "displayOrder": 4
+          }
+        ],
+        "reviewsCount": 178,
+        "rating": 4.6,
+        "tags": [
+          "adidas",
+          "tennis",
+          "climacool",
+          "ventilacion"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "fashion",
+        "features": {
+          "isNew": false,
+          "isPopular": false
+        },
+        "templateVariant": {
+          "name": "color",
+          "label": "Color",
+          "options": [
+            {
+              "id": "color_white",
+              "name": "Blanco",
+              "label": "Blanco",
+              "price": {
+                "basePrice": 8200,
+                "discount": 700,
+                "finalPrice": 7500
+              },
+              "sku": "ADI-TEN-WHT",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "color_black",
+              "name": "Negro",
+              "label": "Negro",
+              "price": {
+                "basePrice": 8200,
+                "discount": null,
+                "finalPrice": 8200
+              },
+              "sku": "ADI-TEN-BLK",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_027_visor_deportivo",
+        "name": "Visera Deportiva Under Armour",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Visera deportiva sin copa superior, ideal para tenis, golf y running.",
+        "images": [
+          {
+            "url": "https://images.unsplash.com/photo-1574634534894-89d7576c8259?w=500",
+            "alt": "Visera Deportiva",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_deportivas",
+            "name": "Deportivas",
+            "slug": "deportivas",
+            "displayOrder": 4
+          }
+        ],
+        "reviewsCount": 145,
+        "rating": 4.5,
+        "tags": [
+          "visera",
+          "under armour",
+          "deportiva",
+          "running"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "fashion",
+        "features": {
+          "isNew": false,
+          "isPopular": false
+        },
+        "templateVariant": {
+          "name": "color",
+          "label": "Color",
+          "options": [
+            {
+              "id": "color_white",
+              "name": "Blanco",
+              "label": "Blanco",
+              "price": {
+                "basePrice": 5500,
+                "discount": null,
+                "finalPrice": 5500
+              },
+              "sku": "UA-VIS-WHT",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "color_black",
+              "name": "Negro",
+              "label": "Negro",
+              "price": {
+                "basePrice": 5500,
+                "discount": null,
+                "finalPrice": 5500
+              },
+              "sku": "UA-VIS-BLK",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "color_pink",
+              "name": "Rosa",
+              "label": "Rosa",
+              "price": {
+                "basePrice": 5500,
+                "discount": null,
+                "finalPrice": 5500
+              },
+              "sku": "UA-VIS-PNK",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_028_bucket_hat_classic",
+        "name": "Bucket Hat Clásico",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Bucket hat reversible de algodón, perfecto para looks urbanos y casuales.",
+        "images": [
+          {
+            "url": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=500",
+            "alt": "Bucket Hat",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_bucket_hats",
+            "name": "Bucket Hats",
+            "slug": "bucket-hats",
+            "displayOrder": 5
+          }
+        ],
+        "reviewsCount": 567,
+        "rating": 4.7,
+        "tags": [
+          "bucket hat",
+          "reversible",
+          "urbano",
+          "casual"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "fashion",
+        "features": {
+          "isNew": true,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "color",
+          "label": "Color",
+          "options": [
+            {
+              "id": "color_black",
+              "name": "Negro",
+              "label": "Negro",
+              "price": {
+                "basePrice": 5800,
+                "discount": 800,
+                "finalPrice": 5000
+              },
+              "sku": "BCK-HAT-BLK",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "color_beige",
+              "name": "Beige",
+              "label": "Beige",
+              "price": {
+                "basePrice": 5800,
+                "discount": null,
+                "finalPrice": 5800
+              },
+              "sku": "BCK-HAT-BGE",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "color_olive",
+              "name": "Verde Oliva",
+              "label": "Verde Oliva",
+              "price": {
+                "basePrice": 5800,
+                "discount": null,
+                "finalPrice": 5800
+              },
+              "sku": "BCK-HAT-OLV",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "color_denim",
+              "name": "Denim",
+              "label": "Denim",
+              "price": {
+                "basePrice": 6200,
+                "discount": null,
+                "finalPrice": 6200
+              },
+              "sku": "BCK-HAT-DEN",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_029_bucket_hat_tie_dye",
+        "name": "Bucket Hat Tie Dye",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Bucket hat con diseño tie dye colorido, ideal para festivales y verano.",
+        "images": [
+          {
+            "url": "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=500",
+            "alt": "Bucket Hat Tie Dye",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_bucket_hats",
+            "name": "Bucket Hats",
+            "slug": "bucket-hats",
+            "displayOrder": 5
+          }
+        ],
+        "reviewsCount": 234,
+        "rating": 4.6,
+        "tags": [
+          "bucket hat",
+          "tie dye",
+          "festival",
+          "verano"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "fashion",
+        "features": {
+          "isNew": true,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "color",
+          "label": "Diseño",
+          "options": [
+            {
+              "id": "design_rainbow",
+              "name": "Arcoíris",
+              "label": "Arcoíris",
+              "price": {
+                "basePrice": 6800,
+                "discount": 800,
+                "finalPrice": 6000
+              },
+              "sku": "BCK-TIE-RBW",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "design_purple",
+              "name": "Púrpura",
+              "label": "Púrpura",
+              "price": {
+                "basePrice": 6800,
+                "discount": null,
+                "finalPrice": 6800
+              },
+              "sku": "BCK-TIE-PUR",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "design_blue",
+              "name": "Azul",
+              "label": "Azul",
+              "price": {
+                "basePrice": 6800,
+                "discount": null,
+                "finalPrice": 6800
+              },
+              "sku": "BCK-TIE-BLU",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_030_bucket_hat_sherpa",
+        "name": "Bucket Hat Sherpa Invierno",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Bucket hat con forro sherpa térmico, perfecto para el invierno.",
+        "images": [
+          {
+            "url": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=500",
+            "alt": "Bucket Hat Sherpa",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_bucket_hats",
+            "name": "Bucket Hats",
+            "slug": "bucket-hats",
+            "displayOrder": 5
+          }
+        ],
+        "reviewsCount": 189,
+        "rating": 4.7,
+        "tags": [
+          "bucket hat",
+          "sherpa",
+          "invierno",
+          "termico"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "fashion",
+        "features": {
+          "isNew": true,
+          "isPopular": false
+        },
+        "templateVariant": {
+          "name": "color",
+          "label": "Color",
+          "options": [
+            {
+              "id": "color_black",
+              "name": "Negro",
+              "label": "Negro",
+              "price": {
+                "basePrice": 8500,
+                "discount": 1500,
+                "finalPrice": 7000
+              },
+              "sku": "BCK-SHR-BLK",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "color_beige",
+              "name": "Beige",
+              "label": "Beige",
+              "price": {
+                "basePrice": 8500,
+                "discount": null,
+                "finalPrice": 8500
+              },
+              "sku": "BCK-SHR-BGE",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "color_brown",
+              "name": "Marrón",
+              "label": "Marrón",
+              "price": {
+                "basePrice": 8500,
+                "discount": null,
+                "finalPrice": 8500
+              },
+              "sku": "BCK-SHR-BRN",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      }
+    ]
+  }
+}

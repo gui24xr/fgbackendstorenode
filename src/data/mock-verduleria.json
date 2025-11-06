@@ -1,0 +1,3362 @@
+{
+  "store": {
+    "id": "store_verduleria_001",
+    "clientData": {
+      "name": "Verdulería Fresh Market"
+    },
+    "planSettings": {
+      "type": "plan_medium"
+    },
+    "vertical": "FOOD_DELIVERY_STORE",
+    "branchesConfigs": {
+      "defaultBranchId": "sucursal_centro",
+      "availableBranches": [
+        {
+          "id": "sucursal_centro",
+          "name": "Sucursal Centro",
+          "address": "Av. Corrientes 5678, CABA",
+          "phone": "+54 11 2345-6789",
+          "active": true
+        }
+      ]
+    },
+    "customizationTemplateSettings": {
+      "bussinessContent": {
+        "general": {
+          "name": "Fresh Market",
+          "tagline": "Frescura que se nota",
+          "subTagline": "Frutas, verduras y frutos secos de primera calidad",
+          "welcome": "¡Bienvenidos a Fresh Market!",
+          "description": "Tu verdulería de confianza con productos frescos y naturales directo a tu hogar",
+          "logo": "https://cdn.pixabay.com/photo/2017/06/02/18/24/fruit-2367029_960_720.jpg"
+        },
+        "contact": {
+          "whatsappNumber": "+5491123456789",
+          "phoneNumber": "+5491187654321",
+          "email": "pedidos@freshmarket.com",
+          "address": "Av. Corrientes 5678, CABA",
+          "workingHours": "🕐 Lun-Sáb 7:00 AM - 9:00 PM"
+        },
+        "delivery": {
+          "tagline": "Entrega en el día - Productos frescos garantizados",
+          "description": "Recibí tus frutas y verduras frescas en menos de 2 horas",
+          "terms": "Pedido mínimo $2500. Envío gratis en compras mayores a $8000"
+        },
+        "offers": {
+          "mainOffer": "10% OFF en tu primera compra",
+          "seasonalPromo": "Ofertas semanales en frutas de estación",
+          "loyaltyProgram": "Acumulá puntos en cada compra"
+        },
+        "policies": {
+          "returns": "Garantía de frescura - Cambio inmediato si no estás satisfecho",
+          "warranty": "Productos seleccionados con calidad garantizada",
+          "privacy": "Tus datos están protegidos"
+        }
+      },
+      "navBarConfig": {
+        "backgroundColor": "bg-transparent",
+        "title": "Fresh Market",
+        "titleLogoIcon": "🍎",
+        "titleColor": "text-white",
+        "linksColor": "text-white"
+      },
+      "portrait": {
+        "titleLogoIcon": "🍎",
+        "floatingIcons": [
+          "🍎",
+          "🥕",
+          "🥜"
+        ],
+        "background": {
+          "color": "bg-gradient-to-br from-green-400 to-emerald-600",
+          "imageUrl": "https://cdn.pixabay.com/photo/2016/08/11/08/04/vegetables-1584999_1280.jpg",
+          "showImage": true
+        },
+        "showBusinessFeatures": {
+          "contact": {
+            "whatsappNumber": true,
+            "phoneNumber": true,
+            "email": true,
+            "address": true,
+            "workingHours": true
+          },
+          "delivery": {
+            "tagline": true,
+            "time": true,
+            "cost": false,
+            "options": false,
+            "minOrder": true,
+            "maxOrder": false
+          },
+          "socialProof": {
+            "reviews": true,
+            "rating": true,
+            "testimonials": true,
+            "certifications": true
+          },
+          "business": {
+            "specialOffers": true,
+            "paymentMethods": true,
+            "warranty": true,
+            "returnPolicy": true
+          }
+        }
+      },
+      "productsContainerRenderConfig": {
+        "backgroundProductContainerColor": "bg-green-50",
+        "defaultProductImage": "https://cdn.pixabay.com/photo/2017/06/02/18/24/fruit-2367029_960_720.jpg"
+      },
+      "whyChooseUs": {
+        "title": "¿Por qué elegirnos?",
+        "subtitle": "Somos tu verdulería de confianza",
+        "features": [
+          {
+            "icon": "🌱",
+            "title": "Productos Frescos",
+            "description": "Seleccionamos diariamente las mejores frutas y verduras del mercado central para garantizar máxima frescura."
+          },
+          {
+            "icon": "🚚",
+            "title": "Entrega Rápida",
+            "description": "Recibí tu pedido el mismo día. Delivery express en menos de 2 horas dentro de CABA."
+          },
+          {
+            "icon": "✅",
+            "title": "Calidad Garantizada",
+            "description": "Si no estás satisfecho con la calidad, te lo cambiamos sin preguntas. Tu satisfacción es nuestra prioridad."
+          }
+        ]
+      }
+    },
+    "branches": [
+      {
+        "id": "sucursal_centro",
+        "name": "Sucursal Centro",
+        "active": true,
+        "addressData": {
+          "textAddress": "Av. Corrientes 5678",
+          "city": "CABA",
+          "state": "Buenos Aires",
+          "zip": "1043",
+          "country": "Argentina",
+          "formattedAddress": "Av. Corrientes 5678, CABA, Buenos Aires, 1043, Argentina",
+          "references": "Entre Callao y Rodriguez Peña",
+          "coordinates": {
+            "lat": -34.6037,
+            "lng": -58.3816
+          }
+        },
+        "contactData": {
+          "phones": [
+            "+54 11 2345-6789",
+            "+5491123456789"
+          ],
+          "emails": [
+            "pedidos@freshmarket.com"
+          ]
+        },
+        "workingHours": {
+          "monday": {
+            "open": "07:00",
+            "close": "21:00"
+          },
+          "tuesday": {
+            "open": "07:00",
+            "close": "21:00"
+          },
+          "wednesday": {
+            "open": "07:00",
+            "close": "21:00"
+          },
+          "thursday": {
+            "open": "07:00",
+            "close": "21:00"
+          },
+          "friday": {
+            "open": "07:00",
+            "close": "21:00"
+          },
+          "saturday": {
+            "open": "07:00",
+            "close": "21:00"
+          },
+          "sunday": {
+            "open": "08:00",
+            "close": "14:00"
+          }
+        },
+        "waMessageConfig": {
+          "waPhoneNumber": "+5491123456789",
+          "chatMessageConfig": {
+            "header": "Fresh Market - Solicitud de pedido.",
+            "welcomeMessage": "Hola Fresh Market! Tengo un nuevo pedido para ti. Estos son los detalles:",
+            "contactData": {
+              "whatsappNumbers": [
+                "+5491123456789"
+              ],
+              "phones": [
+                "+541123456789"
+              ],
+              "emails": [
+                "pedidos@freshmarket.com"
+              ]
+            }
+          }
+        },
+        "deliveryMethods": [
+          {
+            "type": "motoDelivery",
+            "enabled": true,
+            "uiData": {
+              "label": "Moto delivery",
+              "emoji": "🛵",
+              "icon": "🛵",
+              "maxRadius": "10 kms",
+              "availableHours": "07:00 - 21:00",
+              "estimatedTime": "60-120 min",
+              "showAvailableHours": true,
+              "showMaxRadius": true
+            },
+            "constraints": {
+              "maxDistanceInKms": 10,
+              "originCoordinates": {
+                "lat": -34.6037,
+                "lng": -58.3816
+              },
+              "availableHours": {
+                "start": "07:00",
+                "end": "21:00"
+              },
+              "pricing": {
+                "basePrice": 0,
+                "currency": "ARS",
+                "distancePricing": [
+                  {
+                    "from": 0,
+                    "to": 4,
+                    "addPrice": 0
+                  },
+                  {
+                    "from": 4,
+                    "to": 7,
+                    "addPrice": 500
+                  },
+                  {
+                    "from": 7,
+                    "to": 10,
+                    "addPrice": 1000
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "pickup",
+            "enabled": true,
+            "uiData": {
+              "label": "Retiro en sucursal",
+              "emoji": "🏪",
+              "icon": "🏪",
+              "estimatedTime": "Disponible en 30 min",
+              "showEstimatedTime": true,
+              "showSchedule": true
+            },
+            "constraints": {
+              "preparationTimeInMinutes": 30,
+              "pickupInstructions": "Pasa por la sucursal y menciona tu nombre.",
+              "pickupPointCompleteAddress": "Sucursal Centro - Av. Corrientes 5678",
+              "pickupCoordinates": {
+                "lat": -34.6037,
+                "lng": -58.3816
+              },
+              "workingHours": {
+                "monday": {
+                  "open": "07:00",
+                  "close": "21:00"
+                },
+                "tuesday": {
+                  "open": "07:00",
+                  "close": "21:00"
+                },
+                "wednesday": {
+                  "open": "07:00",
+                  "close": "21:00"
+                },
+                "thursday": {
+                  "open": "07:00",
+                  "close": "21:00"
+                },
+                "friday": {
+                  "open": "07:00",
+                  "close": "21:00"
+                },
+                "saturday": {
+                  "open": "07:00",
+                  "close": "21:00"
+                },
+                "sunday": {
+                  "open": "08:00",
+                  "close": "14:00"
+                }
+              }
+            }
+          }
+        ],
+        "paymentMethods": [
+          {
+            "type": "CASH_PAYMENT",
+            "enabled": true,
+            "uiData": {
+              "label": "Efectivo",
+              "emoji": "💵",
+              "icon": "💵",
+              "description": "Al retirar/recibir tu pedido",
+              "showDescription": true
+            },
+            "constraints": {}
+          },
+          {
+            "type": "CREDIT_CARD_PAYMENT",
+            "enabled": true,
+            "uiData": {
+              "label": "Tarjeta de Crédito",
+              "emoji": "💳",
+              "icon": "💳",
+              "description": "Al retirar/recibir tu pedido",
+              "showDescription": true
+            },
+            "constraints": {}
+          },
+          {
+            "type": "BANK_TRANSFER_PAYMENT",
+            "enabled": true,
+            "uiData": {
+              "label": "Transferencia Bancaria",
+              "emoji": "🏦",
+              "icon": "🏦",
+              "description": "Al retirar/recibir tu pedido",
+              "showDescription": true
+            },
+            "constraints": {}
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": "cat_frutas",
+        "name": "Frutas",
+        "displayOrder": 1,
+        "slug": "frutas",
+        "itemsCount": 15,
+        "label": "Frutas",
+        "emoji": "🍎"
+      },
+      {
+        "id": "cat_verduras",
+        "name": "Verduras",
+        "displayOrder": 2,
+        "slug": "verduras",
+        "itemsCount": 15,
+        "label": "Verduras",
+        "emoji": "🥕"
+      },
+      {
+        "id": "cat_frutos_secos",
+        "name": "Frutos Secos",
+        "displayOrder": 3,
+        "slug": "frutos-secos",
+        "itemsCount": 8,
+        "label": "Frutos Secos",
+        "emoji": "🥜"
+      },
+      {
+        "id": "cat_organicos",
+        "name": "Orgánicos",
+        "displayOrder": 4,
+        "slug": "organicos",
+        "itemsCount": 2,
+        "label": "Orgánicos",
+        "emoji": "🌱"
+      }
+    ],
+    "products": [
+      {
+        "id": "prod_001_manzana_roja",
+        "name": "Manzana Roja",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Manzanas rojas frescas y crujientes, perfectas para comer o cocinar.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2016/08/11/08/43/apple-1585517_960_720.jpg",
+            "alt": "Manzana Roja",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_frutas",
+            "name": "Frutas",
+            "slug": "frutas",
+            "displayOrder": 1
+          }
+        ],
+        "reviewsCount": 456,
+        "rating": 4.8,
+        "tags": [
+          "manzana",
+          "fruta",
+          "fresca",
+          "roja"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "cantidad",
+          "label": "Cantidad",
+          "options": [
+            {
+              "id": "qty_500g",
+              "name": "500g",
+              "label": "500g (aprox. 3-4 unidades)",
+              "price": {
+                "basePrice": 800,
+                "discount": null,
+                "finalPrice": 800
+              },
+              "sku": "MANZ-ROJ-500",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "qty_1kg",
+              "name": "1 Kg",
+              "label": "1 Kg (aprox. 6-8 unidades)",
+              "price": {
+                "basePrice": 1500,
+                "discount": 100,
+                "finalPrice": 1400
+              },
+              "sku": "MANZ-ROJ-1K",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "qty_2kg",
+              "name": "2 Kg",
+              "label": "2 Kg (aprox. 12-16 unidades)",
+              "price": {
+                "basePrice": 2800,
+                "discount": 300,
+                "finalPrice": 2500
+              },
+              "sku": "MANZ-ROJ-2K",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_002_manzana_verde",
+        "name": "Manzana Verde Granny Smith",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Manzanas verdes ácidas y crujientes, ideales para ensaladas y postres.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2016/03/05/22/31/apples-1239300_960_720.jpg",
+            "alt": "Manzana Verde",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_frutas",
+            "name": "Frutas",
+            "slug": "frutas",
+            "displayOrder": 1
+          }
+        ],
+        "reviewsCount": 298,
+        "rating": 4.7,
+        "tags": [
+          "manzana",
+          "verde",
+          "granny smith",
+          "acida"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "cantidad",
+          "label": "Cantidad",
+          "options": [
+            {
+              "id": "qty_500g",
+              "name": "500g",
+              "label": "500g (aprox. 3-4 unidades)",
+              "price": {
+                "basePrice": 850,
+                "discount": null,
+                "finalPrice": 850
+              },
+              "sku": "MANZ-VER-500",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "qty_1kg",
+              "name": "1 Kg",
+              "label": "1 Kg (aprox. 6-8 unidades)",
+              "price": {
+                "basePrice": 1600,
+                "discount": null,
+                "finalPrice": 1600
+              },
+              "sku": "MANZ-VER-1K",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_003_banana",
+        "name": "Banana",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Bananas dulces y maduras, fuente natural de energía y potasio.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2017/06/02/18/24/fruit-2367209_960_720.jpg",
+            "alt": "Banana",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_frutas",
+            "name": "Frutas",
+            "slug": "frutas",
+            "displayOrder": 1
+          }
+        ],
+        "reviewsCount": 523,
+        "rating": 4.9,
+        "tags": [
+          "banana",
+          "platano",
+          "potasio",
+          "energia"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "cantidad",
+          "label": "Cantidad",
+          "options": [
+            {
+              "id": "qty_500g",
+              "name": "500g",
+              "label": "500g (aprox. 3-4 unidades)",
+              "price": {
+                "basePrice": 600,
+                "discount": null,
+                "finalPrice": 600
+              },
+              "sku": "BAN-500",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "qty_1kg",
+              "name": "1 Kg",
+              "label": "1 Kg (aprox. 6-8 unidades)",
+              "price": {
+                "basePrice": 1100,
+                "discount": 100,
+                "finalPrice": 1000
+              },
+              "sku": "BAN-1K",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "qty_2kg",
+              "name": "2 Kg",
+              "label": "2 Kg",
+              "price": {
+                "basePrice": 2000,
+                "discount": 200,
+                "finalPrice": 1800
+              },
+              "sku": "BAN-2K",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_004_naranja",
+        "name": "Naranja para Jugo",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Naranjas jugosas ideales para exprimir, ricas en vitamina C.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2017/01/20/15/06/oranges-1995056_960_720.jpg",
+            "alt": "Naranja",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_frutas",
+            "name": "Frutas",
+            "slug": "frutas",
+            "displayOrder": 1
+          }
+        ],
+        "reviewsCount": 412,
+        "rating": 4.8,
+        "tags": [
+          "naranja",
+          "citrico",
+          "jugo",
+          "vitamina c"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "cantidad",
+          "label": "Cantidad",
+          "options": [
+            {
+              "id": "qty_1kg",
+              "name": "1 Kg",
+              "label": "1 Kg (aprox. 4-5 unidades)",
+              "price": {
+                "basePrice": 900,
+                "discount": null,
+                "finalPrice": 900
+              },
+              "sku": "NAR-1K",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "qty_2kg",
+              "name": "2 Kg",
+              "label": "2 Kg (aprox. 8-10 unidades)",
+              "price": {
+                "basePrice": 1700,
+                "discount": 100,
+                "finalPrice": 1600
+              },
+              "sku": "NAR-2K",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "qty_5kg",
+              "name": "5 Kg",
+              "label": "5 Kg (bolsa)",
+              "price": {
+                "basePrice": 4000,
+                "discount": 500,
+                "finalPrice": 3500
+              },
+              "sku": "NAR-5K",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_005_mandarina",
+        "name": "Mandarina",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Mandarinas dulces y fáciles de pelar, perfectas para snack.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2016/11/30/15/23/clementines-1871284_960_720.jpg",
+            "alt": "Mandarina",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_frutas",
+            "name": "Frutas",
+            "slug": "frutas",
+            "displayOrder": 1
+          }
+        ],
+        "reviewsCount": 367,
+        "rating": 4.7,
+        "tags": [
+          "mandarina",
+          "citrico",
+          "dulce",
+          "snack"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "cantidad",
+          "label": "Cantidad",
+          "options": [
+            {
+              "id": "qty_500g",
+              "name": "500g",
+              "label": "500g (aprox. 3-4 unidades)",
+              "price": {
+                "basePrice": 700,
+                "discount": null,
+                "finalPrice": 700
+              },
+              "sku": "MAND-500",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "qty_1kg",
+              "name": "1 Kg",
+              "label": "1 Kg (aprox. 6-8 unidades)",
+              "price": {
+                "basePrice": 1300,
+                "discount": null,
+                "finalPrice": 1300
+              },
+              "sku": "MAND-1K",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_006_pera",
+        "name": "Pera",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Peras dulces y jugosas, ideales para comer o cocinar.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2016/03/05/22/31/pears-1239313_960_720.jpg",
+            "alt": "Pera",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_frutas",
+            "name": "Frutas",
+            "slug": "frutas",
+            "displayOrder": 1
+          }
+        ],
+        "reviewsCount": 234,
+        "rating": 4.6,
+        "tags": [
+          "pera",
+          "fruta",
+          "jugosa",
+          "dulce"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": false
+        },
+        "templateVariant": {
+          "name": "cantidad",
+          "label": "Cantidad",
+          "options": [
+            {
+              "id": "qty_500g",
+              "name": "500g",
+              "label": "500g (aprox. 2-3 unidades)",
+              "price": {
+                "basePrice": 950,
+                "discount": null,
+                "finalPrice": 950
+              },
+              "sku": "PERA-500",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "qty_1kg",
+              "name": "1 Kg",
+              "label": "1 Kg (aprox. 4-6 unidades)",
+              "price": {
+                "basePrice": 1800,
+                "discount": null,
+                "finalPrice": 1800
+              },
+              "sku": "PERA-1K",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_007_frutilla",
+        "name": "Frutilla",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Frutillas frescas y dulces, perfectas para postres y ensaladas.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2017/06/02/18/24/fruit-2367029_960_720.jpg",
+            "alt": "Frutilla",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_frutas",
+            "name": "Frutas",
+            "slug": "frutas",
+            "displayOrder": 1
+          }
+        ],
+        "reviewsCount": 589,
+        "rating": 4.9,
+        "tags": [
+          "frutilla",
+          "fresa",
+          "dulce",
+          "postre"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "cantidad",
+          "label": "Cantidad",
+          "options": [
+            {
+              "id": "qty_250g",
+              "name": "250g",
+              "label": "250g (envase)",
+              "price": {
+                "basePrice": 1200,
+                "discount": null,
+                "finalPrice": 1200
+              },
+              "sku": "FRUT-250",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "qty_500g",
+              "name": "500g",
+              "label": "500g (envase)",
+              "price": {
+                "basePrice": 2200,
+                "discount": 200,
+                "finalPrice": 2000
+              },
+              "sku": "FRUT-500",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "qty_1kg",
+              "name": "1 Kg",
+              "label": "1 Kg",
+              "price": {
+                "basePrice": 4000,
+                "discount": 400,
+                "finalPrice": 3600
+              },
+              "sku": "FRUT-1K",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_008_kiwi",
+        "name": "Kiwi",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Kiwis maduros y dulces, ricos en vitamina C y fibra.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2016/04/17/09/45/kiwi-1334712_960_720.jpg",
+            "alt": "Kiwi",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_frutas",
+            "name": "Frutas",
+            "slug": "frutas",
+            "displayOrder": 1
+          }
+        ],
+        "reviewsCount": 178,
+        "rating": 4.5,
+        "tags": [
+          "kiwi",
+          "vitamina c",
+          "fibra",
+          "exotico"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": false
+        },
+        "templateVariant": {
+          "name": "cantidad",
+          "label": "Cantidad",
+          "options": [
+            {
+              "id": "qty_500g",
+              "name": "500g",
+              "label": "500g (aprox. 4-5 unidades)",
+              "price": {
+                "basePrice": 1400,
+                "discount": null,
+                "finalPrice": 1400
+              },
+              "sku": "KIWI-500",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "qty_1kg",
+              "name": "1 Kg",
+              "label": "1 Kg (aprox. 8-10 unidades)",
+              "price": {
+                "basePrice": 2600,
+                "discount": null,
+                "finalPrice": 2600
+              },
+              "sku": "KIWI-1K",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_009_uva",
+        "name": "Uva",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Uvas sin semilla, dulces y crujientes, perfectas para snack.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2016/03/05/22/31/grapes-1239292_960_720.jpg",
+            "alt": "Uva",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_frutas",
+            "name": "Frutas",
+            "slug": "frutas",
+            "displayOrder": 1
+          }
+        ],
+        "reviewsCount": 312,
+        "rating": 4.7,
+        "tags": [
+          "uva",
+          "sin semilla",
+          "dulce",
+          "snack"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "cantidad",
+          "label": "Cantidad",
+          "options": [
+            {
+              "id": "qty_500g",
+              "name": "500g",
+              "label": "500g",
+              "price": {
+                "basePrice": 1800,
+                "discount": null,
+                "finalPrice": 1800
+              },
+              "sku": "UVA-500",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "qty_1kg",
+              "name": "1 Kg",
+              "label": "1 Kg",
+              "price": {
+                "basePrice": 3400,
+                "discount": 200,
+                "finalPrice": 3200
+              },
+              "sku": "UVA-1K",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_010_limon",
+        "name": "Limón",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Limones frescos y jugosos, ideales para cocinar y bebidas.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2017/02/05/12/31/lemons-2039830_960_720.jpg",
+            "alt": "Limón",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_frutas",
+            "name": "Frutas",
+            "slug": "frutas",
+            "displayOrder": 1
+          }
+        ],
+        "reviewsCount": 445,
+        "rating": 4.6,
+        "tags": [
+          "limon",
+          "citrico",
+          "jugoso",
+          "acido"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "cantidad",
+          "label": "Cantidad",
+          "options": [
+            {
+              "id": "qty_500g",
+              "name": "500g",
+              "label": "500g (aprox. 4-5 unidades)",
+              "price": {
+                "basePrice": 600,
+                "discount": null,
+                "finalPrice": 600
+              },
+              "sku": "LIM-500",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "qty_1kg",
+              "name": "1 Kg",
+              "label": "1 Kg (aprox. 8-10 unidades)",
+              "price": {
+                "basePrice": 1100,
+                "discount": null,
+                "finalPrice": 1100
+              },
+              "sku": "LIM-1K",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_011_sandia",
+        "name": "Sandía",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Sandía fresca y jugosa, perfecta para refrescar en verano.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2017/06/02/18/24/fruit-2367029_960_720.jpg",
+            "alt": "Sandía",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_frutas",
+            "name": "Frutas",
+            "slug": "frutas",
+            "displayOrder": 1
+          }
+        ],
+        "reviewsCount": 267,
+        "rating": 4.7,
+        "tags": [
+          "sandia",
+          "verano",
+          "jugosa",
+          "refrescante"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "tipo",
+          "label": "Presentación",
+          "options": [
+            {
+              "id": "type_cuarto",
+              "name": "Cuarto",
+              "label": "Cuarto de sandía",
+              "price": {
+                "basePrice": 2500,
+                "discount": null,
+                "finalPrice": 2500
+              },
+              "sku": "SAND-1/4",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "type_media",
+              "name": "Media",
+              "label": "Media sandía",
+              "price": {
+                "basePrice": 4500,
+                "discount": 500,
+                "finalPrice": 4000
+              },
+              "sku": "SAND-1/2",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "type_entera",
+              "name": "Entera",
+              "label": "Sandía entera",
+              "price": {
+                "basePrice": 8000,
+                "discount": 1000,
+                "finalPrice": 7000
+              },
+              "sku": "SAND-ENT",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_012_melon",
+        "name": "Melón",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Melón dulce y aromático, ideal para desayunos y postres.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2017/09/26/13/21/melon-2788613_960_720.jpg",
+            "alt": "Melón",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_frutas",
+            "name": "Frutas",
+            "slug": "frutas",
+            "displayOrder": 1
+          }
+        ],
+        "reviewsCount": 189,
+        "rating": 4.5,
+        "tags": [
+          "melon",
+          "dulce",
+          "aromatico",
+          "fresco"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": false
+        },
+        "templateVariant": {
+          "name": "tipo",
+          "label": "Presentación",
+          "options": [
+            {
+              "id": "type_cuarto",
+              "name": "Cuarto",
+              "label": "Cuarto de melón",
+              "price": {
+                "basePrice": 1800,
+                "discount": null,
+                "finalPrice": 1800
+              },
+              "sku": "MEL-1/4",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "type_media",
+              "name": "Media",
+              "label": "Medio melón",
+              "price": {
+                "basePrice": 3200,
+                "discount": null,
+                "finalPrice": 3200
+              },
+              "sku": "MEL-1/2",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "type_entero",
+              "name": "Entero",
+              "label": "Melón entero",
+              "price": {
+                "basePrice": 6000,
+                "discount": 600,
+                "finalPrice": 5400
+              },
+              "sku": "MEL-ENT",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_013_durazno",
+        "name": "Durazno",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Duraznos maduros y dulces, perfectos para comer o conservar.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2016/03/05/22/31/peach-1239239_960_720.jpg",
+            "alt": "Durazno",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_frutas",
+            "name": "Frutas",
+            "slug": "frutas",
+            "displayOrder": 1
+          }
+        ],
+        "reviewsCount": 223,
+        "rating": 4.6,
+        "tags": [
+          "durazno",
+          "melocoton",
+          "dulce",
+          "jugoso"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": false
+        },
+        "templateVariant": {
+          "name": "cantidad",
+          "label": "Cantidad",
+          "options": [
+            {
+              "id": "qty_500g",
+              "name": "500g",
+              "label": "500g (aprox. 2-3 unidades)",
+              "price": {
+                "basePrice": 1100,
+                "discount": null,
+                "finalPrice": 1100
+              },
+              "sku": "DUR-500",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "qty_1kg",
+              "name": "1 Kg",
+              "label": "1 Kg (aprox. 4-6 unidades)",
+              "price": {
+                "basePrice": 2000,
+                "discount": null,
+                "finalPrice": 2000
+              },
+              "sku": "DUR-1K",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_014_ciruela",
+        "name": "Ciruela",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Ciruelas frescas y jugosas, ideales para snacks saludables.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2016/07/22/09/59/fruits-1534494_960_720.jpg",
+            "alt": "Ciruela",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_frutas",
+            "name": "Frutas",
+            "slug": "frutas",
+            "displayOrder": 1
+          }
+        ],
+        "reviewsCount": 156,
+        "rating": 4.4,
+        "tags": [
+          "ciruela",
+          "jugosa",
+          "snack",
+          "saludable"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": false
+        },
+        "templateVariant": {
+          "name": "cantidad",
+          "label": "Cantidad",
+          "options": [
+            {
+              "id": "qty_500g",
+              "name": "500g",
+              "label": "500g (aprox. 4-6 unidades)",
+              "price": {
+                "basePrice": 1300,
+                "discount": null,
+                "finalPrice": 1300
+              },
+              "sku": "CIR-500",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "qty_1kg",
+              "name": "1 Kg",
+              "label": "1 Kg",
+              "price": {
+                "basePrice": 2400,
+                "discount": null,
+                "finalPrice": 2400
+              },
+              "sku": "CIR-1K",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_015_arandanos",
+        "name": "Arándanos",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Arándanos frescos, ricos en antioxidantes y perfectos para smoothies.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2017/06/02/18/24/fruit-2367029_960_720.jpg",
+            "alt": "Arándanos",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_frutas",
+            "name": "Frutas",
+            "slug": "frutas",
+            "displayOrder": 1
+          }
+        ],
+        "reviewsCount": 412,
+        "rating": 4.8,
+        "tags": [
+          "arandanos",
+          "berries",
+          "antioxidantes",
+          "smoothie"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "cantidad",
+          "label": "Cantidad",
+          "options": [
+            {
+              "id": "qty_125g",
+              "name": "125g",
+              "label": "125g (envase)",
+              "price": {
+                "basePrice": 1800,
+                "discount": null,
+                "finalPrice": 1800
+              },
+              "sku": "ARAN-125",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "qty_250g",
+              "name": "250g",
+              "label": "250g (envase)",
+              "price": {
+                "basePrice": 3400,
+                "discount": 200,
+                "finalPrice": 3200
+              },
+              "sku": "ARAN-250",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_016_tomate",
+        "name": "Tomate Redondo",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Tomates rojos y maduros, ideales para ensaladas y salsas.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2016/08/11/08/43/tomato-1585141_960_720.jpg",
+            "alt": "Tomate",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_verduras",
+            "name": "Verduras",
+            "slug": "verduras",
+            "displayOrder": 2
+          }
+        ],
+        "reviewsCount": 534,
+        "rating": 4.7,
+        "tags": [
+          "tomate",
+          "rojo",
+          "ensalada",
+          "salsa"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "cantidad",
+          "label": "Cantidad",
+          "options": [
+            {
+              "id": "qty_500g",
+              "name": "500g",
+              "label": "500g (aprox. 3-4 unidades)",
+              "price": {
+                "basePrice": 800,
+                "discount": null,
+                "finalPrice": 800
+              },
+              "sku": "TOM-500",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "qty_1kg",
+              "name": "1 Kg",
+              "label": "1 Kg",
+              "price": {
+                "basePrice": 1500,
+                "discount": 100,
+                "finalPrice": 1400
+              },
+              "sku": "TOM-1K",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "qty_2kg",
+              "name": "2 Kg",
+              "label": "2 Kg",
+              "price": {
+                "basePrice": 2800,
+                "discount": 300,
+                "finalPrice": 2500
+              },
+              "sku": "TOM-2K",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_017_lechuga",
+        "name": "Lechuga Capuchina",
+        "type": "BASIC_PRODUCT",
+        "description": "Lechuga fresca y crujiente, perfecta para ensaladas.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2016/08/11/08/49/lettuce-1585412_960_720.jpg",
+            "alt": "Lechuga",
+            "default": true
+          }
+        ],
+        "price": {
+          "basePrice": 1200,
+          "discount": 200,
+          "finalPrice": 1000
+        },
+        "categories": [
+          {
+            "id": "cat_verduras",
+            "name": "Verduras",
+            "slug": "verduras",
+            "displayOrder": 2
+          }
+        ],
+        "reviewsCount": 412,
+        "rating": 4.6,
+        "tags": [
+          "lechuga",
+          "ensalada",
+          "fresca",
+          "verde"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "type": "BASIC_PRODUCT",
+        "templateVariant": null,
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "UNIQUE_PRICE"
+      },
+      {
+        "id": "prod_018_cebolla",
+        "name": "Cebolla",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Cebollas frescas para dar sabor a tus comidas.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2016/08/11/08/49/onions-1585427_960_720.jpg",
+            "alt": "Cebolla",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_verduras",
+            "name": "Verduras",
+            "slug": "verduras",
+            "displayOrder": 2
+          }
+        ],
+        "reviewsCount": 389,
+        "rating": 4.5,
+        "tags": [
+          "cebolla",
+          "condimento",
+          "cocina",
+          "basico"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "cantidad",
+          "label": "Cantidad",
+          "options": [
+            {
+              "id": "qty_500g",
+              "name": "500g",
+              "label": "500g (aprox. 2-3 unidades)",
+              "price": {
+                "basePrice": 600,
+                "discount": null,
+                "finalPrice": 600
+              },
+              "sku": "CEB-500",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "qty_1kg",
+              "name": "1 Kg",
+              "label": "1 Kg",
+              "price": {
+                "basePrice": 1100,
+                "discount": null,
+                "finalPrice": 1100
+              },
+              "sku": "CEB-1K",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_019_papa",
+        "name": "Papa",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Papas frescas y versátiles para cualquier preparación.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2016/08/11/08/49/potatoes-1585060_960_720.jpg",
+            "alt": "Papa",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_verduras",
+            "name": "Verduras",
+            "slug": "verduras",
+            "displayOrder": 2
+          }
+        ],
+        "reviewsCount": 678,
+        "rating": 4.8,
+        "tags": [
+          "papa",
+          "tuberculo",
+          "versatil",
+          "basico"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "cantidad",
+          "label": "Cantidad",
+          "options": [
+            {
+              "id": "qty_1kg",
+              "name": "1 Kg",
+              "label": "1 Kg",
+              "price": {
+                "basePrice": 900,
+                "discount": null,
+                "finalPrice": 900
+              },
+              "sku": "PAPA-1K",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "qty_2kg",
+              "name": "2 Kg",
+              "label": "2 Kg",
+              "price": {
+                "basePrice": 1700,
+                "discount": 100,
+                "finalPrice": 1600
+              },
+              "sku": "PAPA-2K",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "qty_5kg",
+              "name": "5 Kg",
+              "label": "5 Kg (bolsa)",
+              "price": {
+                "basePrice": 4000,
+                "discount": 500,
+                "finalPrice": 3500
+              },
+              "sku": "PAPA-5K",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_020_zanahoria",
+        "name": "Zanahoria",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Zanahorias frescas y crujientes, ricas en vitamina A.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2016/08/11/08/49/carrots-1585074_960_720.jpg",
+            "alt": "Zanahoria",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_verduras",
+            "name": "Verduras",
+            "slug": "verduras",
+            "displayOrder": 2
+          }
+        ],
+        "reviewsCount": 445,
+        "rating": 4.7,
+        "tags": [
+          "zanahoria",
+          "vitamina a",
+          "crujiente",
+          "naranja"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "cantidad",
+          "label": "Cantidad",
+          "options": [
+            {
+              "id": "qty_500g",
+              "name": "500g",
+              "label": "500g (aprox. 3-4 unidades)",
+              "price": {
+                "basePrice": 700,
+                "discount": null,
+                "finalPrice": 700
+              },
+              "sku": "ZAN-500",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "qty_1kg",
+              "name": "1 Kg",
+              "label": "1 Kg",
+              "price": {
+                "basePrice": 1300,
+                "discount": null,
+                "finalPrice": 1300
+              },
+              "sku": "ZAN-1K",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_021_morron",
+        "name": "Morrón Rojo",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Morrones rojos dulces y jugosos, perfectos para ensaladas y rellenos.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2016/03/05/22/31/bell-pepper-1239267_960_720.jpg",
+            "alt": "Morrón",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_verduras",
+            "name": "Verduras",
+            "slug": "verduras",
+            "displayOrder": 2
+          }
+        ],
+        "reviewsCount": 312,
+        "rating": 4.6,
+        "tags": [
+          "morron",
+          "pimiento",
+          "rojo",
+          "dulce"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "cantidad",
+          "label": "Cantidad",
+          "options": [
+            {
+              "id": "qty_500g",
+              "name": "500g",
+              "label": "500g (aprox. 2 unidades)",
+              "price": {
+                "basePrice": 1400,
+                "discount": null,
+                "finalPrice": 1400
+              },
+              "sku": "MOR-500",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "qty_1kg",
+              "name": "1 Kg",
+              "label": "1 Kg (aprox. 4 unidades)",
+              "price": {
+                "basePrice": 2600,
+                "discount": null,
+                "finalPrice": 2600
+              },
+              "sku": "MOR-1K",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_022_brocoli",
+        "name": "Brócoli",
+        "type": "BASIC_PRODUCT",
+        "description": "Brócoli fresco, rico en nutrientes y perfecto al vapor.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2016/03/05/22/31/broccoli-1239233_960_720.jpg",
+            "alt": "Brócoli",
+            "default": true
+          }
+        ],
+        "price": {
+          "basePrice": 1800,
+          "discount": 300,
+          "finalPrice": 1500
+        },
+        "categories": [
+          {
+            "id": "cat_verduras",
+            "name": "Verduras",
+            "slug": "verduras",
+            "displayOrder": 2
+          }
+        ],
+        "reviewsCount": 267,
+        "rating": 4.5,
+        "tags": [
+          "brocoli",
+          "verde",
+          "nutriente",
+          "saludable"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": false
+        },
+        "type": "BASIC_PRODUCT",
+        "templateVariant": null,
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "UNIQUE_PRICE"
+      },
+      {
+        "id": "prod_023_coliflor",
+        "name": "Coliflor",
+        "type": "BASIC_PRODUCT",
+        "description": "Coliflor fresca, versátil para gratinar o comer al vapor.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2017/11/12/20/38/cauliflower-2943813_960_720.jpg",
+            "alt": "Coliflor",
+            "default": true
+          }
+        ],
+        "price": {
+          "basePrice": 1600,
+          "discount": null,
+          "finalPrice": 1600
+        },
+        "categories": [
+          {
+            "id": "cat_verduras",
+            "name": "Verduras",
+            "slug": "verduras",
+            "displayOrder": 2
+          }
+        ],
+        "reviewsCount": 189,
+        "rating": 4.4,
+        "tags": [
+          "coliflor",
+          "blanca",
+          "versatil",
+          "saludable"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": false
+        },
+        "type": "BASIC_PRODUCT",
+        "templateVariant": null,
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "UNIQUE_PRICE"
+      },
+      {
+        "id": "prod_024_espinaca",
+        "name": "Espinaca",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Espinaca fresca, rica en hierro y perfecta para ensaladas.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2016/03/05/22/31/spinach-1239301_960_720.jpg",
+            "alt": "Espinaca",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_verduras",
+            "name": "Verduras",
+            "slug": "verduras",
+            "displayOrder": 2
+          }
+        ],
+        "reviewsCount": 234,
+        "rating": 4.6,
+        "tags": [
+          "espinaca",
+          "hierro",
+          "verde",
+          "saludable"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": false
+        },
+        "templateVariant": {
+          "name": "cantidad",
+          "label": "Cantidad",
+          "options": [
+            {
+              "id": "qty_250g",
+              "name": "250g",
+              "label": "250g (atado)",
+              "price": {
+                "basePrice": 800,
+                "discount": null,
+                "finalPrice": 800
+              },
+              "sku": "ESP-250",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "qty_500g",
+              "name": "500g",
+              "label": "500g",
+              "price": {
+                "basePrice": 1500,
+                "discount": null,
+                "finalPrice": 1500
+              },
+              "sku": "ESP-500",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_025_acelga",
+        "name": "Acelga",
+        "type": "BASIC_PRODUCT",
+        "description": "Acelga fresca de hoja verde, perfecta para tartas y rellenos.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2017/11/12/20/38/vegetables-2943813_960_720.jpg",
+            "alt": "Acelga",
+            "default": true
+          }
+        ],
+        "price": {
+          "basePrice": 1000,
+          "discount": null,
+          "finalPrice": 1000
+        },
+        "categories": [
+          {
+            "id": "cat_verduras",
+            "name": "Verduras",
+            "slug": "verduras",
+            "displayOrder": 2
+          }
+        ],
+        "reviewsCount": 178,
+        "rating": 4.5,
+        "tags": [
+          "acelga",
+          "verde",
+          "tarta",
+          "relleno"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": false
+        },
+        "type": "BASIC_PRODUCT",
+        "templateVariant": null,
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "UNIQUE_PRICE"
+      },
+      {
+        "id": "prod_026_calabaza",
+        "name": "Calabaza Anco",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Calabaza anco dulce y cremosa, ideal para sopas y purés.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2016/08/11/08/49/pumpkin-1585527_960_720.jpg",
+            "alt": "Calabaza",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_verduras",
+            "name": "Verduras",
+            "slug": "verduras",
+            "displayOrder": 2
+          }
+        ],
+        "reviewsCount": 289,
+        "rating": 4.7,
+        "tags": [
+          "calabaza",
+          "anco",
+          "dulce",
+          "sopa"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "tipo",
+          "label": "Presentación",
+          "options": [
+            {
+              "id": "type_cuarto",
+              "name": "Cuarto",
+              "label": "Cuarto (aprox. 500-700g)",
+              "price": {
+                "basePrice": 1200,
+                "discount": null,
+                "finalPrice": 1200
+              },
+              "sku": "CAL-1/4",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "type_media",
+              "name": "Media",
+              "label": "Media (aprox. 1-1.5kg)",
+              "price": {
+                "basePrice": 2200,
+                "discount": 200,
+                "finalPrice": 2000
+              },
+              "sku": "CAL-1/2",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "type_entera",
+              "name": "Entera",
+              "label": "Entera (aprox. 2-3kg)",
+              "price": {
+                "basePrice": 4000,
+                "discount": 500,
+                "finalPrice": 3500
+              },
+              "sku": "CAL-ENT",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_027_zapallito",
+        "name": "Zapallito",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Zapallitos tiernos, ideales para rellenos y salteados.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2016/08/11/08/49/zucchini-1585539_960_720.jpg",
+            "alt": "Zapallito",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_verduras",
+            "name": "Verduras",
+            "slug": "verduras",
+            "displayOrder": 2
+          }
+        ],
+        "reviewsCount": 198,
+        "rating": 4.5,
+        "tags": [
+          "zapallito",
+          "zucchini",
+          "tierno",
+          "relleno"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": false
+        },
+        "templateVariant": {
+          "name": "cantidad",
+          "label": "Cantidad",
+          "options": [
+            {
+              "id": "qty_500g",
+              "name": "500g",
+              "label": "500g (aprox. 3-4 unidades)",
+              "price": {
+                "basePrice": 900,
+                "discount": null,
+                "finalPrice": 900
+              },
+              "sku": "ZAP-500",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "qty_1kg",
+              "name": "1 Kg",
+              "label": "1 Kg",
+              "price": {
+                "basePrice": 1700,
+                "discount": null,
+                "finalPrice": 1700
+              },
+              "sku": "ZAP-1K",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_028_berenjena",
+        "name": "Berenjena",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Berenjenas frescas, perfectas para milanesas y rellenos.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2016/08/11/08/49/eggplant-1585321_960_720.jpg",
+            "alt": "Berenjena",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_verduras",
+            "name": "Verduras",
+            "slug": "verduras",
+            "displayOrder": 2
+          }
+        ],
+        "reviewsCount": 156,
+        "rating": 4.4,
+        "tags": [
+          "berenjena",
+          "milanesa",
+          "relleno",
+          "morada"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": false
+        },
+        "templateVariant": {
+          "name": "cantidad",
+          "label": "Cantidad",
+          "options": [
+            {
+              "id": "qty_500g",
+              "name": "500g",
+              "label": "500g (aprox. 1-2 unidades)",
+              "price": {
+                "basePrice": 1100,
+                "discount": null,
+                "finalPrice": 1100
+              },
+              "sku": "BER-500",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "qty_1kg",
+              "name": "1 Kg",
+              "label": "1 Kg (aprox. 2-4 unidades)",
+              "price": {
+                "basePrice": 2000,
+                "discount": null,
+                "finalPrice": 2000
+              },
+              "sku": "BER-1K",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_029_pepino",
+        "name": "Pepino",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Pepinos frescos y crujientes para ensaladas.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2016/08/11/08/49/cucumber-1585357_960_720.jpg",
+            "alt": "Pepino",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_verduras",
+            "name": "Verduras",
+            "slug": "verduras",
+            "displayOrder": 2
+          }
+        ],
+        "reviewsCount": 267,
+        "rating": 4.5,
+        "tags": [
+          "pepino",
+          "ensalada",
+          "fresco",
+          "crujiente"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": false
+        },
+        "templateVariant": {
+          "name": "cantidad",
+          "label": "Cantidad",
+          "options": [
+            {
+              "id": "qty_500g",
+              "name": "500g",
+              "label": "500g (aprox. 2 unidades)",
+              "price": {
+                "basePrice": 800,
+                "discount": null,
+                "finalPrice": 800
+              },
+              "sku": "PEP-500",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "qty_1kg",
+              "name": "1 Kg",
+              "label": "1 Kg (aprox. 4 unidades)",
+              "price": {
+                "basePrice": 1500,
+                "discount": null,
+                "finalPrice": 1500
+              },
+              "sku": "PEP-1K",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_030_ajo",
+        "name": "Ajo",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Ajos frescos para condimentar tus comidas.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2016/03/05/22/31/garlic-1239369_960_720.jpg",
+            "alt": "Ajo",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_verduras",
+            "name": "Verduras",
+            "slug": "verduras",
+            "displayOrder": 2
+          }
+        ],
+        "reviewsCount": 423,
+        "rating": 4.6,
+        "tags": [
+          "ajo",
+          "condimento",
+          "aromático",
+          "cocina"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "cantidad",
+          "label": "Cantidad",
+          "options": [
+            {
+              "id": "qty_250g",
+              "name": "250g",
+              "label": "250g (aprox. 2-3 cabezas)",
+              "price": {
+                "basePrice": 800,
+                "discount": null,
+                "finalPrice": 800
+              },
+              "sku": "AJO-250",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "qty_500g",
+              "name": "500g",
+              "label": "500g (aprox. 5-6 cabezas)",
+              "price": {
+                "basePrice": 1500,
+                "discount": null,
+                "finalPrice": 1500
+              },
+              "sku": "AJO-500",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_031_almendras",
+        "name": "Almendras",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Almendras naturales, snack saludable rico en proteínas y grasas buenas.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2016/02/23/17/30/almonds-1218459_960_720.jpg",
+            "alt": "Almendras",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_frutos_secos",
+            "name": "Frutos Secos",
+            "slug": "frutos-secos",
+            "displayOrder": 3
+          }
+        ],
+        "reviewsCount": 567,
+        "rating": 4.8,
+        "tags": [
+          "almendras",
+          "frutos secos",
+          "proteina",
+          "saludable"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "cantidad",
+          "label": "Cantidad",
+          "options": [
+            {
+              "id": "qty_250g",
+              "name": "250g",
+              "label": "250g",
+              "price": {
+                "basePrice": 2800,
+                "discount": null,
+                "finalPrice": 2800
+              },
+              "sku": "ALM-250",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "qty_500g",
+              "name": "500g",
+              "label": "500g",
+              "price": {
+                "basePrice": 5200,
+                "discount": 400,
+                "finalPrice": 4800
+              },
+              "sku": "ALM-500",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "qty_1kg",
+              "name": "1 Kg",
+              "label": "1 Kg",
+              "price": {
+                "basePrice": 9500,
+                "discount": 1000,
+                "finalPrice": 8500
+              },
+              "sku": "ALM-1K",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_032_nueces",
+        "name": "Nueces",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Nueces frescas, ricas en omega-3 y perfectas para snack o repostería.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2016/07/07/16/42/nuts-1502555_960_720.jpg",
+            "alt": "Nueces",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_frutos_secos",
+            "name": "Frutos Secos",
+            "slug": "frutos-secos",
+            "displayOrder": 3
+          }
+        ],
+        "reviewsCount": 445,
+        "rating": 4.7,
+        "tags": [
+          "nueces",
+          "omega3",
+          "frutos secos",
+          "reposteria"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "cantidad",
+          "label": "Cantidad",
+          "options": [
+            {
+              "id": "qty_250g",
+              "name": "250g",
+              "label": "250g",
+              "price": {
+                "basePrice": 3200,
+                "discount": null,
+                "finalPrice": 3200
+              },
+              "sku": "NUE-250",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "qty_500g",
+              "name": "500g",
+              "label": "500g",
+              "price": {
+                "basePrice": 6000,
+                "discount": 500,
+                "finalPrice": 5500
+              },
+              "sku": "NUE-500",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "qty_1kg",
+              "name": "1 Kg",
+              "label": "1 Kg",
+              "price": {
+                "basePrice": 11000,
+                "discount": 1000,
+                "finalPrice": 10000
+              },
+              "sku": "NUE-1K",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_033_mani",
+        "name": "Maní Salado",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Maní tostado y salado, snack clásico y delicioso.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2016/07/07/16/42/peanuts-1502555_960_720.jpg",
+            "alt": "Maní",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_frutos_secos",
+            "name": "Frutos Secos",
+            "slug": "frutos-secos",
+            "displayOrder": 3
+          }
+        ],
+        "reviewsCount": 623,
+        "rating": 4.6,
+        "tags": [
+          "mani",
+          "cacahuate",
+          "salado",
+          "snack"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "cantidad",
+          "label": "Cantidad",
+          "options": [
+            {
+              "id": "qty_250g",
+              "name": "250g",
+              "label": "250g",
+              "price": {
+                "basePrice": 1200,
+                "discount": null,
+                "finalPrice": 1200
+              },
+              "sku": "MAN-250",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "qty_500g",
+              "name": "500g",
+              "label": "500g",
+              "price": {
+                "basePrice": 2200,
+                "discount": 200,
+                "finalPrice": 2000
+              },
+              "sku": "MAN-500",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "qty_1kg",
+              "name": "1 Kg",
+              "label": "1 Kg",
+              "price": {
+                "basePrice": 4000,
+                "discount": 500,
+                "finalPrice": 3500
+              },
+              "sku": "MAN-1K",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_034_pasas_uva",
+        "name": "Pasas de Uva",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Pasas de uva dulces y naturales, perfectas para postres y snacks.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2016/07/07/16/42/raisins-1502555_960_720.jpg",
+            "alt": "Pasas de Uva",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_frutos_secos",
+            "name": "Frutos Secos",
+            "slug": "frutos-secos",
+            "displayOrder": 3
+          }
+        ],
+        "reviewsCount": 312,
+        "rating": 4.5,
+        "tags": [
+          "pasas",
+          "uva",
+          "dulce",
+          "postre"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": false
+        },
+        "templateVariant": {
+          "name": "cantidad",
+          "label": "Cantidad",
+          "options": [
+            {
+              "id": "qty_250g",
+              "name": "250g",
+              "label": "250g",
+              "price": {
+                "basePrice": 1400,
+                "discount": null,
+                "finalPrice": 1400
+              },
+              "sku": "PAS-250",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "qty_500g",
+              "name": "500g",
+              "label": "500g",
+              "price": {
+                "basePrice": 2600,
+                "discount": null,
+                "finalPrice": 2600
+              },
+              "sku": "PAS-500",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_035_castanas_caju",
+        "name": "Castañas de Cajú",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Castañas de cajú premium, cremosas y deliciosas.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2016/10/22/20/55/cashews-1761652_960_720.jpg",
+            "alt": "Castañas de Cajú",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_frutos_secos",
+            "name": "Frutos Secos",
+            "slug": "frutos-secos",
+            "displayOrder": 3
+          }
+        ],
+        "reviewsCount": 478,
+        "rating": 4.8,
+        "tags": [
+          "caju",
+          "anacardo",
+          "premium",
+          "cremoso"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "cantidad",
+          "label": "Cantidad",
+          "options": [
+            {
+              "id": "qty_250g",
+              "name": "250g",
+              "label": "250g",
+              "price": {
+                "basePrice": 4200,
+                "discount": null,
+                "finalPrice": 4200
+              },
+              "sku": "CAJ-250",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "qty_500g",
+              "name": "500g",
+              "label": "500g",
+              "price": {
+                "basePrice": 8000,
+                "discount": 800,
+                "finalPrice": 7200
+              },
+              "sku": "CAJ-500",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "qty_1kg",
+              "name": "1 Kg",
+              "label": "1 Kg",
+              "price": {
+                "basePrice": 15000,
+                "discount": 2000,
+                "finalPrice": 13000
+              },
+              "sku": "CAJ-1K",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_036_pistachos",
+        "name": "Pistachos",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Pistachos tostados y salados, snack premium y nutritivo.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2016/07/07/16/42/pistachios-1502555_960_720.jpg",
+            "alt": "Pistachos",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_frutos_secos",
+            "name": "Frutos Secos",
+            "slug": "frutos-secos",
+            "displayOrder": 3
+          }
+        ],
+        "reviewsCount": 356,
+        "rating": 4.7,
+        "tags": [
+          "pistachos",
+          "premium",
+          "salado",
+          "verde"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "cantidad",
+          "label": "Cantidad",
+          "options": [
+            {
+              "id": "qty_250g",
+              "name": "250g",
+              "label": "250g",
+              "price": {
+                "basePrice": 5500,
+                "discount": null,
+                "finalPrice": 5500
+              },
+              "sku": "PIS-250",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "qty_500g",
+              "name": "500g",
+              "label": "500g",
+              "price": {
+                "basePrice": 10500,
+                "discount": 1000,
+                "finalPrice": 9500
+              },
+              "sku": "PIS-500",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_037_avellanas",
+        "name": "Avellanas",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Avellanas tostadas, perfectas para repostería y snacks.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2016/03/05/22/31/hazelnuts-1239378_960_720.jpg",
+            "alt": "Avellanas",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_frutos_secos",
+            "name": "Frutos Secos",
+            "slug": "frutos-secos",
+            "displayOrder": 3
+          }
+        ],
+        "reviewsCount": 234,
+        "rating": 4.6,
+        "tags": [
+          "avellanas",
+          "tostadas",
+          "reposteria",
+          "snack"
+        ],
+        "featured": false,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": false
+        },
+        "templateVariant": {
+          "name": "cantidad",
+          "label": "Cantidad",
+          "options": [
+            {
+              "id": "qty_250g",
+              "name": "250g",
+              "label": "250g",
+              "price": {
+                "basePrice": 3800,
+                "discount": null,
+                "finalPrice": 3800
+              },
+              "sku": "AVE-250",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "qty_500g",
+              "name": "500g",
+              "label": "500g",
+              "price": {
+                "basePrice": 7200,
+                "discount": 500,
+                "finalPrice": 6700
+              },
+              "sku": "AVE-500",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_038_mix_frutos_secos",
+        "name": "Mix de Frutos Secos",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Mix variado de frutos secos: almendras, nueces, cajú y pasas.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2017/05/25/18/05/nuts-2343414_960_720.jpg",
+            "alt": "Mix Frutos Secos",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_frutos_secos",
+            "name": "Frutos Secos",
+            "slug": "frutos-secos",
+            "displayOrder": 3
+          }
+        ],
+        "reviewsCount": 589,
+        "rating": 4.8,
+        "tags": [
+          "mix",
+          "variado",
+          "frutos secos",
+          "snack"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": false,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "cantidad",
+          "label": "Cantidad",
+          "options": [
+            {
+              "id": "qty_250g",
+              "name": "250g",
+              "label": "250g",
+              "price": {
+                "basePrice": 3200,
+                "discount": null,
+                "finalPrice": 3200
+              },
+              "sku": "MIX-250",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "qty_500g",
+              "name": "500g",
+              "label": "500g",
+              "price": {
+                "basePrice": 6000,
+                "discount": 600,
+                "finalPrice": 5400
+              },
+              "sku": "MIX-500",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            },
+            {
+              "id": "qty_1kg",
+              "name": "1 Kg",
+              "label": "1 Kg",
+              "price": {
+                "basePrice": 11000,
+                "discount": 1500,
+                "finalPrice": 9500
+              },
+              "sku": "MIX-1K",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_039_tomate_organico",
+        "name": "Tomate Orgánico",
+        "type": "SINGLE_VARIANT_PRODUCT",
+        "description": "Tomates cultivados sin pesticidas ni químicos, 100% orgánicos.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2017/10/06/17/17/tomato-2823826_960_720.jpg",
+            "alt": "Tomate Orgánico",
+            "default": true
+          }
+        ],
+        "price": null,
+        "categories": [
+          {
+            "id": "cat_organicos",
+            "name": "Orgánicos",
+            "slug": "organicos",
+            "displayOrder": 4
+          }
+        ],
+        "reviewsCount": 289,
+        "rating": 4.9,
+        "tags": [
+          "organico",
+          "tomate",
+          "natural",
+          "sin pesticidas"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": true,
+          "isPopular": true
+        },
+        "templateVariant": {
+          "name": "cantidad",
+          "label": "Cantidad",
+          "options": [
+            {
+              "id": "qty_500g",
+              "name": "500g",
+              "label": "500g",
+              "price": {
+                "basePrice": 1600,
+                "discount": null,
+                "finalPrice": 1600
+              },
+              "sku": "TOM-ORG-500",
+              "prepTime": null,
+              "isDefault": false,
+              "isActive": true
+            },
+            {
+              "id": "qty_1kg",
+              "name": "1 Kg",
+              "label": "1 Kg",
+              "price": {
+                "basePrice": 3000,
+                "discount": 200,
+                "finalPrice": 2800
+              },
+              "sku": "TOM-ORG-1K",
+              "prepTime": null,
+              "isDefault": true,
+              "isActive": true
+            }
+          ]
+        },
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "TEMPLATE_VARIANT_PRICE"
+      },
+      {
+        "id": "prod_040_lechuga_organica",
+        "name": "Lechuga Orgánica Hidropónica",
+        "type": "BASIC_PRODUCT",
+        "description": "Lechuga orgánica cultivada en sistema hidropónico, extra fresca y limpia.",
+        "images": [
+          {
+            "url": "https://cdn.pixabay.com/photo/2017/09/16/19/21/salad-2756467_960_720.jpg",
+            "alt": "Lechuga Orgánica",
+            "default": true
+          }
+        ],
+        "price": {
+          "basePrice": 2200,
+          "discount": 400,
+          "finalPrice": 1800
+        },
+        "categories": [
+          {
+            "id": "cat_organicos",
+            "name": "Orgánicos",
+            "slug": "organicos",
+            "displayOrder": 4
+          }
+        ],
+        "reviewsCount": 378,
+        "rating": 4.8,
+        "tags": [
+          "lechuga",
+          "organica",
+          "hidroponica",
+          "fresca"
+        ],
+        "featured": true,
+        "prepTime": null,
+        "vertical": "verduleria",
+        "features": {
+          "isNew": true,
+          "isPopular": true
+        },
+        "type": "BASIC_PRODUCT",
+        "templateVariant": null,
+        "customizationFeaturesTemplate": null,
+        "priceStrategy": "UNIQUE_PRICE"
+      }
+    ]
+  }
+}
