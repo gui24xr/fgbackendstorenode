@@ -8,8 +8,10 @@ const __dirname = dirname(__filename)
 
 dotenv.config({ path: join(__dirname, 'dev.env') })
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.NODE_ENV === 'production' 
+    ? process.env.PORT 
+    : process.env.PORT || 8080;
 
 server.listen(PORT,()=>{
-    console.log(`Server rodando en PORT ${PORT}`)
+    console.log(`Server rodando en PORT ${PORT} en modo ${process.env.NODE_ENV || 'development'}`)
 })
