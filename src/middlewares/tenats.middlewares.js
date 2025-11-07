@@ -1,12 +1,16 @@
 function getTenatApiKeys(req,res,next) {
     try{
+        const tenant = req.headers['x-tenant']
         const tenantAPIKey = req.headers['x-api-key']
-        if (!tenantAPIKey) {
-            return res.status(401).json({ error: 'Token no proporcionado' });
+       
+        if (!tenant || !tenantAPIKey) {
+            return res.status(401).json({ error: 'Tenant o API key is required.' });
         }
         if (tenantAPIKey !== process.env.API_KEY_TENANT) {
             return res.status(401).json({ error: 'Invalid API key' });
         }
+
+        req.tenant = tenant
         next()
     }catch(error){
         res.status(500).json({ message: error.message })
