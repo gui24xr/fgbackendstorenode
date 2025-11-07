@@ -5,7 +5,7 @@
       "name": "Pizza Loca"
     },
     "planSettings": {
-      "type": "plan_small"
+      "type": "plan_medium"
     },
     "vertical": "FOOD_DELIVERY_STORE",
     "branchesConfigs": {
