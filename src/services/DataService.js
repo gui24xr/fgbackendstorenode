@@ -11,9 +11,9 @@ const loadJSON = (filename) => {
     return JSON.parse(fs.readFileSync(p, 'utf8'))
 }
 
-const ropaData = loadJSON('mock-tiendaropa2.json')
+const ropaData = loadJSON('mock-tiendaropa.json')
 const restaurantData = loadJSON('mock-restaurant.json')
-const pizzeriaData = loadJSON('mock-pizzeria2.json')
+const pizzeriaData = loadJSON('mock-pizzeria.json')
 const techData = loadJSON('mock-tech.json')
 const bebidasData = loadJSON('mock-bebidas.json')
 const hatsData = loadJSON('mock-hats.json')
@@ -21,9 +21,9 @@ const verdurasData = loadJSON('mock-verduleria.json')
 
 const getData = (tenantId) => {
     console.log('tenantId solicitado en getData:', tenantId)
-    if(tenantId === 'ropa') return ropaData
+    if(tenantId === 'tiendaropa') return ropaData
     if(tenantId === 'hotdog') return restaurantData
-    if(tenantId === 'pizza') return pizzeriaData
+    if(tenantId === 'pizzeria') return pizzeriaData
     if(tenantId === 'tech') return techData
     if(tenantId === 'bebidas') return bebidasData
     if(tenantId === 'hats') return hatsData
