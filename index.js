@@ -13,11 +13,7 @@ const PORT = process.env.NODE_ENV === 'production'
     ? process.env.PORT 
     : process.env.PORT || 8080;
 
-const db = await getDB()
 
-const datos = await db.collection('products').find({}).toArray()
-
-console.log(datos)
 
 server.listen(PORT,()=>{
     console.log(`Server rodando en PORT ${PORT} en modo ${process.env.NODE_ENV || 'development'}`)

@@ -6,7 +6,7 @@ export default class TenantControllers {
             const tenant = req.tenant 
             if(!tenant) throw new Error('tenant is required')
             console.log('endpoint storeconfig pruducts tenant:', tenant)
-            const productsData = await DataService.getProductsData({tenant})
+            const productsData = await DataService.tenants.getProductsData({ownerId:tenant})
             return res.status(200).json(productsData)
         }catch(error){
             return res.status(500).json({error: error.message})
@@ -17,7 +17,7 @@ export default class TenantControllers {
         try{
             const tenant = req.tenant 
             if(!tenant) throw new Error('tenant is required')
-            const branchesData = await DataService.getBranches({tenant})
+            const branchesData = await DataService.tenants.getBranches({ownerId:tenant})
             return res.status(200).json(branchesData)
         }catch(error){
             return res.status(500).json({error: error.message})
@@ -30,7 +30,7 @@ export default class TenantControllers {
             const tenant = req.tenant
             if(!branchId) throw new Error('branchId is required')
             if(!tenant) throw new Error('tenant is required')
-            const branchesData = await DataService.getBranches({tenant,branchId})
+            const branchesData = await DataService.tenants.getBranches({ownerId:tenant,branchId})
             return res.status(200).json(branchesData)
         }catch(error){
             return res.status(500).json({error: error.message})
@@ -40,7 +40,9 @@ export default class TenantControllers {
     static getStoreConfigs = async (req, res,next) => {
         try{
             const tenant = req.tenant 
-            const storeConfigData = await DataService.getStoreConfigs({tenant})
+            if(!tenant) throw new Error('tenant is required')
+            const storeConfigData = await DataService.tenants.getStoreConfigs({ownerId:tenant})
+            if (!storeConfigData) return res.status(404).json({error: 'storeConfig not found'})
             return res.status(200).json(storeConfigData)
         }catch(error){
             return res.status(500).json({error: error.message})

@@ -2,7 +2,7 @@ import express from "express";
 import morgan from "morgan";
 import cors from "cors";
 import cookieParser from "cookie-parser";
-import { router as tenantRouter } from "./routes/tenant.routes.js";
+import { tenantRouter, devRouter } from "./routes/index.js";
 
 
 const COOKIE_SIGN = process.env.COOKIE_SIGN || 'firmascookieserver'
@@ -23,6 +23,7 @@ server.use(
 );
 
 server.use('/api',tenantRouter)
+server.use('/api',devRouter)
 
 
 

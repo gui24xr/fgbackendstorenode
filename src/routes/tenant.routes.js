@@ -1,11 +1,13 @@
 import express from 'express'
 import { TenantControllers } from '../controllers/index.js';
-import { getTenatApiKeys } from '../middlewares/tenats.middlewares.js';
+import { checkTenantAndAuth } from '../middlewares/tenats.middlewares.js';
 
 
-export const router = express.Router()
+const tenantRouter = express.Router()
 
-router.get("/tenants/products", getTenatApiKeys,TenantControllers.getProductsData);
-router.get("/tenants/branches",  getTenatApiKeys,TenantControllers.getBranches);
-router.get("/tenants/storeconfig", getTenatApiKeys,TenantControllers.getStoreConfigs);
-router.get("/tenants/branches/:id", getTenatApiKeys,TenantControllers.getBranchById);
+tenantRouter.get("/tenants/products", checkTenantAndAuth,TenantControllers.getProductsData);
+tenantRouter.get("/tenants/branches",  checkTenantAndAuth,TenantControllers.getBranches);
+tenantRouter.get("/tenants/storeconfig", checkTenantAndAuth,TenantControllers.getStoreConfigs);
+tenantRouter.get("/tenants/branches/:id", checkTenantAndAuth,TenantControllers.getBranchById);
+
+export default tenantRouter
