@@ -14,13 +14,13 @@ function checkTenantAndAuth(req,res,next) {
 
         const tenant = DOMAINS_MAP[host]
 
-        /*
+        
         if (!tenant) {
             return res.status(401).json({ error: 'tenant not found!' });
         }
-            */   
+              
 
-        req.tenant = tenant || 'hotdog' -->> //El OPr harcodeado para ngrok x si no viene ningun dominio
+        req.tenant = tenant 
         next()
     }catch(error){
         res.status(500).json({ message: error.message })
