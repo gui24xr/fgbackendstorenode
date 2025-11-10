@@ -1,0 +1,2593 @@
+[{
+  "_id": {
+    "$oid": "690f9bc5f9756dd3c0889170"
+  },
+  "ownerId": "tiendaropa",
+  "code": "branch-tiendaropa-sucursal_palermo",
+  "name": "Sucursal Palermo",
+  "active": true,
+  "addressData": {
+    "textAddress": "Av. Santa Fe 1234",
+    "city": "CABA",
+    "state": "Buenos Aires",
+    "zip": "1425",
+    "country": "Argentina",
+    "formattedAddress": "Av. Santa Fe 1234, Palermo, CABA, Buenos Aires, 1425, Argentina",
+    "references": "A 2 cuadras de Plaza Italia",
+    "coordinates": {
+      "lat": -34.588,
+      "lng": -58.4198
+    }
+  },
+  "contactData": {
+    "phones": [
+      "+54 11 2233-4455",
+      "+5491122334455"
+    ],
+    "emails": [
+      "palermo@trendythreads.com"
+    ]
+  },
+  "workingHours": {
+    "monday": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "tuesday": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "wednesday": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "thursday": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "friday": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "saturday": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "sunday": {
+      "open": "12:00",
+      "close": "18:00"
+    }
+  },
+  "allowedDeliveryMethodsTypes": [
+    "moto_delivery",
+    "pickup"
+  ],
+  "waMessagePhone": "+5491122334455",
+  "deliveryMethods": [
+    {
+      "type": "motoDelivery",
+      "enabled": true,
+      "uiData": {
+        "label": "Moto delivery",
+        "emoji": "🛵",
+        "icon": "🛵",
+        "maxRadius": "8 kms",
+        "availableHours": "10:00 - 20:00",
+        "estimatedTime": "40-60 min",
+        "showAvailableHours": true,
+        "showMaxRadius": true
+      },
+      "constraints": {
+        "maxDistanceInKms": 8,
+        "originCoordinates": {
+          "lat": -34.588,
+          "lng": -58.4198
+        },
+        "availableHours": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "pricing": {
+          "basePrice": 0,
+          "currency": "ARS",
+          "distancePricing": [
+            {
+              "from": 0,
+              "to": 3,
+              "addPrice": 0
+            },
+            {
+              "from": 3,
+              "to": 6,
+              "addPrice": 500
+            },
+            {
+              "from": 6,
+              "to": 8,
+              "addPrice": 1000
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "pickup",
+      "enabled": true,
+      "uiData": {
+        "label": "Retiro en sucursal",
+        "emoji": "🏪",
+        "icon": "🏪",
+        "estimatedTime": "Disponible en 2 horas",
+        "showEstimatedTime": true,
+        "showSchedule": true
+      },
+      "constraints": {
+        "preparationTimeInMinutes": 120,
+        "pickupInstructions": "Pasa por la sucursal de Palermo y menciona tu nombre.",
+        "pickupPointCompleteAddress": "Sucursal Palermo - Av. Santa Fe 1234",
+        "pickupCoordinates": {
+          "lat": -34.588,
+          "lng": -58.4198
+        },
+        "workingHours": {
+          "monday": {
+            "open": "10:00",
+            "close": "20:00"
+          },
+          "tuesday": {
+            "open": "10:00",
+            "close": "20:00"
+          },
+          "wednesday": {
+            "open": "10:00",
+            "close": "20:00"
+          },
+          "thursday": {
+            "open": "10:00",
+            "close": "20:00"
+          },
+          "friday": {
+            "open": "10:00",
+            "close": "20:00"
+          },
+          "saturday": {
+            "open": "10:00",
+            "close": "20:00"
+          },
+          "sunday": {
+            "open": "12:00",
+            "close": "18:00"
+          }
+        }
+      }
+    }
+  ],
+  "allowedPaymentMethodsTypes": [
+    "CASH_PAYMENT",
+    "CREDIT_CARD_PAYMENT",
+    "BANK_TRANSFER_PAYMENT"
+  ],
+  "paymentMethods": [
+    {
+      "type": "CASH_PAYMENT",
+      "enabled": true,
+      "uiData": {
+        "label": "Efectivo",
+        "emoji": "💶",
+        "icon": "💶",
+        "description": "Al retirar/recibir tu pedido",
+        "showDescription": true
+      },
+      "constraints": {}
+    },
+    {
+      "type": "CREDIT_CARD_PAYMENT",
+      "enabled": true,
+      "uiData": {
+        "label": "Tarjeta de Crédito",
+        "emoji": "💳",
+        "icon": "💳",
+        "description": "Al retirar/recibir tu pedido",
+        "showDescription": true
+      },
+      "constraints": {}
+    },
+    {
+      "type": "BANK_TRANSFER_PAYMENT",
+      "enabled": true,
+      "uiData": {
+        "label": "Transferencia Bancaria",
+        "emoji": "🏦",
+        "icon": "🏦",
+        "description": "Al retirar/recibir tu pedido",
+        "showDescription": true
+      },
+      "constraints": {}
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "690f9bc5f9756dd3c0889171"
+  },
+  "ownerId": "tiendaropa",
+  "code": "branch-tiendaropa-sucursal_belgrano",
+  "name": "Sucursal Belgrano",
+  "active": true,
+  "addressData": {
+    "textAddress": "Av. Cabildo 3456",
+    "city": "CABA",
+    "state": "Buenos Aires",
+    "zip": "1430",
+    "country": "Argentina",
+    "formattedAddress": "Av. Cabildo 3456, Belgrano, CABA, Buenos Aires, 1430, Argentina",
+    "references": "Cerca de Barrancas de Belgrano",
+    "coordinates": {
+      "lat": -34.5629,
+      "lng": -58.4585
+    }
+  },
+  "contactData": {
+    "phones": [
+      "+54 11 5566-7788",
+      "+5491155667788"
+    ],
+    "emails": [
+      "belgrano@trendythreads.com"
+    ]
+  },
+  "workingHours": {
+    "monday": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "tuesday": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "wednesday": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "thursday": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "friday": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "saturday": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "sunday": {
+      "open": "12:00",
+      "close": "18:00"
+    }
+  },
+  "allowedDeliveryMethodsTypes": [
+    "moto_delivery",
+    "pickup"
+  ],
+  "waMessagePhone": "+5491155667788",
+  "deliveryMethods": [
+    {
+      "type": "motoDelivery",
+      "enabled": true,
+      "uiData": {
+        "label": "Moto delivery",
+        "emoji": "🛵",
+        "icon": "🛵",
+        "maxRadius": "8 kms",
+        "availableHours": "10:00 - 20:00",
+        "estimatedTime": "40-60 min",
+        "showAvailableHours": true,
+        "showMaxRadius": true
+      },
+      "constraints": {
+        "maxDistanceInKms": 8,
+        "originCoordinates": {
+          "lat": -34.5629,
+          "lng": -58.4585
+        },
+        "availableHours": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "pricing": {
+          "basePrice": 0,
+          "currency": "ARS",
+          "distancePricing": [
+            {
+              "from": 0,
+              "to": 3,
+              "addPrice": 0
+            },
+            {
+              "from": 3,
+              "to": 6,
+              "addPrice": 500
+            },
+            {
+              "from": 6,
+              "to": 8,
+              "addPrice": 1000
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "pickup",
+      "enabled": true,
+      "uiData": {
+        "label": "Retiro en sucursal",
+        "emoji": "🏪",
+        "icon": "🏪",
+        "estimatedTime": "Disponible en 2 horas",
+        "showEstimatedTime": true,
+        "showSchedule": true
+      },
+      "constraints": {
+        "preparationTimeInMinutes": 120,
+        "pickupInstructions": "Pasa por la sucursal de Belgrano y menciona tu nombre.",
+        "pickupPointCompleteAddress": "Sucursal Belgrano - Av. Cabildo 3456",
+        "pickupCoordinates": {
+          "lat": -34.5629,
+          "lng": -58.4585
+        },
+        "workingHours": {
+          "monday": {
+            "open": "10:00",
+            "close": "20:00"
+          },
+          "tuesday": {
+            "open": "10:00",
+            "close": "20:00"
+          },
+          "wednesday": {
+            "open": "10:00",
+            "close": "20:00"
+          },
+          "thursday": {
+            "open": "10:00",
+            "close": "20:00"
+          },
+          "friday": {
+            "open": "10:00",
+            "close": "20:00"
+          },
+          "saturday": {
+            "open": "10:00",
+            "close": "20:00"
+          },
+          "sunday": {
+            "open": "12:00",
+            "close": "18:00"
+          }
+        }
+      }
+    }
+  ],
+  "allowedPaymentMethodsTypes": [
+    "CASH_PAYMENT",
+    "CREDIT_CARD_PAYMENT",
+    "BANK_TRANSFER_PAYMENT"
+  ],
+  "paymentMethods": [
+    {
+      "type": "CASH_PAYMENT",
+      "enabled": true,
+      "uiData": {
+        "label": "Efectivo",
+        "emoji": "💶",
+        "icon": "💶",
+        "description": "Al retirar/recibir tu pedido",
+        "showDescription": true
+      },
+      "constraints": {}
+    },
+    {
+      "type": "CREDIT_CARD_PAYMENT",
+      "enabled": true,
+      "uiData": {
+        "label": "Tarjeta de Crédito",
+        "emoji": "💳",
+        "icon": "💳",
+        "description": "Al retirar/recibir tu pedido",
+        "showDescription": true
+      },
+      "constraints": {}
+    },
+    {
+      "type": "BANK_TRANSFER_PAYMENT",
+      "enabled": true,
+      "uiData": {
+        "label": "Transferencia Bancaria",
+        "emoji": "🏦",
+        "icon": "🏦",
+        "description": "Al retirar/recibir tu pedido",
+        "showDescription": true
+      },
+      "constraints": {}
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "690f9bc5f9756dd3c0889172"
+  },
+  "ownerId": "hotdog",
+  "code": "branch-hotdog-sucursal_centro",
+  "name": "Sucursal Centro",
+  "active": true,
+  "addressData": {
+    "textAddress": "Av. Principal 123",
+    "city": "Ciudad",
+    "state": "Provincia",
+    "zip": "1000",
+    "country": "País",
+    "formattedAddress": "Av. Principal 123, Centro, Ciudad, Provincia, 1000, País",
+    "references": "Frente al parque central",
+    "coordinates": {
+      "lat": -34.6037,
+      "lng": -58.3816
+    }
+  },
+  "contactData": {
+    "phones": [
+      "+54 11 1234-5678",
+      "+5491112345678"
+    ],
+    "emails": [
+      "info@hotdogsparadise.com"
+    ]
+  },
+  "workingHours": {
+    "monday": {
+      "open": "09:00",
+      "close": "18:00"
+    },
+    "tuesday": {
+      "open": "09:00",
+      "close": "18:00"
+    },
+    "wednesday": {
+      "open": "09:00",
+      "close": "18:00"
+    },
+    "thursday": {
+      "open": "09:00",
+      "close": "18:00"
+    },
+    "friday": {
+      "open": "09:00",
+      "close": "18:00"
+    },
+    "saturday": {
+      "open": "10:00",
+      "close": "14:00"
+    },
+    "sunday": {
+      "closed": true
+    }
+  },
+  "waMessageConfig": {
+    "waPhoneNumber": "+5491159149165",
+    "chatMessageConfig": {
+      "header": "HotDogs Paradise Sucursal Centro - Solicitud de pedido.",
+      "welcomeMessage": "Hola Hotdogs Paradise! Tengo un nuevo pedido para ti. Estos son los detalles:",
+      "contactData": {
+        "whatsappNumbers": [
+          "+5491159149165"
+        ],
+        "phones": [
+          "+541159149165"
+        ],
+        "emails": [
+          "info@hotdogsparadise.com"
+        ]
+      },
+      "ubicationText": "Av. Principal 123, Centro, Ciudad, Provincia, 1000, País",
+      "workingHoursText": "Lun a Dom 09:00 - 18:00",
+      "showConfirmButton": true,
+      "confirmButtonUrl": "https://hotdogsparadise.com/confirmacion",
+      "showCancelButton": true,
+      "cancelButtonUrl": "https://hotdogsparadise.com/cancelar",
+      "footerTitle": "Somos HotDogs Paradise",
+      "footerMessage": "¡Gracias por tu compra! Te esperamos pronto."
+    }
+  },
+  "deliveryMethods": [
+    {
+      "type": "motoDelivery",
+      "enabled": true,
+      "uiData": {
+        "label": "Moto delivery",
+        "emoji": "🛵",
+        "icon": "🛵",
+        "maxRadius": "6 kms",
+        "availableHours": "10:00 - 20:00",
+        "estimatedTime": "45-60 min",
+        "showAvailableHours": true,
+        "showMaxRadius": true
+      },
+      "constraints": {
+        "maxDistanceInKms": 6,
+        "originCoordinates": {
+          "lat": -34.98,
+          "lng": -58.37
+        },
+        "availableHours": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "pricing": {
+          "basePrice": 0,
+          "currency": "USD",
+          "distancePricing": [
+            {
+              "from": 0,
+              "to": 2,
+              "addPrice": 0
+            },
+            {
+              "from": 2,
+              "to": 4,
+              "addPrice": 5
+            },
+            {
+              "from": 4,
+              "to": 6,
+              "addPrice": 11
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "pickup",
+      "enabled": true,
+      "uiData": {
+        "label": "Retiro en sucursal",
+        "emoji": "🏪",
+        "icon": "🏪",
+        "estimatedTime": "Disponible en 30 min",
+        "showEstimatedTime": true,
+        "showSchedule": true
+      },
+      "constraints": {
+        "preparationTimeInMinutes": 30,
+        "pickupInstructions": "Pasa por la sucursal y menciona tu nombre.",
+        "pickupPointCompleteAddress": "Sucursal Centro - Av. Principal 123",
+        "pickupCoordinates": {
+          "lat": -34.98,
+          "lng": -58.37
+        },
+        "workingHours": {
+          "monday": {
+            "open": "09:00",
+            "close": "18:00"
+          },
+          "tuesday": {
+            "open": "09:00",
+            "close": "18:00"
+          },
+          "wednesday": {
+            "open": "09:00",
+            "close": "18:00"
+          },
+          "thursday": {
+            "open": "09:00",
+            "close": "18:00"
+          },
+          "friday": {
+            "open": "09:00",
+            "close": "18:00"
+          },
+          "saturday": {
+            "open": "10:00",
+            "close": "14:00"
+          },
+          "sunday": {
+            "closed": true
+          }
+        }
+      }
+    }
+  ],
+  "paymentMethods": [
+    {
+      "type": "CASH_PAYMENT",
+      "enabled": true,
+      "uiData": {
+        "label": "Efectivo",
+        "emoji": "💶",
+        "icon": "💶",
+        "description": "Al retirar/recibir tu pedido",
+        "showDescription": true
+      },
+      "constraints": {}
+    },
+    {
+      "type": "CREDIT_CARD_PAYMENT",
+      "enabled": true,
+      "uiData": {
+        "label": "Tarjeta de Crédito",
+        "emoji": "💳",
+        "icon": "💳",
+        "description": "Al retirar/recibir tu pedido",
+        "showDescription": true
+      },
+      "constraints": {}
+    },
+    {
+      "type": "BANK_TRANSFER_PAYMENT",
+      "enabled": true,
+      "uiData": {
+        "label": "Transferencia Bancaria",
+        "emoji": "🏦",
+        "icon": "🏦",
+        "description": "Al retirar/recibir tu pedido",
+        "showDescription": true
+      },
+      "constraints": {}
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "690f9bc5f9756dd3c0889173"
+  },
+  "ownerId": "hotdog",
+  "code": "branch-hotdog-sucursal_norte",
+  "name": "Sucursal Norte",
+  "active": true,
+  "addressData": {
+    "textAddress": "Av. Libertador 456",
+    "city": "Ciudad",
+    "state": "Provincia",
+    "zip": "1001",
+    "country": "País",
+    "formattedAddress": "Av. Libertador 456, Zona Norte, Ciudad, Provincia, 1001, País",
+    "references": "Al lado del shopping",
+    "coordinates": {
+      "lat": -34.5837,
+      "lng": -58.3916
+    }
+  },
+  "contactData": {
+    "phones": [
+      "+54 11 2345-6789",
+      "+5491123456789"
+    ],
+    "emails": [
+      "norte@hotdogsparadise.com"
+    ]
+  },
+  "workingHours": {
+    "monday": {
+      "open": "10:00",
+      "close": "22:00"
+    },
+    "tuesday": {
+      "open": "10:00",
+      "close": "22:00"
+    },
+    "wednesday": {
+      "open": "10:00",
+      "close": "22:00"
+    },
+    "thursday": {
+      "open": "10:00",
+      "close": "22:00"
+    },
+    "friday": {
+      "open": "10:00",
+      "close": "23:00"
+    },
+    "saturday": {
+      "open": "10:00",
+      "close": "23:00"
+    },
+    "sunday": {
+      "open": "11:00",
+      "close": "20:00"
+    }
+  },
+  "waMessageConfig": {
+    "waPhoneNumber": "+5491123456789",
+    "chatMessageConfig": {
+      "header": "HotDogs Paradise Sucursal Norte - Solicitud de pedido.",
+      "welcomeMessage": "Hola Hotdogs Paradise Norte! Tengo un nuevo pedido para ti. Estos son los detalles:",
+      "contactData": {
+        "whatsappNumbers": [
+          "+5491123456789"
+        ],
+        "phones": [
+          "+541123456789"
+        ],
+        "emails": [
+          "norte@hotdogsparadise.com"
+        ]
+      },
+      "ubicationText": "Av. Libertador 456, Zona Norte, Ciudad, Provincia, 1001, País",
+      "workingHoursText": "Lun a Jue 10:00 - 22:00, Vie y Sáb 10:00 - 23:00, Dom 11:00 - 20:00",
+      "showConfirmButton": true,
+      "confirmButtonUrl": "https://hotdogsparadise.com/confirmacion",
+      "showCancelButton": true,
+      "cancelButtonUrl": "https://hotdogsparadise.com/cancelar",
+      "footerTitle": "Somos HotDogs Paradise",
+      "footerMessage": "¡Gracias por tu compra! Te esperamos pronto."
+    }
+  },
+  "deliveryMethods": [
+    {
+      "type": "motoDelivery",
+      "enabled": true,
+      "uiData": {
+        "label": "Moto delivery",
+        "emoji": "🛵",
+        "icon": "🛵",
+        "maxRadius": "8 kms",
+        "availableHours": "11:00 - 22:00",
+        "estimatedTime": "40-55 min",
+        "showAvailableHours": true,
+        "showMaxRadius": true
+      },
+      "constraints": {
+        "maxDistanceInKms": 8,
+        "originCoordinates": {
+          "lat": -34.5837,
+          "lng": -58.3916
+        },
+        "availableHours": {
+          "start": "11:00",
+          "end": "22:00"
+        },
+        "pricing": {
+          "basePrice": 0,
+          "currency": "USD",
+          "distancePricing": [
+            {
+              "from": 0,
+              "to": 3,
+              "addPrice": 0
+            },
+            {
+              "from": 3,
+              "to": 6,
+              "addPrice": 6
+            },
+            {
+              "from": 6,
+              "to": 8,
+              "addPrice": 12
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "pickup",
+      "enabled": true,
+      "uiData": {
+        "label": "Retiro en sucursal",
+        "emoji": "🏪",
+        "icon": "🏪",
+        "estimatedTime": "Disponible en 25 min",
+        "showEstimatedTime": true,
+        "showSchedule": true
+      },
+      "constraints": {
+        "preparationTimeInMinutes": 25,
+        "pickupInstructions": "Pasa por la sucursal y menciona tu nombre.",
+        "pickupPointCompleteAddress": "Sucursal Norte - Av. Libertador 456",
+        "pickupCoordinates": {
+          "lat": -34.5837,
+          "lng": -58.3916
+        },
+        "workingHours": {
+          "monday": {
+            "open": "10:00",
+            "close": "22:00"
+          },
+          "tuesday": {
+            "open": "10:00",
+            "close": "22:00"
+          },
+          "wednesday": {
+            "open": "10:00",
+            "close": "22:00"
+          },
+          "thursday": {
+            "open": "10:00",
+            "close": "22:00"
+          },
+          "friday": {
+            "open": "10:00",
+            "close": "23:00"
+          },
+          "saturday": {
+            "open": "10:00",
+            "close": "23:00"
+          },
+          "sunday": {
+            "open": "11:00",
+            "close": "20:00"
+          }
+        }
+      }
+    }
+  ],
+  "paymentMethods": [
+    {
+      "type": "CASH_PAYMENT",
+      "enabled": true,
+      "uiData": {
+        "label": "Efectivo",
+        "emoji": "💶",
+        "icon": "💶",
+        "description": "Al retirar/recibir tu pedido",
+        "showDescription": true
+      },
+      "constraints": {}
+    },
+    {
+      "type": "CREDIT_CARD_PAYMENT",
+      "enabled": true,
+      "uiData": {
+        "label": "Tarjeta de Crédito",
+        "emoji": "💳",
+        "icon": "💳",
+        "description": "Al retirar/recibir tu pedido",
+        "showDescription": true
+      },
+      "constraints": {}
+    },
+    {
+      "type": "DEBIT_CARD_PAYMENT",
+      "enabled": true,
+      "uiData": {
+        "label": "Tarjeta de Débito",
+        "emoji": "💳",
+        "icon": "💳",
+        "description": "Al retirar/recibir tu pedido",
+        "showDescription": true
+      },
+      "constraints": {}
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "690f9bc5f9756dd3c0889174"
+  },
+  "ownerId": "hotdog",
+  "code": "branch-hotdog-sucursal_sur",
+  "name": "Sucursal Sur",
+  "active": true,
+  "addressData": {
+    "textAddress": "Calle San Martín 789",
+    "city": "Ciudad",
+    "state": "Provincia",
+    "zip": "1002",
+    "country": "País",
+    "formattedAddress": "Calle San Martín 789, Zona Sur, Ciudad, Provincia, 1002, País",
+    "references": "Cerca de la estación de tren",
+    "coordinates": {
+      "lat": -34.6237,
+      "lng": -58.3716
+    }
+  },
+  "contactData": {
+    "phones": [
+      "+54 11 3456-7890",
+      "+5491134567890"
+    ],
+    "emails": [
+      "sur@hotdogsparadise.com"
+    ]
+  },
+  "workingHours": {
+    "monday": {
+      "open": "08:00",
+      "close": "20:00"
+    },
+    "tuesday": {
+      "open": "08:00",
+      "close": "20:00"
+    },
+    "wednesday": {
+      "open": "08:00",
+      "close": "20:00"
+    },
+    "thursday": {
+      "open": "08:00",
+      "close": "20:00"
+    },
+    "friday": {
+      "open": "08:00",
+      "close": "21:00"
+    },
+    "saturday": {
+      "open": "09:00",
+      "close": "21:00"
+    },
+    "sunday": {
+      "closed": true
+    }
+  },
+  "waMessageConfig": {
+    "waPhoneNumber": "+5491134567890",
+    "chatMessageConfig": {
+      "header": "HotDogs Paradise Sucursal Sur - Solicitud de pedido.",
+      "welcomeMessage": "Hola Hotdogs Paradise Sur! Tengo un nuevo pedido para ti. Estos son los detalles:",
+      "contactData": {
+        "whatsappNumbers": [
+          "+5491134567890"
+        ],
+        "phones": [
+          "+541134567890"
+        ],
+        "emails": [
+          "sur@hotdogsparadise.com"
+        ]
+      },
+      "ubicationText": "Calle San Martín 789, Zona Sur, Ciudad, Provincia, 1002, País",
+      "workingHoursText": "Lun a Jue 08:00 - 20:00, Vie 08:00 - 21:00, Sáb 09:00 - 21:00, Dom cerrado",
+      "showConfirmButton": true,
+      "confirmButtonUrl": "https://hotdogsparadise.com/confirmacion",
+      "showCancelButton": true,
+      "cancelButtonUrl": "https://hotdogsparadise.com/cancelar",
+      "footerTitle": "Somos HotDogs Paradise",
+      "footerMessage": "¡Gracias por tu compra! Te esperamos pronto."
+    }
+  },
+  "deliveryMethods": [
+    {
+      "type": "motoDelivery",
+      "enabled": true,
+      "uiData": {
+        "label": "Moto delivery",
+        "emoji": "🛵",
+        "icon": "🛵",
+        "maxRadius": "5 kms",
+        "availableHours": "09:00 - 19:00",
+        "estimatedTime": "50-65 min",
+        "showAvailableHours": true,
+        "showMaxRadius": true
+      },
+      "constraints": {
+        "maxDistanceInKms": 5,
+        "originCoordinates": {
+          "lat": -34.6237,
+          "lng": -58.3716
+        },
+        "availableHours": {
+          "start": "09:00",
+          "end": "19:00"
+        },
+        "pricing": {
+          "basePrice": 0,
+          "currency": "USD",
+          "distancePricing": [
+            {
+              "from": 0,
+              "to": 2,
+              "addPrice": 0
+            },
+            {
+              "from": 2,
+              "to": 3.5,
+              "addPrice": 4
+            },
+            {
+              "from": 3.5,
+              "to": 5,
+              "addPrice": 9
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "pickup",
+      "enabled": true,
+      "uiData": {
+        "label": "Retiro en sucursal",
+        "emoji": "🏪",
+        "icon": "🏪",
+        "estimatedTime": "Disponible en 35 min",
+        "showEstimatedTime": true,
+        "showSchedule": true
+      },
+      "constraints": {
+        "preparationTimeInMinutes": 35,
+        "pickupInstructions": "Pasa por la sucursal y menciona tu nombre.",
+        "pickupPointCompleteAddress": "Sucursal Sur - Calle San Martín 789",
+        "pickupCoordinates": {
+          "lat": -34.6237,
+          "lng": -58.3716
+        },
+        "workingHours": {
+          "monday": {
+            "open": "08:00",
+            "close": "20:00"
+          },
+          "tuesday": {
+            "open": "08:00",
+            "close": "20:00"
+          },
+          "wednesday": {
+            "open": "08:00",
+            "close": "20:00"
+          },
+          "thursday": {
+            "open": "08:00",
+            "close": "20:00"
+          },
+          "friday": {
+            "open": "08:00",
+            "close": "21:00"
+          },
+          "saturday": {
+            "open": "09:00",
+            "close": "21:00"
+          },
+          "sunday": {
+            "closed": true
+          }
+        }
+      }
+    }
+  ],
+  "paymentMethods": [
+    {
+      "type": "CASH_PAYMENT",
+      "enabled": true,
+      "uiData": {
+        "label": "Efectivo",
+        "emoji": "💶",
+        "icon": "💶",
+        "description": "Al retirar/recibir tu pedido",
+        "showDescription": true
+      },
+      "constraints": {}
+    },
+    {
+      "type": "CREDIT_CARD_PAYMENT",
+      "enabled": true,
+      "uiData": {
+        "label": "Tarjeta de Crédito",
+        "emoji": "💳",
+        "icon": "💳",
+        "description": "Al retirar/recibir tu pedido",
+        "showDescription": true
+      },
+      "constraints": {}
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "690f9bc5f9756dd3c0889175"
+  },
+  "ownerId": "hotdog",
+  "code": "branch-hotdog-sucursal_sanvicente",
+  "name": "Sucursal San Vicente",
+  "active": true,
+  "addressData": {
+    "textAddress": "Av. Presidente Perón 456",
+    "city": "San Vicente",
+    "state": "Buenos Aires",
+    "zip": "1865",
+    "country": "Argentina",
+    "formattedAddress": "Av. Presidente Perón 456, San Vicente, Buenos Aires, 1865, Argentina",
+    "references": "Cerca de la plaza principal",
+    "coordinates": {
+      "lat": -35.01472511663142,
+      "lng": -58.43184720312694
+    }
+  },
+  "contactData": {
+    "phones": [
+      "+5422251234-5678",
+      "+5492225123456"
+    ],
+    "emails": [
+      "sanvicente@hotdogsparadise.com"
+    ]
+  },
+  "workingHours": {
+    "monday": {
+      "open": "09:00",
+      "close": "22:00"
+    },
+    "tuesday": {
+      "open": "09:00",
+      "close": "22:00"
+    },
+    "wednesday": {
+      "open": "09:00",
+      "close": "22:00"
+    },
+    "thursday": {
+      "open": "09:00",
+      "close": "22:00"
+    },
+    "friday": {
+      "open": "09:00",
+      "close": "23:00"
+    },
+    "saturday": {
+      "open": "10:00",
+      "close": "23:00"
+    },
+    "sunday": {
+      "open": "10:00",
+      "close": "22:00"
+    }
+  },
+  "waMessageConfig": {
+    "waPhoneNumber": "+5491159149165",
+    "chatMessageConfig": {
+      "header": "HotDogs Paradise Sucursal San Vicente - Solicitud de pedido.",
+      "welcomeMessage": "Hola Hotdogs Paradise! Tengo un nuevo pedido para ti. Estos son los detalles:",
+      "contactData": {
+        "whatsappNumbers": [
+          "+5492225149165"
+        ],
+        "phones": [
+          "+542225149165"
+        ],
+        "emails": [
+          "sanvicente@hotdogsparadise.com"
+        ]
+      },
+      "ubicationText": "Av. Presidente Perón 456, San Vicente, Buenos Aires, 1865, Argentina",
+      "workingHoursText": "Lun a Jue 09:00 - 22:00, Vie y Sab 09:00 - 23:00, Dom 10:00 - 22:00",
+      "showConfirmButton": true,
+      "confirmButtonUrl": "https://hotdogsparadise.com/confirmacion",
+      "showCancelButton": true,
+      "cancelButtonUrl": "https://hotdogsparadise.com/cancelar",
+      "footerTitle": "Somos HotDogs Paradise San Vicente",
+      "footerMessage": "¡Gracias por tu compra! Te esperamos pronto."
+    }
+  },
+  "deliveryMethods": [
+    {
+      "type": "motoDelivery",
+      "enabled": true,
+      "uiData": {
+        "label": "Moto delivery",
+        "emoji": "🛵",
+        "icon": "🛵",
+        "maxRadius": "8 kms",
+        "availableHours": "10:00 - 22:00",
+        "estimatedTime": "50-70 min",
+        "showAvailableHours": true,
+        "showMaxRadius": true
+      },
+      "constraints": {
+        "maxDistanceInKms": 8,
+        "originCoordinates": {
+          "lat": -35.01472511663142,
+          "lng": -58.43184720312694
+        },
+        "availableHours": {
+          "start": "10:00",
+          "end": "22:00"
+        },
+        "pricing": {
+          "basePrice": 500,
+          "currency": "ARS",
+          "distancePricing": [
+            {
+              "from": 0,
+              "to": 2,
+              "addPrice": 0
+            },
+            {
+              "from": 2,
+              "to": 4,
+              "addPrice": 800
+            },
+            {
+              "from": 4,
+              "to": 6,
+              "addPrice": 1500
+            },
+            {
+              "from": 6,
+              "to": 8,
+              "addPrice": 2200
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "pickup",
+      "enabled": true,
+      "uiData": {
+        "label": "Retiro en sucursal",
+        "emoji": "🏪",
+        "icon": "🏪",
+        "estimatedTime": "Disponible en 30 min",
+        "showEstimatedTime": true,
+        "showSchedule": true
+      },
+      "constraints": {
+        "preparationTimeInMinutes": 30,
+        "pickupInstructions": "Pasa por la sucursal y menciona tu nombre.",
+        "pickupPointCompleteAddress": "Sucursal San Vicente - Av. Presidente Perón 456",
+        "pickupCoordinates": {
+          "lat": -35.01472511663142,
+          "lng": -58.43184720312694
+        },
+        "workingHours": {
+          "monday": {
+            "open": "09:00",
+            "close": "22:00"
+          },
+          "tuesday": {
+            "open": "09:00",
+            "close": "22:00"
+          },
+          "wednesday": {
+            "open": "09:00",
+            "close": "22:00"
+          },
+          "thursday": {
+            "open": "09:00",
+            "close": "22:00"
+          },
+          "friday": {
+            "open": "09:00",
+            "close": "23:00"
+          },
+          "saturday": {
+            "open": "10:00",
+            "close": "23:00"
+          },
+          "sunday": {
+            "open": "10:00",
+            "close": "22:00"
+          }
+        }
+      }
+    }
+  ],
+  "paymentMethods": [
+    {
+      "type": "CASH_PAYMENT",
+      "enabled": true,
+      "uiData": {
+        "label": "Efectivo",
+        "emoji": "💵",
+        "icon": "💵",
+        "description": "Al retirar/recibir tu pedido",
+        "showDescription": true
+      },
+      "constraints": {}
+    },
+    {
+      "type": "CREDIT_CARD_PAYMENT",
+      "enabled": true,
+      "uiData": {
+        "label": "Tarjeta de Crédito",
+        "emoji": "💳",
+        "icon": "💳",
+        "description": "Al retirar/recibir tu pedido",
+        "showDescription": true
+      },
+      "constraints": {}
+    },
+    {
+      "type": "DEBIT_CARD_PAYMENT",
+      "enabled": true,
+      "uiData": {
+        "label": "Tarjeta de Débito",
+        "emoji": "💳",
+        "icon": "💳",
+        "description": "Al retirar/recibir tu pedido",
+        "showDescription": true
+      },
+      "constraints": {}
+    },
+    {
+      "type": "MERCADOPAGO_PAYMENT",
+      "enabled": true,
+      "uiData": {
+        "label": "Mercado Pago",
+        "emoji": "💙",
+        "icon": "💙",
+        "description": "Pago digital seguro",
+        "showDescription": true
+      },
+      "constraints": {}
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "690f9bc5f9756dd3c0889176"
+  },
+  "ownerId": "pizzeria",
+  "code": "branch-pizzeria-sucursal_centro_pizza",
+  "name": "Sucursal Centro",
+  "active": true,
+  "addressData": {
+    "textAddress": "Av. Corrientes 5678",
+    "city": "CABA",
+    "state": "Buenos Aires",
+    "zip": "1043",
+    "country": "Argentina",
+    "formattedAddress": "Av. Corrientes 5678, CABA, Buenos Aires, 1043, Argentina",
+    "references": "Entre Callao y Rodriguez Peña",
+    "coordinates": {
+      "lat": -34.6037,
+      "lng": -58.3816
+    }
+  },
+  "contactData": {
+    "phones": [
+      "+54 11 2345-6789",
+      "+5491123456789"
+    ],
+    "emails": [
+      "pedidos@pizzaloca.com"
+    ]
+  },
+  "workingHours": {
+    "monday": {
+      "open": "11:00",
+      "close": "02:00"
+    },
+    "tuesday": {
+      "open": "11:00",
+      "close": "02:00"
+    },
+    "wednesday": {
+      "open": "11:00",
+      "close": "02:00"
+    },
+    "thursday": {
+      "open": "11:00",
+      "close": "02:00"
+    },
+    "friday": {
+      "open": "11:00",
+      "close": "03:00"
+    },
+    "saturday": {
+      "open": "11:00",
+      "close": "03:00"
+    },
+    "sunday": {
+      "open": "11:00",
+      "close": "02:00"
+    }
+  },
+  "waMessageConfig": {
+    "waPhoneNumber": "+5491123456789",
+    "chatMessageConfig": {
+      "header": "Pizza Loca Sucursal Centro - Solicitud de pedido.",
+      "welcomeMessage": "Hola Pizza Loca! Tengo un nuevo pedido para ti. Estos son los detalles:",
+      "contactData": {
+        "whatsappNumbers": [
+          "+5491123456789"
+        ],
+        "phones": [
+          "+541123456789"
+        ],
+        "emails": [
+          "pedidos@pizzaloca.com"
+        ]
+      }
+    }
+  },
+  "deliveryMethods": [
+    {
+      "type": "motoDelivery",
+      "enabled": true,
+      "uiData": {
+        "label": "Moto delivery",
+        "emoji": "🛵",
+        "icon": "🛵",
+        "maxRadius": "6 kms",
+        "availableHours": "11:00 - 02:00",
+        "estimatedTime": "30-45 min",
+        "showAvailableHours": true,
+        "showMaxRadius": true
+      },
+      "constraints": {
+        "maxDistanceInKms": 6,
+        "originCoordinates": {
+          "lat": -34.6037,
+          "lng": -58.3816
+        },
+        "availableHours": {
+          "start": "11:00",
+          "end": "02:00"
+        },
+        "pricing": {
+          "basePrice": 0,
+          "currency": "ARS",
+          "distancePricing": [
+            {
+              "from": 0,
+              "to": 2,
+              "addPrice": 0
+            },
+            {
+              "from": 2,
+              "to": 4,
+              "addPrice": 500
+            },
+            {
+              "from": 4,
+              "to": 6,
+              "addPrice": 1000
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "pickup",
+      "enabled": true,
+      "uiData": {
+        "label": "Retiro en sucursal",
+        "emoji": "🏪",
+        "icon": "🏪",
+        "estimatedTime": "Disponible en 20 min",
+        "showEstimatedTime": true,
+        "showSchedule": true
+      },
+      "constraints": {
+        "preparationTimeInMinutes": 20,
+        "pickupInstructions": "Pasa por la sucursal y menciona tu nombre.",
+        "pickupPointCompleteAddress": "Sucursal Centro - Av. Corrientes 5678",
+        "pickupCoordinates": {
+          "lat": -34.6037,
+          "lng": -58.3816
+        },
+        "workingHours": {
+          "monday": {
+            "open": "11:00",
+            "close": "02:00"
+          },
+          "tuesday": {
+            "open": "11:00",
+            "close": "02:00"
+          },
+          "wednesday": {
+            "open": "11:00",
+            "close": "02:00"
+          },
+          "thursday": {
+            "open": "11:00",
+            "close": "02:00"
+          },
+          "friday": {
+            "open": "11:00",
+            "close": "03:00"
+          },
+          "saturday": {
+            "open": "11:00",
+            "close": "03:00"
+          },
+          "sunday": {
+            "open": "11:00",
+            "close": "02:00"
+          }
+        }
+      }
+    }
+  ],
+  "paymentMethods": [
+    {
+      "type": "CASH_PAYMENT",
+      "enabled": true,
+      "uiData": {
+        "label": "Efectivo",
+        "emoji": "💵",
+        "icon": "💵",
+        "description": "Al retirar/recibir tu pedido",
+        "showDescription": true
+      },
+      "constraints": {}
+    },
+    {
+      "type": "CREDIT_CARD_PAYMENT",
+      "enabled": true,
+      "uiData": {
+        "label": "Tarjeta de Crédito",
+        "emoji": "💳",
+        "icon": "💳",
+        "description": "Al retirar/recibir tu pedido",
+        "showDescription": true
+      },
+      "constraints": {}
+    },
+    {
+      "type": "BANK_TRANSFER_PAYMENT",
+      "enabled": true,
+      "uiData": {
+        "label": "Transferencia Bancaria",
+        "emoji": "🏦",
+        "icon": "🏦",
+        "description": "Al retirar/recibir tu pedido",
+        "showDescription": true
+      },
+      "constraints": {}
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "690f9bc5f9756dd3c0889177"
+  },
+  "ownerId": "tech",
+  "code": "branch-tech-sucursal_palermo",
+  "name": "Sucursal Palermo",
+  "active": true,
+  "addressData": {
+    "textAddress": "Av. Santa Fe 1234",
+    "city": "CABA",
+    "state": "Buenos Aires",
+    "zip": "1425",
+    "country": "Argentina",
+    "formattedAddress": "Av. Santa Fe 1234, Palermo, CABA, Buenos Aires, 1425, Argentina",
+    "references": "A 2 cuadras de Plaza Italia",
+    "coordinates": {
+      "lat": -34.588,
+      "lng": -58.4198
+    }
+  },
+  "contactData": {
+    "phones": [
+      "+54 11 2233-4455",
+      "+5491122334455"
+    ],
+    "emails": [
+      "palermo@trendythreads.com"
+    ]
+  },
+  "workingHours": {
+    "monday": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "tuesday": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "wednesday": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "thursday": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "friday": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "saturday": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "sunday": {
+      "open": "12:00",
+      "close": "18:00"
+    }
+  },
+  "allowedDeliveryMethodsTypes": [
+    "moto_delivery",
+    "pickup"
+  ],
+  "waMessagePhone": "+5491122334455",
+  "deliveryMethods": [
+    {
+      "type": "motoDelivery",
+      "enabled": true,
+      "uiData": {
+        "label": "Moto delivery",
+        "emoji": "🛵",
+        "icon": "🛵",
+        "maxRadius": "8 kms",
+        "availableHours": "10:00 - 20:00",
+        "estimatedTime": "40-60 min",
+        "showAvailableHours": true,
+        "showMaxRadius": true
+      },
+      "constraints": {
+        "maxDistanceInKms": 8,
+        "originCoordinates": {
+          "lat": -34.588,
+          "lng": -58.4198
+        },
+        "availableHours": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "pricing": {
+          "basePrice": 0,
+          "currency": "ARS",
+          "distancePricing": [
+            {
+              "from": 0,
+              "to": 3,
+              "addPrice": 0
+            },
+            {
+              "from": 3,
+              "to": 6,
+              "addPrice": 500
+            },
+            {
+              "from": 6,
+              "to": 8,
+              "addPrice": 1000
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "pickup",
+      "enabled": true,
+      "uiData": {
+        "label": "Retiro en sucursal",
+        "emoji": "🏪",
+        "icon": "🏪",
+        "estimatedTime": "Disponible en 2 horas",
+        "showEstimatedTime": true,
+        "showSchedule": true
+      },
+      "constraints": {
+        "preparationTimeInMinutes": 120,
+        "pickupInstructions": "Pasa por la sucursal de Palermo y menciona tu nombre.",
+        "pickupPointCompleteAddress": "Sucursal Palermo - Av. Santa Fe 1234",
+        "pickupCoordinates": {
+          "lat": -34.588,
+          "lng": -58.4198
+        },
+        "workingHours": {
+          "monday": {
+            "open": "10:00",
+            "close": "20:00"
+          },
+          "tuesday": {
+            "open": "10:00",
+            "close": "20:00"
+          },
+          "wednesday": {
+            "open": "10:00",
+            "close": "20:00"
+          },
+          "thursday": {
+            "open": "10:00",
+            "close": "20:00"
+          },
+          "friday": {
+            "open": "10:00",
+            "close": "20:00"
+          },
+          "saturday": {
+            "open": "10:00",
+            "close": "20:00"
+          },
+          "sunday": {
+            "open": "12:00",
+            "close": "18:00"
+          }
+        }
+      }
+    }
+  ],
+  "allowedPaymentMethodsTypes": [
+    "CASH_PAYMENT",
+    "CREDIT_CARD_PAYMENT",
+    "BANK_TRANSFER_PAYMENT"
+  ],
+  "paymentMethods": [
+    {
+      "type": "CASH_PAYMENT",
+      "enabled": true,
+      "uiData": {
+        "label": "Efectivo",
+        "emoji": "💶",
+        "icon": "💶",
+        "description": "Al retirar/recibir tu pedido",
+        "showDescription": true
+      },
+      "constraints": {}
+    },
+    {
+      "type": "CREDIT_CARD_PAYMENT",
+      "enabled": true,
+      "uiData": {
+        "label": "Tarjeta de Crédito",
+        "emoji": "💳",
+        "icon": "💳",
+        "description": "Al retirar/recibir tu pedido",
+        "showDescription": true
+      },
+      "constraints": {}
+    },
+    {
+      "type": "BANK_TRANSFER_PAYMENT",
+      "enabled": true,
+      "uiData": {
+        "label": "Transferencia Bancaria",
+        "emoji": "🏦",
+        "icon": "🏦",
+        "description": "Al retirar/recibir tu pedido",
+        "showDescription": true
+      },
+      "constraints": {}
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "690f9bc5f9756dd3c0889178"
+  },
+  "ownerId": "tech",
+  "code": "branch-tech-sucursal_belgrano",
+  "name": "Sucursal Belgrano",
+  "active": true,
+  "addressData": {
+    "textAddress": "Av. Cabildo 3456",
+    "city": "CABA",
+    "state": "Buenos Aires",
+    "zip": "1430",
+    "country": "Argentina",
+    "formattedAddress": "Av. Cabildo 3456, Belgrano, CABA, Buenos Aires, 1430, Argentina",
+    "references": "Cerca de Barrancas de Belgrano",
+    "coordinates": {
+      "lat": -34.5629,
+      "lng": -58.4585
+    }
+  },
+  "contactData": {
+    "phones": [
+      "+54 11 5566-7788",
+      "+5491155667788"
+    ],
+    "emails": [
+      "belgrano@trendythreads.com"
+    ]
+  },
+  "workingHours": {
+    "monday": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "tuesday": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "wednesday": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "thursday": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "friday": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "saturday": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "sunday": {
+      "open": "12:00",
+      "close": "18:00"
+    }
+  },
+  "allowedDeliveryMethodsTypes": [
+    "moto_delivery",
+    "pickup"
+  ],
+  "waMessagePhone": "+5491155667788",
+  "deliveryMethods": [
+    {
+      "type": "motoDelivery",
+      "enabled": true,
+      "uiData": {
+        "label": "Moto delivery",
+        "emoji": "🛵",
+        "icon": "🛵",
+        "maxRadius": "8 kms",
+        "availableHours": "10:00 - 20:00",
+        "estimatedTime": "40-60 min",
+        "showAvailableHours": true,
+        "showMaxRadius": true
+      },
+      "constraints": {
+        "maxDistanceInKms": 8,
+        "originCoordinates": {
+          "lat": -34.5629,
+          "lng": -58.4585
+        },
+        "availableHours": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "pricing": {
+          "basePrice": 0,
+          "currency": "ARS",
+          "distancePricing": [
+            {
+              "from": 0,
+              "to": 3,
+              "addPrice": 0
+            },
+            {
+              "from": 3,
+              "to": 6,
+              "addPrice": 500
+            },
+            {
+              "from": 6,
+              "to": 8,
+              "addPrice": 1000
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "pickup",
+      "enabled": true,
+      "uiData": {
+        "label": "Retiro en sucursal",
+        "emoji": "🏪",
+        "icon": "🏪",
+        "estimatedTime": "Disponible en 2 horas",
+        "showEstimatedTime": true,
+        "showSchedule": true
+      },
+      "constraints": {
+        "preparationTimeInMinutes": 120,
+        "pickupInstructions": "Pasa por la sucursal de Belgrano y menciona tu nombre.",
+        "pickupPointCompleteAddress": "Sucursal Belgrano - Av. Cabildo 3456",
+        "pickupCoordinates": {
+          "lat": -34.5629,
+          "lng": -58.4585
+        },
+        "workingHours": {
+          "monday": {
+            "open": "10:00",
+            "close": "20:00"
+          },
+          "tuesday": {
+            "open": "10:00",
+            "close": "20:00"
+          },
+          "wednesday": {
+            "open": "10:00",
+            "close": "20:00"
+          },
+          "thursday": {
+            "open": "10:00",
+            "close": "20:00"
+          },
+          "friday": {
+            "open": "10:00",
+            "close": "20:00"
+          },
+          "saturday": {
+            "open": "10:00",
+            "close": "20:00"
+          },
+          "sunday": {
+            "open": "12:00",
+            "close": "18:00"
+          }
+        }
+      }
+    }
+  ],
+  "allowedPaymentMethodsTypes": [
+    "CASH_PAYMENT",
+    "CREDIT_CARD_PAYMENT",
+    "BANK_TRANSFER_PAYMENT"
+  ],
+  "paymentMethods": [
+    {
+      "type": "CASH_PAYMENT",
+      "enabled": true,
+      "uiData": {
+        "label": "Efectivo",
+        "emoji": "💶",
+        "icon": "💶",
+        "description": "Al retirar/recibir tu pedido",
+        "showDescription": true
+      },
+      "constraints": {}
+    },
+    {
+      "type": "CREDIT_CARD_PAYMENT",
+      "enabled": true,
+      "uiData": {
+        "label": "Tarjeta de Crédito",
+        "emoji": "💳",
+        "icon": "💳",
+        "description": "Al retirar/recibir tu pedido",
+        "showDescription": true
+      },
+      "constraints": {}
+    },
+    {
+      "type": "BANK_TRANSFER_PAYMENT",
+      "enabled": true,
+      "uiData": {
+        "label": "Transferencia Bancaria",
+        "emoji": "🏦",
+        "icon": "🏦",
+        "description": "Al retirar/recibir tu pedido",
+        "showDescription": true
+      },
+      "constraints": {}
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "690f9bc5f9756dd3c0889179"
+  },
+  "ownerId": "bebidas",
+  "code": "branch-bebidas-sucursal_centro",
+  "name": "Sucursal Centro",
+  "active": true,
+  "addressData": {
+    "textAddress": "Av. Corrientes 5678",
+    "city": "CABA",
+    "state": "Buenos Aires",
+    "zip": "1043",
+    "country": "Argentina",
+    "formattedAddress": "Av. Corrientes 5678, CABA, Buenos Aires, 1043, Argentina",
+    "references": "Entre Callao y Rodriguez Peña",
+    "coordinates": {
+      "lat": -34.6037,
+      "lng": -58.3816
+    }
+  },
+  "contactData": {
+    "phones": [
+      "+54 11 2345-6789",
+      "+5491123456789"
+    ],
+    "emails": [
+      "pedidos@refreshmart.com"
+    ]
+  },
+  "workingHours": {
+    "monday": {
+      "open": "08:00",
+      "close": "23:00"
+    },
+    "tuesday": {
+      "open": "08:00",
+      "close": "23:00"
+    },
+    "wednesday": {
+      "open": "08:00",
+      "close": "23:00"
+    },
+    "thursday": {
+      "open": "08:00",
+      "close": "23:00"
+    },
+    "friday": {
+      "open": "08:00",
+      "close": "23:00"
+    },
+    "saturday": {
+      "open": "08:00",
+      "close": "23:00"
+    },
+    "sunday": {
+      "open": "08:00",
+      "close": "23:00"
+    }
+  },
+  "waMessageConfig": {
+    "waPhoneNumber": "+5491123456789",
+    "chatMessageConfig": {
+      "header": "RefreshMart - Solicitud de pedido.",
+      "welcomeMessage": "Hola RefreshMart! Tengo un nuevo pedido para ti. Estos son los detalles:",
+      "contactData": {
+        "whatsappNumbers": [
+          "+5491123456789"
+        ],
+        "phones": [
+          "+541123456789"
+        ],
+        "emails": [
+          "pedidos@refreshmart.com"
+        ]
+      }
+    }
+  },
+  "deliveryMethods": [
+    {
+      "type": "motoDelivery",
+      "enabled": true,
+      "uiData": {
+        "label": "Moto delivery",
+        "emoji": "🛵",
+        "icon": "🛵",
+        "maxRadius": "6 kms",
+        "availableHours": "08:00 - 23:00",
+        "estimatedTime": "30-50 min",
+        "showAvailableHours": true,
+        "showMaxRadius": true
+      },
+      "constraints": {
+        "maxDistanceInKms": 6,
+        "originCoordinates": {
+          "lat": -34.6037,
+          "lng": -58.3816
+        },
+        "availableHours": {
+          "start": "08:00",
+          "end": "23:00"
+        },
+        "pricing": {
+          "basePrice": 0,
+          "currency": "ARS",
+          "distancePricing": [
+            {
+              "from": 0,
+              "to": 2,
+              "addPrice": 0
+            },
+            {
+              "from": 2,
+              "to": 4,
+              "addPrice": 400
+            },
+            {
+              "from": 4,
+              "to": 6,
+              "addPrice": 800
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "pickup",
+      "enabled": true,
+      "uiData": {
+        "label": "Retiro en sucursal",
+        "emoji": "🏪",
+        "icon": "🏪",
+        "estimatedTime": "Disponible en 15 min",
+        "showEstimatedTime": true,
+        "showSchedule": true
+      },
+      "constraints": {
+        "preparationTimeInMinutes": 15,
+        "pickupInstructions": "Pasa por la sucursal y menciona tu nombre.",
+        "pickupPointCompleteAddress": "Sucursal Centro - Av. Corrientes 5678",
+        "pickupCoordinates": {
+          "lat": -34.6037,
+          "lng": -58.3816
+        },
+        "workingHours": {
+          "monday": {
+            "open": "08:00",
+            "close": "23:00"
+          },
+          "tuesday": {
+            "open": "08:00",
+            "close": "23:00"
+          },
+          "wednesday": {
+            "open": "08:00",
+            "close": "23:00"
+          },
+          "thursday": {
+            "open": "08:00",
+            "close": "23:00"
+          },
+          "friday": {
+            "open": "08:00",
+            "close": "23:00"
+          },
+          "saturday": {
+            "open": "08:00",
+            "close": "23:00"
+          },
+          "sunday": {
+            "open": "08:00",
+            "close": "23:00"
+          }
+        }
+      }
+    }
+  ],
+  "paymentMethods": [
+    {
+      "type": "CASH_PAYMENT",
+      "enabled": true,
+      "uiData": {
+        "label": "Efectivo",
+        "emoji": "💵",
+        "icon": "💵",
+        "description": "Al retirar/recibir tu pedido",
+        "showDescription": true
+      },
+      "constraints": {}
+    },
+    {
+      "type": "CREDIT_CARD_PAYMENT",
+      "enabled": true,
+      "uiData": {
+        "label": "Tarjeta de Crédito",
+        "emoji": "💳",
+        "icon": "💳",
+        "description": "Al retirar/recibir tu pedido",
+        "showDescription": true
+      },
+      "constraints": {}
+    },
+    {
+      "type": "BANK_TRANSFER_PAYMENT",
+      "enabled": true,
+      "uiData": {
+        "label": "Transferencia Bancaria",
+        "emoji": "🏦",
+        "icon": "🏦",
+        "description": "Al retirar/recibir tu pedido",
+        "showDescription": true
+      },
+      "constraints": {}
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "690f9bc5f9756dd3c088917a"
+  },
+  "ownerId": "hats",
+  "code": "branch-hats-sucursal_centro",
+  "name": "Sucursal Centro",
+  "active": true,
+  "addressData": {
+    "textAddress": "Av. Corrientes 5678",
+    "city": "CABA",
+    "state": "Buenos Aires",
+    "zip": "1043",
+    "country": "Argentina",
+    "formattedAddress": "Av. Corrientes 5678, CABA, Buenos Aires, 1043, Argentina",
+    "references": "Entre Callao y Rodriguez Peña",
+    "coordinates": {
+      "lat": -34.6037,
+      "lng": -58.3816
+    }
+  },
+  "contactData": {
+    "phones": [
+      "+54 11 2345-6789",
+      "+5491123456789"
+    ],
+    "emails": [
+      "ventas@hathouse.com"
+    ]
+  },
+  "workingHours": {
+    "monday": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "tuesday": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "wednesday": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "thursday": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "friday": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "saturday": {
+      "open": "10:00",
+      "close": "20:00"
+    },
+    "sunday": {
+      "open": "11:00",
+      "close": "18:00"
+    }
+  },
+  "waMessageConfig": {
+    "waPhoneNumber": "+5491123456789",
+    "chatMessageConfig": {
+      "header": "Hat House - Solicitud de pedido.",
+      "welcomeMessage": "Hola Hat House! Tengo un nuevo pedido para ti. Estos son los detalles:",
+      "contactData": {
+        "whatsappNumbers": [
+          "+5491123456789"
+        ],
+        "phones": [
+          "+541123456789"
+        ],
+        "emails": [
+          "ventas@hathouse.com"
+        ]
+      }
+    }
+  },
+  "deliveryMethods": [
+    {
+      "type": "motoDelivery",
+      "enabled": true,
+      "uiData": {
+        "label": "Moto delivery",
+        "emoji": "🛵",
+        "icon": "🛵",
+        "maxRadius": "8 kms",
+        "availableHours": "10:00 - 20:00",
+        "estimatedTime": "2-4 horas",
+        "showAvailableHours": true,
+        "showMaxRadius": true
+      },
+      "constraints": {
+        "maxDistanceInKms": 8,
+        "originCoordinates": {
+          "lat": -34.6037,
+          "lng": -58.3816
+        },
+        "availableHours": {
+          "start": "10:00",
+          "end": "20:00"
+        },
+        "pricing": {
+          "basePrice": 0,
+          "currency": "ARS",
+          "distancePricing": [
+            {
+              "from": 0,
+              "to": 3,
+              "addPrice": 0
+            },
+            {
+              "from": 3,
+              "to": 6,
+              "addPrice": 600
+            },
+            {
+              "from": 6,
+              "to": 8,
+              "addPrice": 1200
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "pickup",
+      "enabled": true,
+      "uiData": {
+        "label": "Retiro en sucursal",
+        "emoji": "🏪",
+        "icon": "🏪",
+        "estimatedTime": "Disponible en 2 horas",
+        "showEstimatedTime": true,
+        "showSchedule": true
+      },
+      "constraints": {
+        "preparationTimeInMinutes": 120,
+        "pickupInstructions": "Pasa por la sucursal y menciona tu nombre.",
+        "pickupPointCompleteAddress": "Sucursal Centro - Av. Corrientes 5678",
+        "pickupCoordinates": {
+          "lat": -34.6037,
+          "lng": -58.3816
+        },
+        "workingHours": {
+          "monday": {
+            "open": "10:00",
+            "close": "20:00"
+          },
+          "tuesday": {
+            "open": "10:00",
+            "close": "20:00"
+          },
+          "wednesday": {
+            "open": "10:00",
+            "close": "20:00"
+          },
+          "thursday": {
+            "open": "10:00",
+            "close": "20:00"
+          },
+          "friday": {
+            "open": "10:00",
+            "close": "20:00"
+          },
+          "saturday": {
+            "open": "10:00",
+            "close": "20:00"
+          },
+          "sunday": {
+            "open": "11:00",
+            "close": "18:00"
+          }
+        }
+      }
+    }
+  ],
+  "paymentMethods": [
+    {
+      "type": "CASH_PAYMENT",
+      "enabled": true,
+      "uiData": {
+        "label": "Efectivo",
+        "emoji": "💵",
+        "icon": "💵",
+        "description": "Al retirar/recibir tu pedido",
+        "showDescription": true
+      },
+      "constraints": {}
+    },
+    {
+      "type": "CREDIT_CARD_PAYMENT",
+      "enabled": true,
+      "uiData": {
+        "label": "Tarjeta de Crédito",
+        "emoji": "💳",
+        "icon": "💳",
+        "description": "Al retirar/recibir tu pedido",
+        "showDescription": true
+      },
+      "constraints": {}
+    },
+    {
+      "type": "BANK_TRANSFER_PAYMENT",
+      "enabled": true,
+      "uiData": {
+        "label": "Transferencia Bancaria",
+        "emoji": "🏦",
+        "icon": "🏦",
+        "description": "Al retirar/recibir tu pedido",
+        "showDescription": true
+      },
+      "constraints": {}
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "690f9bc5f9756dd3c088917b"
+  },
+  "ownerId": "verduras",
+  "code": "branch-verduras-sucursal_centro",
+  "name": "Sucursal Centro",
+  "active": true,
+  "addressData": {
+    "textAddress": "Av. Corrientes 5678",
+    "city": "CABA",
+    "state": "Buenos Aires",
+    "zip": "1043",
+    "country": "Argentina",
+    "formattedAddress": "Av. Corrientes 5678, CABA, Buenos Aires, 1043, Argentina",
+    "references": "Entre Callao y Rodriguez Peña",
+    "coordinates": {
+      "lat": -34.6037,
+      "lng": -58.3816
+    }
+  },
+  "contactData": {
+    "phones": [
+      "+54 11 2345-6789",
+      "+5491123456789"
+    ],
+    "emails": [
+      "pedidos@freshmarket.com"
+    ]
+  },
+  "workingHours": {
+    "monday": {
+      "open": "07:00",
+      "close": "21:00"
+    },
+    "tuesday": {
+      "open": "07:00",
+      "close": "21:00"
+    },
+    "wednesday": {
+      "open": "07:00",
+      "close": "21:00"
+    },
+    "thursday": {
+      "open": "07:00",
+      "close": "21:00"
+    },
+    "friday": {
+      "open": "07:00",
+      "close": "21:00"
+    },
+    "saturday": {
+      "open": "07:00",
+      "close": "21:00"
+    },
+    "sunday": {
+      "open": "08:00",
+      "close": "14:00"
+    }
+  },
+  "waMessageConfig": {
+    "waPhoneNumber": "+5491123456789",
+    "chatMessageConfig": {
+      "header": "Fresh Market - Solicitud de pedido.",
+      "welcomeMessage": "Hola Fresh Market! Tengo un nuevo pedido para ti. Estos son los detalles:",
+      "contactData": {
+        "whatsappNumbers": [
+          "+5491123456789"
+        ],
+        "phones": [
+          "+541123456789"
+        ],
+        "emails": [
+          "pedidos@freshmarket.com"
+        ]
+      }
+    }
+  },
+  "deliveryMethods": [
+    {
+      "type": "motoDelivery",
+      "enabled": true,
+      "uiData": {
+        "label": "Moto delivery",
+        "emoji": "🛵",
+        "icon": "🛵",
+        "maxRadius": "10 kms",
+        "availableHours": "07:00 - 21:00",
+        "estimatedTime": "60-120 min",
+        "showAvailableHours": true,
+        "showMaxRadius": true
+      },
+      "constraints": {
+        "maxDistanceInKms": 10,
+        "originCoordinates": {
+          "lat": -34.6037,
+          "lng": -58.3816
+        },
+        "availableHours": {
+          "start": "07:00",
+          "end": "21:00"
+        },
+        "pricing": {
+          "basePrice": 0,
+          "currency": "ARS",
+          "distancePricing": [
+            {
+              "from": 0,
+              "to": 4,
+              "addPrice": 0
+            },
+            {
+              "from": 4,
+              "to": 7,
+              "addPrice": 500
+            },
+            {
+              "from": 7,
+              "to": 10,
+              "addPrice": 1000
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "pickup",
+      "enabled": true,
+      "uiData": {
+        "label": "Retiro en sucursal",
+        "emoji": "🏪",
+        "icon": "🏪",
+        "estimatedTime": "Disponible en 30 min",
+        "showEstimatedTime": true,
+        "showSchedule": true
+      },
+      "constraints": {
+        "preparationTimeInMinutes": 30,
+        "pickupInstructions": "Pasa por la sucursal y menciona tu nombre.",
+        "pickupPointCompleteAddress": "Sucursal Centro - Av. Corrientes 5678",
+        "pickupCoordinates": {
+          "lat": -34.6037,
+          "lng": -58.3816
+        },
+        "workingHours": {
+          "monday": {
+            "open": "07:00",
+            "close": "21:00"
+          },
+          "tuesday": {
+            "open": "07:00",
+            "close": "21:00"
+          },
+          "wednesday": {
+            "open": "07:00",
+            "close": "21:00"
+          },
+          "thursday": {
+            "open": "07:00",
+            "close": "21:00"
+          },
+          "friday": {
+            "open": "07:00",
+            "close": "21:00"
+          },
+          "saturday": {
+            "open": "07:00",
+            "close": "21:00"
+          },
+          "sunday": {
+            "open": "08:00",
+            "close": "14:00"
+          }
+        }
+      }
+    }
+  ],
+  "paymentMethods": [
+    {
+      "type": "CASH_PAYMENT",
+      "enabled": true,
+      "uiData": {
+        "label": "Efectivo",
+        "emoji": "💵",
+        "icon": "💵",
+        "description": "Al retirar/recibir tu pedido",
+        "showDescription": true
+      },
+      "constraints": {}
+    },
+    {
+      "type": "CREDIT_CARD_PAYMENT",
+      "enabled": true,
+      "uiData": {
+        "label": "Tarjeta de Crédito",
+        "emoji": "💳",
+        "icon": "💳",
+        "description": "Al retirar/recibir tu pedido",
+        "showDescription": true
+      },
+      "constraints": {}
+    },
+    {
+      "type": "BANK_TRANSFER_PAYMENT",
+      "enabled": true,
+      "uiData": {
+        "label": "Transferencia Bancaria",
+        "emoji": "🏦",
+        "icon": "🏦",
+        "description": "Al retirar/recibir tu pedido",
+        "showDescription": true
+      },
+      "constraints": {}
+    }
+  ]
+}]

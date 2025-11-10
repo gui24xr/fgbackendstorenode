@@ -13,6 +13,8 @@ function checkTenantAndAuth(req,res,next) {
         }
 
         const tenant = DOMAINS_MAP[host]
+        //Harcdeado para el desarrollo
+        if (!tenant) tenant='hotdog'
 
         if (!tenant) {
             return res.status(401).json({ error: 'tenant not found!' });
