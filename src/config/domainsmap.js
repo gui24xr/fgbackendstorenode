@@ -1,5 +1,5 @@
 const DOMAINS_MAP  = {
-  'localhost:3000': 'dev-tenant', // útil para desarrollo
+  'localhost:3000': 'hotdog', // útil para desarrollo
   'hotdog.localhost:3000': 'hotdog',
   'tech.localhost:3000': 'tech',
   'tiendaropa.localhost:3000': 'tiendaropa',
